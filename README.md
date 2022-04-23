@@ -7,4 +7,4 @@ computational design tools can be used to build them. In order to help build you
 towards lab automation, you will be required to design a microfluidic device platform DeltaV
 that would enable the design and development of modern day gene therapeutics.
 
-
+[**HW2 Assignment**](https://github.com/stephensweet/BioElectronic-Design-Assignment/blob/main/HW2_Assignment_Spr22.pdf)
