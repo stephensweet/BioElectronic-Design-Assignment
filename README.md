@@ -12,7 +12,7 @@ that would enable the design and development of modern day gene therapeutics.
 The following tools were used in depth to complete the given assignments
 * [**3DuF**](http://3duf.org)
 * [**Neptune**](http://fluigicad.org)
-* [**MINT**](https://marketplace.visualstudio.com/items?itemName=rkrishnasanka.uf)
-* [**LFR**](https://marketplace.visualstudio.com/items?itemName=rkrishnasanka.lfr)
+* [**Microfluidic Netlist Description Language (MINT)**](https://marketplace.visualstudio.com/items?itemName=rkrishnasanka.uf)
+* [**Liquid Flow Relations (LFR)**](https://marketplace.visualstudio.com/items?itemName=rkrishnasanka.lfr)
 
 
