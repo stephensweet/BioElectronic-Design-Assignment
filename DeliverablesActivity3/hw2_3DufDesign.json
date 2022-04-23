@@ -1,0 +1,5046 @@
+{
+    "name": "hw2_3DufDesign",
+    "params": {
+        "xspan": 135000,
+        "yspan": 85000,
+        "valveMap": {
+            "2d1846c0-c1e5-11ec-bd9a-215228d91faa": "95765ff0-c1e4-11ec-8022-97f470c8471b",
+            "2e2549f0-c1e5-11ec-bd9a-215228d91faa": "95765ff0-c1e4-11ec-8022-97f470c8471b",
+            "2f573a40-c1e5-11ec-bd9a-215228d91faa": "95765ff0-c1e4-11ec-8022-97f470c8471b",
+            "314e2840-c1e5-11ec-bd9a-215228d91faa": "8b591c60-c1e4-11ec-8022-97f470c8471b",
+            "324fb9c0-c1e5-11ec-bd9a-215228d91faa": "8b591c60-c1e4-11ec-8022-97f470c8471b",
+            "3bad2fc0-c1e5-11ec-bd9a-215228d91faa": "e03581b0-c1e4-11ec-97cd-79631b863aad",
+            "3daef330-c1e5-11ec-bd9a-215228d91faa": "ed1cbab0-c1e4-11ec-97cd-79631b863aad",
+            "40ea9630-c1e5-11ec-bd9a-215228d91faa": "ed1cbab0-c1e4-11ec-97cd-79631b863aad",
+            "436421b1-c1e5-11ec-bd9a-215228d91faa": "e03581b0-c1e4-11ec-97cd-79631b863aad",
+            "62dc2970-c1e5-11ec-bd9a-215228d91faa": "56330ae0-c1e5-11ec-bd9a-215228d91faa",
+            "647df290-c1e5-11ec-bd9a-215228d91faa": "56330ae0-c1e5-11ec-bd9a-215228d91faa",
+            "67e1b700-c1e5-11ec-bd9a-215228d91faa": "56330ae0-c1e5-11ec-bd9a-215228d91faa",
+            "cd981350-c1e5-11ec-be42-151144a80e96": "e03581b0-c1e4-11ec-97cd-79631b863aad",
+            "fe78bd80-c1e5-11ec-9406-330ade2e2d5d": "ed1cbab0-c1e4-11ec-97cd-79631b863aad",
+            "861f1050-c1ef-11ec-b3d1-f3f96212c02e": "95765ff0-c1e4-11ec-8022-97f470c8471b"
+        },
+        "valveTypeMap": {
+            "2d1846c0-c1e5-11ec-bd9a-215228d91faa": "NORMALLY_OPEN",
+            "2e2549f0-c1e5-11ec-bd9a-215228d91faa": "NORMALLY_OPEN",
+            "2f573a40-c1e5-11ec-bd9a-215228d91faa": "NORMALLY_OPEN",
+            "314e2840-c1e5-11ec-bd9a-215228d91faa": "NORMALLY_OPEN",
+            "324fb9c0-c1e5-11ec-bd9a-215228d91faa": "NORMALLY_OPEN",
+            "3bad2fc0-c1e5-11ec-bd9a-215228d91faa": "NORMALLY_OPEN",
+            "3daef330-c1e5-11ec-bd9a-215228d91faa": "NORMALLY_OPEN",
+            "40ea9630-c1e5-11ec-bd9a-215228d91faa": "NORMALLY_OPEN",
+            "436421b1-c1e5-11ec-bd9a-215228d91faa": "NORMALLY_OPEN",
+            "62dc2970-c1e5-11ec-bd9a-215228d91faa": "NORMALLY_OPEN",
+            "647df290-c1e5-11ec-bd9a-215228d91faa": "NORMALLY_OPEN",
+            "67e1b700-c1e5-11ec-bd9a-215228d91faa": "NORMALLY_OPEN",
+            "cd981350-c1e5-11ec-be42-151144a80e96": "NORMALLY_OPEN",
+            "fe78bd80-c1e5-11ec-9406-330ade2e2d5d": "NORMALLY_OPEN",
+            "8603c020-c1ef-11ec-b3d1-f3f96212c02e": "NORMALLY_OPEN",
+            "861f1050-c1ef-11ec-b3d1-f3f96212c02e": "NORMALLY_OPEN"
+        }
+    },
+    "components": [{
+        "id": "4aeccd20-c1e4-11ec-8022-97f470c8471b",
+        "name": "Pump_1",
+        "entity": "PUMP",
+        "params": {
+            "position": [45000, 40000],
+            "componentSpacing": 1000,
+            "rotation": 90,
+            "length": 1030,
+            "width": 5490,
+            "height": 430,
+            "spacing": 3310,
+            "flowChannelWidth": 871
+        },
+        "x-span": 7650,
+        "y-span": 5490,
+        "ports": [{
+            "x": 0,
+            "y": -3825,
+            "layer": "FLOW",
+            "label": "1"
+        }, {
+            "x": 0,
+            "y": 3825,
+            "layer": "FLOW",
+            "label": "2"
+        }, {
+            "x": 0,
+            "y": -3310,
+            "layer": "CONTROL",
+            "label": "3"
+        }, {
+            "x": 0,
+            "y": 0,
+            "layer": "CONTROL",
+            "label": "4"
+        }, {
+            "x": 0,
+            "y": 3310,
+            "layer": "CONTROL",
+            "label": "5"
+        }],
+        "layers": ["788fd120-c1e7-11ec-b3d1-f3f96212c02e", "788ff830-c1e7-11ec-b3d1-f3f96212c02e"]
+    }, {
+        "id": "4cde3ce1-c1e4-11ec-8022-97f470c8471b",
+        "name": "Pump_2",
+        "entity": "PUMP",
+        "params": {
+            "position": [65000, 20000],
+            "componentSpacing": 1000,
+            "rotation": 90,
+            "length": 1030,
+            "width": 5490,
+            "height": 430,
+            "spacing": 3310,
+            "flowChannelWidth": 871
+        },
+        "x-span": 7650,
+        "y-span": 5490,
+        "ports": [{
+            "x": 0,
+            "y": -3825,
+            "layer": "FLOW",
+            "label": "1"
+        }, {
+            "x": 0,
+            "y": 3825,
+            "layer": "FLOW",
+            "label": "2"
+        }, {
+            "x": 0,
+            "y": -3310,
+            "layer": "CONTROL",
+            "label": "3"
+        }, {
+            "x": 0,
+            "y": 0,
+            "layer": "CONTROL",
+            "label": "4"
+        }, {
+            "x": 0,
+            "y": 3310,
+            "layer": "CONTROL",
+            "label": "5"
+        }],
+        "layers": ["788fd120-c1e7-11ec-b3d1-f3f96212c02e", "788ff830-c1e7-11ec-b3d1-f3f96212c02e"]
+    }, {
+        "id": "5015e841-c1e4-11ec-8022-97f470c8471b",
+        "name": "Pump_3",
+        "entity": "PUMP",
+        "params": {
+            "position": [85000, 40000],
+            "componentSpacing": 1000,
+            "rotation": 90,
+            "length": 1030,
+            "width": 5490,
+            "height": 430,
+            "spacing": 3310,
+            "flowChannelWidth": 871
+        },
+        "x-span": 7650,
+        "y-span": 5490,
+        "ports": [{
+            "x": 0,
+            "y": -3825,
+            "layer": "FLOW",
+            "label": "1"
+        }, {
+            "x": 0,
+            "y": 3825,
+            "layer": "FLOW",
+            "label": "2"
+        }, {
+            "x": 0,
+            "y": -3310,
+            "layer": "CONTROL",
+            "label": "3"
+        }, {
+            "x": 0,
+            "y": 0,
+            "layer": "CONTROL",
+            "label": "4"
+        }, {
+            "x": 0,
+            "y": 3310,
+            "layer": "CONTROL",
+            "label": "5"
+        }],
+        "layers": ["788fd120-c1e7-11ec-b3d1-f3f96212c02e", "788ff830-c1e7-11ec-b3d1-f3f96212c02e"]
+    }, {
+        "id": "64225a80-c1e4-11ec-8022-97f470c8471b",
+        "name": "BetterMixer_1",
+        "entity": "MIXER",
+        "params": {
+            "position": [70000, 50000],
+            "componentSpacing": 1000,
+            "bendSpacing": 1230,
+            "numberOfBends": 2,
+            "channelWidth": 800,
+            "bendLength": 7580,
+            "rotation": 90,
+            "height": 440
+        },
+        "x-span": 8919.999999999993,
+        "y-span": 9180,
+        "ports": [{
+            "x": 4590,
+            "y": 0,
+            "layer": "FLOW",
+            "label": "1"
+        }, {
+            "x": 4590,
+            "y": 8920,
+            "layer": "FLOW",
+            "label": "2"
+        }],
+        "layers": ["788fd120-c1e7-11ec-b3d1-f3f96212c02e"]
+    }, {
+        "id": "6f2fca70-c1e4-11ec-8022-97f470c8471b",
+        "name": "Port_1",
+        "entity": "PORT",
+        "params": {
+            "position": [20000, 20000],
+            "componentSpacing": 1000,
+            "portRadius": 700,
+            "height": 1100
+        },
+        "x-span": 1400,
+        "y-span": 1400,
+        "ports": [{
+            "x": 0,
+            "y": 0,
+            "layer": "FLOW",
+            "label": "1"
+        }],
+        "layers": ["788fd120-c1e7-11ec-b3d1-f3f96212c02e"]
+    }, {
+        "id": "6fae2230-c1e4-11ec-8022-97f470c8471b",
+        "name": "Port_2",
+        "entity": "PORT",
+        "params": {
+            "position": [20000, 29000],
+            "componentSpacing": 1000,
+            "portRadius": 700,
+            "height": 1100
+        },
+        "x-span": 1400,
+        "y-span": 1400,
+        "ports": [{
+            "x": 0,
+            "y": 0,
+            "layer": "FLOW",
+            "label": "1"
+        }],
+        "layers": ["788fd120-c1e7-11ec-b3d1-f3f96212c02e"]
+    }, {
+        "id": "71679200-c1e4-11ec-8022-97f470c8471b",
+        "name": "Port_3",
+        "entity": "PORT",
+        "params": {
+            "position": [20000, 39000],
+            "componentSpacing": 1000,
+            "portRadius": 700,
+            "height": 1100
+        },
+        "x-span": 1400,
+        "y-span": 1400,
+        "ports": [{
+            "x": 0,
+            "y": 0,
+            "layer": "FLOW",
+            "label": "1"
+        }],
+        "layers": ["788fd120-c1e7-11ec-b3d1-f3f96212c02e"]
+    }, {
+        "id": "724017b0-c1e4-11ec-8022-97f470c8471b",
+        "name": "Port_4",
+        "entity": "PORT",
+        "params": {
+            "position": [20000, 48000],
+            "componentSpacing": 1000,
+            "portRadius": 700,
+            "height": 1100
+        },
+        "x-span": 1400,
+        "y-span": 1400,
+        "ports": [{
+            "x": 0,
+            "y": 0,
+            "layer": "FLOW",
+            "label": "1"
+        }],
+        "layers": ["788fd120-c1e7-11ec-b3d1-f3f96212c02e"]
+    }, {
+        "id": "7331cab0-c1e4-11ec-8022-97f470c8471b",
+        "name": "Port_5",
+        "entity": "PORT",
+        "params": {
+            "position": [20000, 59000],
+            "componentSpacing": 1000,
+            "portRadius": 700,
+            "height": 1100
+        },
+        "x-span": 1400,
+        "y-span": 1400,
+        "ports": [{
+            "x": 0,
+            "y": 0,
+            "layer": "FLOW",
+            "label": "1"
+        }],
+        "layers": ["788fd120-c1e7-11ec-b3d1-f3f96212c02e"]
+    }, {
+        "id": "cebdeb20-c1e4-11ec-97cd-79631b863aad",
+        "name": "Port_1",
+        "entity": "PORT",
+        "params": {
+            "position": [120000, 20000],
+            "componentSpacing": 1000,
+            "portRadius": 700,
+            "height": 1100
+        },
+        "x-span": 1400,
+        "y-span": 1400,
+        "ports": [{
+            "x": 0,
+            "y": 0,
+            "layer": "FLOW",
+            "label": "1"
+        }],
+        "layers": ["788fd120-c1e7-11ec-b3d1-f3f96212c02e"]
+    }, {
+        "id": "cf71aac0-c1e4-11ec-97cd-79631b863aad",
+        "name": "Port_2",
+        "entity": "PORT",
+        "params": {
+            "position": [120000, 40000],
+            "componentSpacing": 1000,
+            "portRadius": 700,
+            "height": 1100
+        },
+        "x-span": 1400,
+        "y-span": 1400,
+        "ports": [{
+            "x": 0,
+            "y": 0,
+            "layer": "FLOW",
+            "label": "1"
+        }],
+        "layers": ["788fd120-c1e7-11ec-b3d1-f3f96212c02e"]
+    }, {
+        "id": "d04686f0-c1e4-11ec-97cd-79631b863aad",
+        "name": "Port_3",
+        "entity": "PORT",
+        "params": {
+            "position": [120000, 60000],
+            "componentSpacing": 1000,
+            "portRadius": 700,
+            "height": 1100
+        },
+        "x-span": 1400,
+        "y-span": 1400,
+        "ports": [{
+            "x": 0,
+            "y": 0,
+            "layer": "FLOW",
+            "label": "1"
+        }],
+        "layers": ["788fd120-c1e7-11ec-b3d1-f3f96212c02e"]
+    }, {
+        "id": "2d1846c0-c1e5-11ec-bd9a-215228d91faa",
+        "name": "Valve_1",
+        "entity": "VALVE",
+        "params": {
+            "position": [26000, 35000],
+            "rotation": 90,
+            "componentSpacing": 1000,
+            "length": 2800,
+            "width": 580,
+            "height": 250
+        },
+        "x-span": 2800,
+        "y-span": 580,
+        "ports": [{
+            "x": 0,
+            "y": 0,
+            "layer": "CONTROL",
+            "label": "1"
+        }],
+        "layers": ["788ff830-c1e7-11ec-b3d1-f3f96212c02e"]
+    }, {
+        "id": "2e2549f0-c1e5-11ec-bd9a-215228d91faa",
+        "name": "Valve_2",
+        "entity": "VALVE",
+        "params": {
+            "position": [26000, 43000],
+            "rotation": 90,
+            "componentSpacing": 1000,
+            "length": 2800,
+            "width": 580,
+            "height": 250
+        },
+        "x-span": 2800,
+        "y-span": 580,
+        "ports": [{
+            "x": 0,
+            "y": 0,
+            "layer": "CONTROL",
+            "label": "1"
+        }],
+        "layers": ["788ff830-c1e7-11ec-b3d1-f3f96212c02e"]
+    }, {
+        "id": "2f573a40-c1e5-11ec-bd9a-215228d91faa",
+        "name": "Valve_3",
+        "entity": "VALVE",
+        "params": {
+            "position": [23000, 39000],
+            "componentSpacing": 1000,
+            "rotation": 0,
+            "length": 2800,
+            "width": 580,
+            "height": 250
+        },
+        "x-span": 580,
+        "y-span": 2800,
+        "ports": [{
+            "x": 0,
+            "y": 0,
+            "layer": "CONTROL",
+            "label": "1"
+        }],
+        "layers": ["788ff830-c1e7-11ec-b3d1-f3f96212c02e"]
+    }, {
+        "id": "314e2840-c1e5-11ec-bd9a-215228d91faa",
+        "name": "Valve_4",
+        "entity": "VALVE",
+        "params": {
+            "position": [31000, 35000],
+            "rotation": 90,
+            "componentSpacing": 1000,
+            "length": 2800,
+            "width": 580,
+            "height": 250
+        },
+        "x-span": 2800,
+        "y-span": 580,
+        "ports": [{
+            "x": 0,
+            "y": 0,
+            "layer": "CONTROL",
+            "label": "1"
+        }],
+        "layers": ["788ff830-c1e7-11ec-b3d1-f3f96212c02e"]
+    }, {
+        "id": "324fb9c0-c1e5-11ec-bd9a-215228d91faa",
+        "name": "Valve_5",
+        "entity": "VALVE",
+        "params": {
+            "position": [31000, 42000],
+            "rotation": 90,
+            "componentSpacing": 1000,
+            "length": 2800,
+            "width": 580,
+            "height": 250
+        },
+        "x-span": 2800,
+        "y-span": 580,
+        "ports": [{
+            "x": 0,
+            "y": 0,
+            "layer": "CONTROL",
+            "label": "1"
+        }],
+        "layers": ["788ff830-c1e7-11ec-b3d1-f3f96212c02e"]
+    }, {
+        "id": "3bad2fc0-c1e5-11ec-bd9a-215228d91faa",
+        "name": "Valve_6",
+        "entity": "VALVE",
+        "params": {
+            "position": [60000, 45000],
+            "rotation": 90,
+            "componentSpacing": 1000,
+            "length": 2800,
+            "width": 580,
+            "height": 250
+        },
+        "x-span": 2800,
+        "y-span": 580,
+        "ports": [{
+            "x": 0,
+            "y": 0,
+            "layer": "CONTROL",
+            "label": "1"
+        }],
+        "layers": ["788ff830-c1e7-11ec-b3d1-f3f96212c02e"]
+    }, {
+        "id": "3daef330-c1e5-11ec-bd9a-215228d91faa",
+        "name": "Valve_7",
+        "entity": "VALVE",
+        "params": {
+            "position": [72000, 36000],
+            "rotation": 90,
+            "componentSpacing": 1000,
+            "length": 2800,
+            "width": 580,
+            "height": 250
+        },
+        "x-span": 2800,
+        "y-span": 580,
+        "ports": [{
+            "x": 0,
+            "y": 0,
+            "layer": "CONTROL",
+            "label": "1"
+        }],
+        "layers": ["788ff830-c1e7-11ec-b3d1-f3f96212c02e"]
+    }, {
+        "id": "40ea9630-c1e5-11ec-bd9a-215228d91faa",
+        "name": "Valve_8",
+        "entity": "VALVE",
+        "params": {
+            "position": [72000, 44000],
+            "rotation": 90,
+            "componentSpacing": 1000,
+            "length": 2800,
+            "width": 580,
+            "height": 250
+        },
+        "x-span": 2800,
+        "y-span": 580,
+        "ports": [{
+            "x": 0,
+            "y": 0,
+            "layer": "CONTROL",
+            "label": "1"
+        }],
+        "layers": ["788ff830-c1e7-11ec-b3d1-f3f96212c02e"]
+    }, {
+        "id": "436421b1-c1e5-11ec-bd9a-215228d91faa",
+        "name": "Valve_9",
+        "entity": "VALVE",
+        "params": {
+            "position": [59000, 32000],
+            "rotation": 90,
+            "componentSpacing": 1000,
+            "length": 2800,
+            "width": 580,
+            "height": 250
+        },
+        "x-span": 2800,
+        "y-span": 580,
+        "ports": [{
+            "x": 0,
+            "y": 0,
+            "layer": "CONTROL",
+            "label": "1"
+        }],
+        "layers": ["788ff830-c1e7-11ec-b3d1-f3f96212c02e"]
+    }, {
+        "id": "62dc2970-c1e5-11ec-bd9a-215228d91faa",
+        "name": "Valve_10",
+        "entity": "VALVE",
+        "params": {
+            "position": [100000, 36000],
+            "rotation": 90,
+            "componentSpacing": 1000,
+            "length": 2800,
+            "width": 580,
+            "height": 250
+        },
+        "x-span": 2800,
+        "y-span": 580,
+        "ports": [{
+            "x": 0,
+            "y": 0,
+            "layer": "CONTROL",
+            "label": "1"
+        }],
+        "layers": ["788ff830-c1e7-11ec-b3d1-f3f96212c02e"]
+    }, {
+        "id": "647df290-c1e5-11ec-bd9a-215228d91faa",
+        "name": "Valve_11",
+        "entity": "VALVE",
+        "params": {
+            "position": [100000, 44000],
+            "rotation": 90,
+            "componentSpacing": 1000,
+            "length": 2800,
+            "width": 580,
+            "height": 250
+        },
+        "x-span": 2800,
+        "y-span": 580,
+        "ports": [{
+            "x": 0,
+            "y": 0,
+            "layer": "CONTROL",
+            "label": "1"
+        }],
+        "layers": ["788ff830-c1e7-11ec-b3d1-f3f96212c02e"]
+    }, {
+        "id": "67e1b700-c1e5-11ec-bd9a-215228d91faa",
+        "name": "Valve_12",
+        "entity": "VALVE",
+        "params": {
+            "position": [103000, 40000],
+            "componentSpacing": 1000,
+            "rotation": 0,
+            "length": 2800,
+            "width": 580,
+            "height": 250
+        },
+        "x-span": 580,
+        "y-span": 2800,
+        "ports": [{
+            "x": 0,
+            "y": 0,
+            "layer": "CONTROL",
+            "label": "1"
+        }],
+        "layers": ["788ff830-c1e7-11ec-b3d1-f3f96212c02e"]
+    }, {
+        "id": "cd981350-c1e5-11ec-be42-151144a80e96",
+        "name": "Valve_1",
+        "entity": "VALVE",
+        "params": {
+            "position": [58000, 40000],
+            "componentSpacing": 1000,
+            "rotation": 0,
+            "length": 2800,
+            "width": 580,
+            "height": 250
+        },
+        "x-span": 580,
+        "y-span": 2800,
+        "ports": [{
+            "x": 0,
+            "y": 0,
+            "layer": "CONTROL",
+            "label": "1"
+        }],
+        "layers": ["788ff830-c1e7-11ec-b3d1-f3f96212c02e"]
+    }, {
+        "id": "fe78bd80-c1e5-11ec-9406-330ade2e2d5d",
+        "name": "Valve_1",
+        "entity": "VALVE",
+        "params": {
+            "position": [74000, 40000],
+            "componentSpacing": 1000,
+            "rotation": 0,
+            "length": 2800,
+            "width": 580,
+            "height": 250
+        },
+        "x-span": 580,
+        "y-span": 2800,
+        "ports": [{
+            "x": 0,
+            "y": 0,
+            "layer": "CONTROL",
+            "label": "1"
+        }],
+        "layers": ["788ff830-c1e7-11ec-b3d1-f3f96212c02e"]
+    }, {
+        "id": "4fbd07f0-c1e6-11ec-b111-773dbff12206",
+        "name": "Port_1",
+        "entity": "PORT",
+        "params": {
+            "position": [7000, 45000],
+            "componentSpacing": 1000,
+            "portRadius": 700,
+            "height": 1100
+        },
+        "x-span": 1400,
+        "y-span": 1400,
+        "ports": [{
+            "x": 0,
+            "y": 0,
+            "layer": "FLOW",
+            "label": "1"
+        }],
+        "layers": ["788ff830-c1e7-11ec-b3d1-f3f96212c02e"]
+    }, {
+        "id": "51e20ad0-c1e6-11ec-b111-773dbff12206",
+        "name": "Port_2",
+        "entity": "PORT",
+        "params": {
+            "position": [38000, 19000],
+            "componentSpacing": 1000,
+            "portRadius": 700,
+            "height": 1100
+        },
+        "x-span": 1400,
+        "y-span": 1400,
+        "ports": [{
+            "x": 0,
+            "y": 0,
+            "layer": "FLOW",
+            "label": "1"
+        }],
+        "layers": ["788ff830-c1e7-11ec-b3d1-f3f96212c02e"]
+    }, {
+        "id": "53bfcb80-c1e6-11ec-b111-773dbff12206",
+        "name": "Port_3",
+        "entity": "PORT",
+        "params": {
+            "position": [25000, 14000],
+            "componentSpacing": 1000,
+            "portRadius": 700,
+            "height": 1100
+        },
+        "x-span": 1400,
+        "y-span": 1400,
+        "ports": [{
+            "x": 0,
+            "y": 0,
+            "layer": "FLOW",
+            "label": "1"
+        }],
+        "layers": ["788ff830-c1e7-11ec-b3d1-f3f96212c02e"]
+    }, {
+        "id": "551b15c0-c1e6-11ec-b111-773dbff12206",
+        "name": "Port_4",
+        "entity": "PORT",
+        "params": {
+            "position": [26000, 67000],
+            "componentSpacing": 1000,
+            "portRadius": 700,
+            "height": 1100
+        },
+        "x-span": 1400,
+        "y-span": 1400,
+        "ports": [{
+            "x": 0,
+            "y": 0,
+            "layer": "FLOW",
+            "label": "1"
+        }],
+        "layers": ["788ff830-c1e7-11ec-b3d1-f3f96212c02e"]
+    }, {
+        "id": "565a4c80-c1e6-11ec-b111-773dbff12206",
+        "name": "Port_5",
+        "entity": "PORT",
+        "params": {
+            "position": [38000, 63000],
+            "componentSpacing": 1000,
+            "portRadius": 700,
+            "height": 1100
+        },
+        "x-span": 1400,
+        "y-span": 1400,
+        "ports": [{
+            "x": 0,
+            "y": 0,
+            "layer": "FLOW",
+            "label": "1"
+        }],
+        "layers": ["788ff830-c1e7-11ec-b3d1-f3f96212c02e"]
+    }, {
+        "id": "b2fbfba0-c1e6-11ec-b111-773dbff12206",
+        "name": "Port_6",
+        "entity": "PORT",
+        "params": {
+            "position": [41000, 55000],
+            "componentSpacing": 1000,
+            "portRadius": 700,
+            "height": 1100
+        },
+        "x-span": 1400,
+        "y-span": 1400,
+        "ports": [{
+            "x": 0,
+            "y": 0,
+            "layer": "FLOW",
+            "label": "1"
+        }],
+        "layers": ["788ff830-c1e7-11ec-b3d1-f3f96212c02e"]
+    }, {
+        "id": "b3f88410-c1e6-11ec-b111-773dbff12206",
+        "name": "Port_7",
+        "entity": "PORT",
+        "params": {
+            "position": [45000, 55000],
+            "componentSpacing": 1000,
+            "portRadius": 700,
+            "height": 1100
+        },
+        "x-span": 1400,
+        "y-span": 1400,
+        "ports": [{
+            "x": 0,
+            "y": 0,
+            "layer": "FLOW",
+            "label": "1"
+        }],
+        "layers": ["788ff830-c1e7-11ec-b3d1-f3f96212c02e"]
+    }, {
+        "id": "b49a9070-c1e6-11ec-b111-773dbff12206",
+        "name": "Port_8",
+        "entity": "PORT",
+        "params": {
+            "position": [49000, 55000],
+            "componentSpacing": 1000,
+            "portRadius": 700,
+            "height": 1100
+        },
+        "x-span": 1400,
+        "y-span": 1400,
+        "ports": [{
+            "x": 0,
+            "y": 0,
+            "layer": "FLOW",
+            "label": "1"
+        }],
+        "layers": ["788ff830-c1e7-11ec-b3d1-f3f96212c02e"]
+    }, {
+        "id": "b6941680-c1e6-11ec-b111-773dbff12206",
+        "name": "Port_9",
+        "entity": "PORT",
+        "params": {
+            "position": [81000, 30000],
+            "componentSpacing": 1000,
+            "portRadius": 700,
+            "height": 1100
+        },
+        "x-span": 1400,
+        "y-span": 1400,
+        "ports": [{
+            "x": 0,
+            "y": 0,
+            "layer": "FLOW",
+            "label": "1"
+        }],
+        "layers": ["788ff830-c1e7-11ec-b3d1-f3f96212c02e"]
+    }, {
+        "id": "b701f380-c1e6-11ec-b111-773dbff12206",
+        "name": "Port_10",
+        "entity": "PORT",
+        "params": {
+            "position": [85000, 30000],
+            "componentSpacing": 1000,
+            "portRadius": 700,
+            "height": 1100
+        },
+        "x-span": 1400,
+        "y-span": 1400,
+        "ports": [{
+            "x": 0,
+            "y": 0,
+            "layer": "FLOW",
+            "label": "1"
+        }],
+        "layers": ["788ff830-c1e7-11ec-b3d1-f3f96212c02e"]
+    }, {
+        "id": "b782bc40-c1e6-11ec-b111-773dbff12206",
+        "name": "Port_11",
+        "entity": "PORT",
+        "params": {
+            "position": [89000, 30000],
+            "componentSpacing": 1000,
+            "portRadius": 700,
+            "height": 1100
+        },
+        "x-span": 1400,
+        "y-span": 1400,
+        "ports": [{
+            "x": 0,
+            "y": 0,
+            "layer": "FLOW",
+            "label": "1"
+        }],
+        "layers": ["788ff830-c1e7-11ec-b3d1-f3f96212c02e"]
+    }, {
+        "id": "b86fb450-c1e6-11ec-b111-773dbff12206",
+        "name": "Port_12",
+        "entity": "PORT",
+        "params": {
+            "position": [61000, 9000],
+            "componentSpacing": 1000,
+            "portRadius": 700,
+            "height": 1100
+        },
+        "x-span": 1400,
+        "y-span": 1400,
+        "ports": [{
+            "x": 0,
+            "y": 0,
+            "layer": "FLOW",
+            "label": "1"
+        }],
+        "layers": ["788ff830-c1e7-11ec-b3d1-f3f96212c02e"]
+    }, {
+        "id": "b8f251d0-c1e6-11ec-b111-773dbff12206",
+        "name": "Port_13",
+        "entity": "PORT",
+        "params": {
+            "position": [65000, 9000],
+            "componentSpacing": 1000,
+            "portRadius": 700,
+            "height": 1100
+        },
+        "x-span": 1400,
+        "y-span": 1400,
+        "ports": [{
+            "x": 0,
+            "y": 0,
+            "layer": "FLOW",
+            "label": "1"
+        }],
+        "layers": ["788ff830-c1e7-11ec-b3d1-f3f96212c02e"]
+    }, {
+        "id": "b96537e0-c1e6-11ec-b111-773dbff12206",
+        "name": "Port_14",
+        "entity": "PORT",
+        "params": {
+            "position": [69000, 9000],
+            "componentSpacing": 1000,
+            "portRadius": 700,
+            "height": 1100
+        },
+        "x-span": 1400,
+        "y-span": 1400,
+        "ports": [{
+            "x": 0,
+            "y": 0,
+            "layer": "FLOW",
+            "label": "1"
+        }],
+        "layers": ["788ff830-c1e7-11ec-b3d1-f3f96212c02e"]
+    }, {
+        "id": "bce84420-c1e6-11ec-b111-773dbff12206",
+        "name": "Port_15",
+        "entity": "PORT",
+        "params": {
+            "position": [52000, 26000],
+            "componentSpacing": 1000,
+            "portRadius": 700,
+            "height": 1100
+        },
+        "x-span": 1400,
+        "y-span": 1400,
+        "ports": [{
+            "x": 0,
+            "y": 0,
+            "layer": "FLOW",
+            "label": "1"
+        }],
+        "layers": ["788ff830-c1e7-11ec-b3d1-f3f96212c02e"]
+    }, {
+        "id": "bda1a910-c1e6-11ec-b111-773dbff12206",
+        "name": "Port_16",
+        "entity": "PORT",
+        "params": {
+            "position": [44000, 29000],
+            "componentSpacing": 1000,
+            "portRadius": 700,
+            "height": 1100
+        },
+        "x-span": 1400,
+        "y-span": 1400,
+        "ports": [{
+            "x": 0,
+            "y": 0,
+            "layer": "FLOW",
+            "label": "1"
+        }],
+        "layers": ["788ff830-c1e7-11ec-b3d1-f3f96212c02e"]
+    }, {
+        "id": "bf290c60-c1e6-11ec-b111-773dbff12206",
+        "name": "Port_17",
+        "entity": "PORT",
+        "params": {
+            "position": [52000, 50000],
+            "componentSpacing": 1000,
+            "portRadius": 700,
+            "height": 1100
+        },
+        "x-span": 1400,
+        "y-span": 1400,
+        "ports": [{
+            "x": 0,
+            "y": 0,
+            "layer": "FLOW",
+            "label": "1"
+        }],
+        "layers": ["788ff830-c1e7-11ec-b3d1-f3f96212c02e"]
+    }, {
+        "id": "ce3e7000-c1e6-11ec-b111-773dbff12206",
+        "name": "Port_18",
+        "entity": "PORT",
+        "params": {
+            "position": [78000, 55000],
+            "componentSpacing": 1000,
+            "portRadius": 700,
+            "height": 1100
+        },
+        "x-span": 1400,
+        "y-span": 1400,
+        "ports": [{
+            "x": 0,
+            "y": 0,
+            "layer": "FLOW",
+            "label": "1"
+        }],
+        "layers": ["788ff830-c1e7-11ec-b3d1-f3f96212c02e"]
+    }, {
+        "id": "cee7cf60-c1e6-11ec-b111-773dbff12206",
+        "name": "Port_19",
+        "entity": "PORT",
+        "params": {
+            "position": [84000, 51000],
+            "componentSpacing": 1000,
+            "portRadius": 700,
+            "height": 1100
+        },
+        "x-span": 1400,
+        "y-span": 1400,
+        "ports": [{
+            "x": 0,
+            "y": 0,
+            "layer": "FLOW",
+            "label": "1"
+        }],
+        "layers": ["788ff830-c1e7-11ec-b3d1-f3f96212c02e"]
+    }, {
+        "id": "cfc38960-c1e6-11ec-b111-773dbff12206",
+        "name": "Port_20",
+        "entity": "PORT",
+        "params": {
+            "position": [76000, 25000],
+            "componentSpacing": 1000,
+            "portRadius": 700,
+            "height": 1100
+        },
+        "x-span": 1400,
+        "y-span": 1400,
+        "ports": [{
+            "x": 0,
+            "y": 0,
+            "layer": "FLOW",
+            "label": "1"
+        }],
+        "layers": ["788ff830-c1e7-11ec-b3d1-f3f96212c02e"]
+    }, {
+        "id": "d0b73830-c1e6-11ec-b111-773dbff12206",
+        "name": "Port_21",
+        "entity": "PORT",
+        "params": {
+            "position": [96000, 25000],
+            "componentSpacing": 1000,
+            "portRadius": 700,
+            "height": 1100
+        },
+        "x-span": 1400,
+        "y-span": 1400,
+        "ports": [{
+            "x": 0,
+            "y": 0,
+            "layer": "FLOW",
+            "label": "1"
+        }],
+        "layers": ["788ff830-c1e7-11ec-b3d1-f3f96212c02e"]
+    }, {
+        "id": "d18c6280-c1e6-11ec-b111-773dbff12206",
+        "name": "Port_22",
+        "entity": "PORT",
+        "params": {
+            "position": [96000, 55000],
+            "componentSpacing": 1000,
+            "portRadius": 700,
+            "height": 1100
+        },
+        "x-span": 1400,
+        "y-span": 1400,
+        "ports": [{
+            "x": 0,
+            "y": 0,
+            "layer": "FLOW",
+            "label": "1"
+        }],
+        "layers": ["788ff830-c1e7-11ec-b3d1-f3f96212c02e"]
+    }, {
+        "id": "d2a5c1c0-c1e6-11ec-b111-773dbff12206",
+        "name": "Port_23",
+        "entity": "PORT",
+        "params": {
+            "position": [108000, 59000],
+            "componentSpacing": 1000,
+            "portRadius": 700,
+            "height": 1100
+        },
+        "x-span": 1400,
+        "y-span": 1400,
+        "ports": [{
+            "x": 0,
+            "y": 0,
+            "layer": "FLOW",
+            "label": "1"
+        }],
+        "layers": ["788ff830-c1e7-11ec-b3d1-f3f96212c02e"]
+    }, {
+        "id": "861f1050-c1ef-11ec-b3d1-f3f96212c02e",
+        "name": "Valve_2",
+        "entity": "VALVE",
+        "params": {
+            "position": [28000, 39000],
+            "componentSpacing": 1000,
+            "rotation": 0,
+            "length": 2800,
+            "width": 580,
+            "height": 250
+        },
+        "x-span": 580,
+        "y-span": 2800,
+        "ports": [{
+            "x": 0,
+            "y": 0,
+            "layer": "CONTROL",
+            "label": "1"
+        }],
+        "layers": ["788ff830-c1e7-11ec-b3d1-f3f96212c02e"]
+    }, {
+        "id": "a23aa6a0-c1ef-11ec-b3d1-f3f96212c02e",
+        "name": "Port_1",
+        "entity": "PORT",
+        "params": {
+            "position": [33000, 14000],
+            "componentSpacing": 1000,
+            "portRadius": 700,
+            "height": 1100
+        },
+        "x-span": 1400,
+        "y-span": 1400,
+        "ports": [{
+            "x": 0,
+            "y": 0,
+            "layer": "FLOW",
+            "label": "1"
+        }],
+        "layers": ["788ff830-c1e7-11ec-b3d1-f3f96212c02e"]
+    }],
+    "connections": [{
+        "id": "8b591c60-c1e4-11ec-8022-97f470c8471b",
+        "name": "CHANNEL_1",
+        "entity": "CHANNEL",
+        "source": {
+            "component": "6f2fca70-c1e4-11ec-8022-97f470c8471b",
+            "port": "1"
+        },
+        "sinks": [{
+            "component": "7331cab0-c1e4-11ec-8022-97f470c8471b",
+            "port": "1"
+        }],
+        "paths": [
+            [
+                [20000, 20000],
+                [27000, 20000],
+                [31000, 25000],
+                [31000, 39000]
+            ],
+            [
+                [20000, 59000],
+                [27000, 59000],
+                [31000, 55000],
+                [31000, 39000]
+            ]
+        ],
+        "params": {
+            "start": [20000, 20000],
+            "end": [31000, 39000],
+            "wayPoints": [
+                [20000, 20000],
+                [27000, 20000],
+                [31000, 25000],
+                [31000, 39000]
+            ],
+            "segments": [
+                [
+                    [20000, 20000],
+                    [20000, 20000]
+                ],
+                [
+                    [20000, 20000],
+                    [27000, 20000]
+                ],
+                [
+                    [27000, 20000],
+                    [31000, 25000]
+                ],
+                [
+                    [31000, 25000],
+                    [31000, 39000]
+                ],
+                [
+                    [31000, 39000],
+                    [31000, 39000]
+                ]
+            ],
+            "connectionSpacing": 1600,
+            "channelWidth": 800,
+            "height": 250
+        },
+        "layer": "788fd120-c1e7-11ec-b3d1-f3f96212c02e"
+    }, {
+        "id": "95765ff0-c1e4-11ec-8022-97f470c8471b",
+        "name": "CHANNEL_2",
+        "entity": "CHANNEL",
+        "source": {
+            "component": "71679200-c1e4-11ec-8022-97f470c8471b",
+            "port": "1"
+        },
+        "sinks": [{
+            "component": "6fae2230-c1e4-11ec-8022-97f470c8471b",
+            "port": "1"
+        }, {
+            "component": "724017b0-c1e4-11ec-8022-97f470c8471b",
+            "port": "1"
+        }, {
+            "component": "4aeccd20-c1e4-11ec-8022-97f470c8471b",
+            "port": "2"
+        }],
+        "paths": [
+            [
+                [20000, 39000],
+                [26000, 39000]
+            ],
+            [
+                [20000, 29000],
+                [23000, 29000],
+                [26000, 32000],
+                [26000, 39000]
+            ],
+            [
+                [20000, 48000],
+                [24000, 48000],
+                [26000, 46000],
+                [26000, 39000]
+            ],
+            [
+                [26000, 39000],
+                [31000, 39000],
+                [40720, 40000]
+            ]
+        ],
+        "params": {
+            "start": [20000, 39000],
+            "end": [26000, 39000],
+            "wayPoints": [
+                [20000, 39000],
+                [26000, 39000]
+            ],
+            "segments": [
+                [
+                    [20000, 39000],
+                    [20000, 39000]
+                ],
+                [
+                    [20000, 39000],
+                    [26000, 39000]
+                ],
+                [
+                    [26000, 39000],
+                    [26000, 39000]
+                ]
+            ],
+            "connectionSpacing": 1600,
+            "channelWidth": 800,
+            "height": 250
+        },
+        "layer": "788fd120-c1e7-11ec-b3d1-f3f96212c02e"
+    }, {
+        "id": "e03581b0-c1e4-11ec-97cd-79631b863aad",
+        "name": "CHANNEL_1",
+        "entity": "CHANNEL",
+        "source": {
+            "component": "4aeccd20-c1e4-11ec-8022-97f470c8471b",
+            "port": "1"
+        },
+        "sinks": [{
+            "component": "4cde3ce1-c1e4-11ec-8022-97f470c8471b",
+            "port": "2"
+        }, {
+            "component": "64225a80-c1e4-11ec-8022-97f470c8471b",
+            "port": "2"
+        }],
+        "paths": [
+            [
+                [49280, 40000],
+                [60000, 40000],
+                [58000, 20000],
+                [60720, 20000]
+            ],
+            [
+                [60000, 40000],
+                [60000, 55000],
+                [61080, 54590]
+            ]
+        ],
+        "params": {
+            "start": [49280, 40000],
+            "end": [60720, 20000],
+            "wayPoints": [
+                [49280, 40000],
+                [60000, 40000],
+                [58000, 20000],
+                [60720, 20000]
+            ],
+            "segments": [
+                [
+                    [49280, 40000],
+                    [49280, 40000]
+                ],
+                [
+                    [49280, 40000],
+                    [60000, 40000]
+                ],
+                [
+                    [60000, 40000],
+                    [58000, 20000]
+                ],
+                [
+                    [58000, 20000],
+                    [60720, 20000]
+                ],
+                [
+                    [60720, 20000],
+                    [60720, 20000]
+                ]
+            ],
+            "connectionSpacing": 1600,
+            "channelWidth": 800,
+            "height": 250
+        },
+        "layer": "788fd120-c1e7-11ec-b3d1-f3f96212c02e"
+    }, {
+        "id": "ed1cbab0-c1e4-11ec-97cd-79631b863aad",
+        "name": "CHANNEL_2",
+        "entity": "CHANNEL",
+        "source": {
+            "component": "64225a80-c1e4-11ec-8022-97f470c8471b",
+            "port": "1"
+        },
+        "sinks": [{
+            "component": "4cde3ce1-c1e4-11ec-8022-97f470c8471b",
+            "port": "1"
+        }, {
+            "component": "5015e841-c1e4-11ec-8022-97f470c8471b",
+            "port": "2"
+        }],
+        "paths": [
+            [
+                [70000, 54590],
+                [72000, 54000],
+                [72000, 20000],
+                [69280, 20000]
+            ],
+            [
+                [72000, 40000],
+                [80720, 40000]
+            ]
+        ],
+        "params": {
+            "start": [70000, 54590],
+            "end": [69280, 20000],
+            "wayPoints": [
+                [70000, 54590],
+                [72000, 54000],
+                [72000, 20000],
+                [69280, 20000]
+            ],
+            "segments": [
+                [
+                    [70000, 54590],
+                    [70000, 54590]
+                ],
+                [
+                    [70000, 54590],
+                    [72000, 54000]
+                ],
+                [
+                    [72000, 54000],
+                    [72000, 20000]
+                ],
+                [
+                    [72000, 20000],
+                    [69280, 20000]
+                ],
+                [
+                    [69280, 20000],
+                    [69280, 20000]
+                ]
+            ],
+            "connectionSpacing": 1600,
+            "channelWidth": 800,
+            "height": 250
+        },
+        "layer": "788fd120-c1e7-11ec-b3d1-f3f96212c02e"
+    }, {
+        "id": "56330ae0-c1e5-11ec-bd9a-215228d91faa",
+        "name": "CHANNEL_1",
+        "entity": "CHANNEL",
+        "source": {
+            "component": "5015e841-c1e4-11ec-8022-97f470c8471b",
+            "port": "1"
+        },
+        "sinks": [{
+            "component": "cebdeb20-c1e4-11ec-97cd-79631b863aad",
+            "port": "1"
+        }, {
+            "component": "d04686f0-c1e4-11ec-97cd-79631b863aad",
+            "port": "1"
+        }, {
+            "component": "cf71aac0-c1e4-11ec-97cd-79631b863aad",
+            "port": "1"
+        }],
+        "paths": [
+            [
+                [89280, 40000],
+                [100000, 40000],
+                [100000, 30000],
+                [120000, 20000]
+            ],
+            [
+                [100000, 40000],
+                [100000, 50000],
+                [120000, 60000]
+            ],
+            [
+                [100000, 40000],
+                [120000, 40000]
+            ]
+        ],
+        "params": {
+            "start": [89280, 40000],
+            "end": [120000, 20000],
+            "wayPoints": [
+                [89280, 40000],
+                [100000, 40000],
+                [100000, 30000],
+                [120000, 20000]
+            ],
+            "segments": [
+                [
+                    [89280, 40000],
+                    [89280, 40000]
+                ],
+                [
+                    [89280, 40000],
+                    [100000, 40000]
+                ],
+                [
+                    [100000, 40000],
+                    [100000, 30000]
+                ],
+                [
+                    [100000, 30000],
+                    [120000, 20000]
+                ],
+                [
+                    [120000, 20000],
+                    [120000, 20000]
+                ]
+            ],
+            "connectionSpacing": 1600,
+            "channelWidth": 800,
+            "height": 250
+        },
+        "layer": "788fd120-c1e7-11ec-b3d1-f3f96212c02e"
+    }, {
+        "id": "9b539df0-c1e6-11ec-b111-773dbff12206",
+        "name": "CHANNEL_1",
+        "entity": "CHANNEL",
+        "source": {
+            "component": "565a4c80-c1e6-11ec-b111-773dbff12206",
+            "port": null
+        },
+        "sinks": [{
+            "component": "324fb9c0-c1e5-11ec-bd9a-215228d91faa",
+            "port": "1"
+        }],
+        "paths": [
+            [
+                [38000, 63000],
+                [31000, 42000]
+            ]
+        ],
+        "params": {
+            "start": [38000, 63000],
+            "end": [31000, 42000],
+            "wayPoints": [
+                [38000, 63000],
+                [31000, 42000]
+            ],
+            "segments": [
+                [
+                    [38000, 63000],
+                    [38000, 63000]
+                ],
+                [
+                    [38000, 63000],
+                    [31000, 42000]
+                ],
+                [
+                    [31000, 42000],
+                    [31000, 42000]
+                ]
+            ],
+            "connectionSpacing": 1600,
+            "channelWidth": 253,
+            "height": 250
+        },
+        "layer": "788ff830-c1e7-11ec-b3d1-f3f96212c02e"
+    }, {
+        "id": "9d553a50-c1e6-11ec-b111-773dbff12206",
+        "name": "CHANNEL_2",
+        "entity": "CHANNEL",
+        "source": {
+            "component": "551b15c0-c1e6-11ec-b111-773dbff12206",
+            "port": null
+        },
+        "sinks": [{
+            "component": "2e2549f0-c1e5-11ec-bd9a-215228d91faa",
+            "port": "1"
+        }],
+        "paths": [
+            [
+                [26000, 67000],
+                [26000, 43000]
+            ]
+        ],
+        "params": {
+            "start": [26000, 67000],
+            "end": [26000, 43000],
+            "wayPoints": [
+                [26000, 67000],
+                [26000, 43000]
+            ],
+            "segments": [
+                [
+                    [26000, 67000],
+                    [26000, 67000]
+                ],
+                [
+                    [26000, 67000],
+                    [26000, 43000]
+                ],
+                [
+                    [26000, 43000],
+                    [26000, 43000]
+                ]
+            ],
+            "connectionSpacing": 1600,
+            "channelWidth": 253,
+            "height": 250
+        },
+        "layer": "788ff830-c1e7-11ec-b3d1-f3f96212c02e"
+    }, {
+        "id": "9f9d0770-c1e6-11ec-b111-773dbff12206",
+        "name": "CHANNEL_3",
+        "entity": "CHANNEL",
+        "source": {
+            "component": "4fbd07f0-c1e6-11ec-b111-773dbff12206",
+            "port": null
+        },
+        "sinks": [{
+            "component": "2f573a40-c1e5-11ec-bd9a-215228d91faa",
+            "port": "1"
+        }],
+        "paths": [
+            [
+                [7000, 45000],
+                [23000, 39000]
+            ]
+        ],
+        "params": {
+            "start": [7000, 45000],
+            "end": [23000, 39000],
+            "wayPoints": [
+                [7000, 45000],
+                [23000, 39000]
+            ],
+            "segments": [
+                [
+                    [7000, 45000],
+                    [7000, 45000]
+                ],
+                [
+                    [7000, 45000],
+                    [23000, 39000]
+                ],
+                [
+                    [23000, 39000],
+                    [23000, 39000]
+                ]
+            ],
+            "connectionSpacing": 1600,
+            "channelWidth": 253,
+            "height": 250
+        },
+        "layer": "788ff830-c1e7-11ec-b3d1-f3f96212c02e"
+    }, {
+        "id": "a24766f0-c1e6-11ec-b111-773dbff12206",
+        "name": "CHANNEL_4",
+        "entity": "CHANNEL",
+        "source": {
+            "component": "53bfcb80-c1e6-11ec-b111-773dbff12206",
+            "port": null
+        },
+        "sinks": [{
+            "component": "2d1846c0-c1e5-11ec-bd9a-215228d91faa",
+            "port": "1"
+        }],
+        "paths": [
+            [
+                [25000, 14000],
+                [26000, 35000]
+            ]
+        ],
+        "params": {
+            "start": [25000, 14000],
+            "end": [26000, 35000],
+            "wayPoints": [
+                [25000, 14000],
+                [26000, 35000]
+            ],
+            "segments": [
+                [
+                    [25000, 14000],
+                    [25000, 14000]
+                ],
+                [
+                    [25000, 14000],
+                    [26000, 35000]
+                ],
+                [
+                    [26000, 35000],
+                    [26000, 35000]
+                ]
+            ],
+            "connectionSpacing": 1600,
+            "channelWidth": 253,
+            "height": 250
+        },
+        "layer": "788ff830-c1e7-11ec-b3d1-f3f96212c02e"
+    }, {
+        "id": "aee9a7b0-c1e6-11ec-b111-773dbff12206",
+        "name": "CHANNEL_6",
+        "entity": "CHANNEL",
+        "source": {
+            "component": "4aeccd20-c1e4-11ec-8022-97f470c8471b",
+            "port": "5"
+        },
+        "sinks": null,
+        "paths": [
+            [
+                [41310, 40000],
+                [41000, 55000]
+            ]
+        ],
+        "params": {
+            "start": [41310, 40000],
+            "end": [41000, 55000],
+            "wayPoints": [
+                [41310, 40000],
+                [41000, 55000]
+            ],
+            "segments": [
+                [
+                    [41310, 40000],
+                    [41310, 40000]
+                ],
+                [
+                    [41310, 40000],
+                    [41000, 55000]
+                ],
+                [
+                    [41000, 55000],
+                    [41000, 55000]
+                ]
+            ],
+            "connectionSpacing": 1600,
+            "channelWidth": 253,
+            "height": 250
+        },
+        "layer": "788ff830-c1e7-11ec-b3d1-f3f96212c02e"
+    }, {
+        "id": "e1af1770-c1e6-11ec-b111-773dbff12206",
+        "name": "CHANNEL_8",
+        "entity": "CHANNEL",
+        "source": {
+            "component": "b3f88410-c1e6-11ec-b111-773dbff12206",
+            "port": null
+        },
+        "sinks": [{
+            "component": "4aeccd20-c1e4-11ec-8022-97f470c8471b",
+            "port": "4"
+        }],
+        "paths": [
+            [
+                [45000, 55000],
+                [45000, 40000]
+            ]
+        ],
+        "params": {
+            "start": [45000, 55000],
+            "end": [45000, 40000],
+            "wayPoints": [
+                [45000, 55000],
+                [45000, 40000]
+            ],
+            "segments": [
+                [
+                    [45000, 55000],
+                    [45000, 55000]
+                ],
+                [
+                    [45000, 55000],
+                    [45000, 40000]
+                ],
+                [
+                    [45000, 40000],
+                    [45000, 40000]
+                ]
+            ],
+            "connectionSpacing": 1600,
+            "channelWidth": 253,
+            "height": 250
+        },
+        "layer": "788ff830-c1e7-11ec-b3d1-f3f96212c02e"
+    }, {
+        "id": "e3253cb0-c1e6-11ec-b111-773dbff12206",
+        "name": "CHANNEL_9",
+        "entity": "CHANNEL",
+        "source": {
+            "component": "4aeccd20-c1e4-11ec-8022-97f470c8471b",
+            "port": "3"
+        },
+        "sinks": [{
+            "component": "b49a9070-c1e6-11ec-b111-773dbff12206",
+            "port": null
+        }],
+        "paths": [
+            [
+                [48690, 40000],
+                [49000, 55000]
+            ]
+        ],
+        "params": {
+            "start": [48690, 40000],
+            "end": [49000, 55000],
+            "wayPoints": [
+                [48690, 40000],
+                [49000, 55000]
+            ],
+            "segments": [
+                [
+                    [48690, 40000],
+                    [48690, 40000]
+                ],
+                [
+                    [48690, 40000],
+                    [49000, 55000]
+                ],
+                [
+                    [49000, 55000],
+                    [49000, 55000]
+                ]
+            ],
+            "connectionSpacing": 1600,
+            "channelWidth": 253,
+            "height": 250
+        },
+        "layer": "788ff830-c1e7-11ec-b3d1-f3f96212c02e"
+    }, {
+        "id": "e589e0a0-c1e6-11ec-b111-773dbff12206",
+        "name": "CHANNEL_10",
+        "entity": "CHANNEL",
+        "source": {
+            "component": "bf290c60-c1e6-11ec-b111-773dbff12206",
+            "port": null
+        },
+        "sinks": [{
+            "component": "3bad2fc0-c1e5-11ec-bd9a-215228d91faa",
+            "port": "1"
+        }],
+        "paths": [
+            [
+                [52000, 50000],
+                [60000, 45000]
+            ]
+        ],
+        "params": {
+            "start": [52000, 50000],
+            "end": [60000, 45000],
+            "wayPoints": [
+                [52000, 50000],
+                [60000, 45000]
+            ],
+            "segments": [
+                [
+                    [52000, 50000],
+                    [52000, 50000]
+                ],
+                [
+                    [52000, 50000],
+                    [60000, 45000]
+                ],
+                [
+                    [60000, 45000],
+                    [60000, 45000]
+                ]
+            ],
+            "connectionSpacing": 1600,
+            "channelWidth": 253,
+            "height": 250
+        },
+        "layer": "788ff830-c1e7-11ec-b3d1-f3f96212c02e"
+    }, {
+        "id": "e7c837e0-c1e6-11ec-b111-773dbff12206",
+        "name": "CHANNEL_11",
+        "entity": "CHANNEL",
+        "source": {
+            "component": "bda1a910-c1e6-11ec-b111-773dbff12206",
+            "port": null
+        },
+        "sinks": [{
+            "component": "cd981350-c1e5-11ec-be42-151144a80e96",
+            "port": "1"
+        }],
+        "paths": [
+            [
+                [44000, 29000],
+                [58000, 40000]
+            ]
+        ],
+        "params": {
+            "start": [44000, 29000],
+            "end": [58000, 40000],
+            "wayPoints": [
+                [44000, 29000],
+                [58000, 40000]
+            ],
+            "segments": [
+                [
+                    [44000, 29000],
+                    [44000, 29000]
+                ],
+                [
+                    [44000, 29000],
+                    [58000, 40000]
+                ],
+                [
+                    [58000, 40000],
+                    [58000, 40000]
+                ]
+            ],
+            "connectionSpacing": 1600,
+            "channelWidth": 253,
+            "height": 250
+        },
+        "layer": "788ff830-c1e7-11ec-b3d1-f3f96212c02e"
+    }, {
+        "id": "e9d14e50-c1e6-11ec-b111-773dbff12206",
+        "name": "CHANNEL_12",
+        "entity": "CHANNEL",
+        "source": {
+            "component": "bce84420-c1e6-11ec-b111-773dbff12206",
+            "port": null
+        },
+        "sinks": [{
+            "component": "436421b1-c1e5-11ec-bd9a-215228d91faa",
+            "port": "1"
+        }],
+        "paths": [
+            [
+                [52000, 26000],
+                [59000, 32000]
+            ]
+        ],
+        "params": {
+            "start": [52000, 26000],
+            "end": [59000, 32000],
+            "wayPoints": [
+                [52000, 26000],
+                [59000, 32000]
+            ],
+            "segments": [
+                [
+                    [52000, 26000],
+                    [52000, 26000]
+                ],
+                [
+                    [52000, 26000],
+                    [59000, 32000]
+                ],
+                [
+                    [59000, 32000],
+                    [59000, 32000]
+                ]
+            ],
+            "connectionSpacing": 1600,
+            "channelWidth": 253,
+            "height": 250
+        },
+        "layer": "788ff830-c1e7-11ec-b3d1-f3f96212c02e"
+    }, {
+        "id": "ec776810-c1e6-11ec-b111-773dbff12206",
+        "name": "CHANNEL_13",
+        "entity": "CHANNEL",
+        "source": {
+            "component": "b86fb450-c1e6-11ec-b111-773dbff12206",
+            "port": null
+        },
+        "sinks": [{
+            "component": "4cde3ce1-c1e4-11ec-8022-97f470c8471b",
+            "port": "5"
+        }],
+        "paths": [
+            [
+                [61000, 9000],
+                [61310, 20000]
+            ]
+        ],
+        "params": {
+            "start": [61000, 9000],
+            "end": [61310, 20000],
+            "wayPoints": [
+                [61000, 9000],
+                [61310, 20000]
+            ],
+            "segments": [
+                [
+                    [61000, 9000],
+                    [61000, 9000]
+                ],
+                [
+                    [61000, 9000],
+                    [61310, 20000]
+                ],
+                [
+                    [61310, 20000],
+                    [61310, 20000]
+                ]
+            ],
+            "connectionSpacing": 1600,
+            "channelWidth": 253,
+            "height": 250
+        },
+        "layer": "788ff830-c1e7-11ec-b3d1-f3f96212c02e"
+    }, {
+        "id": "ee2677a0-c1e6-11ec-b111-773dbff12206",
+        "name": "CHANNEL_14",
+        "entity": "CHANNEL",
+        "source": {
+            "component": "b8f251d0-c1e6-11ec-b111-773dbff12206",
+            "port": null
+        },
+        "sinks": [{
+            "component": "4cde3ce1-c1e4-11ec-8022-97f470c8471b",
+            "port": "4"
+        }],
+        "paths": [
+            [
+                [65000, 9000],
+                [65000, 20000]
+            ]
+        ],
+        "params": {
+            "start": [65000, 9000],
+            "end": [65000, 20000],
+            "wayPoints": [
+                [65000, 9000],
+                [65000, 20000]
+            ],
+            "segments": [
+                [
+                    [65000, 9000],
+                    [65000, 9000]
+                ],
+                [
+                    [65000, 9000],
+                    [65000, 20000]
+                ],
+                [
+                    [65000, 20000],
+                    [65000, 20000]
+                ]
+            ],
+            "connectionSpacing": 1600,
+            "channelWidth": 253,
+            "height": 250
+        },
+        "layer": "788ff830-c1e7-11ec-b3d1-f3f96212c02e"
+    }, {
+        "id": "ef9ac820-c1e6-11ec-b111-773dbff12206",
+        "name": "CHANNEL_15",
+        "entity": "CHANNEL",
+        "source": {
+            "component": "b96537e0-c1e6-11ec-b111-773dbff12206",
+            "port": null
+        },
+        "sinks": [{
+            "component": "4cde3ce1-c1e4-11ec-8022-97f470c8471b",
+            "port": "3"
+        }],
+        "paths": [
+            [
+                [69000, 9000],
+                [68690, 20000]
+            ]
+        ],
+        "params": {
+            "start": [69000, 9000],
+            "end": [68690, 20000],
+            "wayPoints": [
+                [69000, 9000],
+                [68690, 20000]
+            ],
+            "segments": [
+                [
+                    [69000, 9000],
+                    [69000, 9000]
+                ],
+                [
+                    [69000, 9000],
+                    [68690, 20000]
+                ],
+                [
+                    [68690, 20000],
+                    [68690, 20000]
+                ]
+            ],
+            "connectionSpacing": 1600,
+            "channelWidth": 253,
+            "height": 250
+        },
+        "layer": "788ff830-c1e7-11ec-b3d1-f3f96212c02e"
+    }, {
+        "id": "f15aeeb0-c1e6-11ec-b111-773dbff12206",
+        "name": "CHANNEL_16",
+        "entity": "CHANNEL",
+        "source": {
+            "component": "cfc38960-c1e6-11ec-b111-773dbff12206",
+            "port": null
+        },
+        "sinks": [{
+            "component": "3daef330-c1e5-11ec-bd9a-215228d91faa",
+            "port": "1"
+        }],
+        "paths": [
+            [
+                [76000, 25000],
+                [72000, 36000]
+            ]
+        ],
+        "params": {
+            "start": [76000, 25000],
+            "end": [72000, 36000],
+            "wayPoints": [
+                [76000, 25000],
+                [72000, 36000]
+            ],
+            "segments": [
+                [
+                    [76000, 25000],
+                    [76000, 25000]
+                ],
+                [
+                    [76000, 25000],
+                    [72000, 36000]
+                ],
+                [
+                    [72000, 36000],
+                    [72000, 36000]
+                ]
+            ],
+            "connectionSpacing": 1600,
+            "channelWidth": 253,
+            "height": 250
+        },
+        "layer": "788ff830-c1e7-11ec-b3d1-f3f96212c02e"
+    }, {
+        "id": "fb8c2f70-c1e6-11ec-b111-773dbff12206",
+        "name": "CHANNEL_18",
+        "entity": "CHANNEL",
+        "source": {
+            "component": "ce3e7000-c1e6-11ec-b111-773dbff12206",
+            "port": null
+        },
+        "sinks": [{
+            "component": "40ea9630-c1e5-11ec-bd9a-215228d91faa",
+            "port": "1"
+        }],
+        "paths": [
+            [
+                [78000, 55000],
+                [72000, 44000]
+            ]
+        ],
+        "params": {
+            "start": [78000, 55000],
+            "end": [72000, 44000],
+            "wayPoints": [
+                [78000, 55000],
+                [72000, 44000]
+            ],
+            "segments": [
+                [
+                    [78000, 55000],
+                    [78000, 55000]
+                ],
+                [
+                    [78000, 55000],
+                    [72000, 44000]
+                ],
+                [
+                    [72000, 44000],
+                    [72000, 44000]
+                ]
+            ],
+            "connectionSpacing": 1600,
+            "channelWidth": 253,
+            "height": 250
+        },
+        "layer": "788ff830-c1e7-11ec-b3d1-f3f96212c02e"
+    }, {
+        "id": "fd568f30-c1e6-11ec-b111-773dbff12206",
+        "name": "CHANNEL_19",
+        "entity": "CHANNEL",
+        "source": {
+            "component": "fe78bd80-c1e5-11ec-9406-330ade2e2d5d",
+            "port": "1"
+        },
+        "sinks": [{
+            "component": "cee7cf60-c1e6-11ec-b111-773dbff12206",
+            "port": null
+        }],
+        "paths": [
+            [
+                [74000, 40000],
+                [84000, 51000]
+            ]
+        ],
+        "params": {
+            "start": [74000, 40000],
+            "end": [84000, 51000],
+            "wayPoints": [
+                [74000, 40000],
+                [84000, 51000]
+            ],
+            "segments": [
+                [
+                    [74000, 40000],
+                    [74000, 40000]
+                ],
+                [
+                    [74000, 40000],
+                    [84000, 51000]
+                ],
+                [
+                    [84000, 51000],
+                    [84000, 51000]
+                ]
+            ],
+            "connectionSpacing": 1600,
+            "channelWidth": 253,
+            "height": 250
+        },
+        "layer": "788ff830-c1e7-11ec-b3d1-f3f96212c02e"
+    }, {
+        "id": "ffe131b0-c1e6-11ec-b111-773dbff12206",
+        "name": "CHANNEL_20",
+        "entity": "CHANNEL",
+        "source": {
+            "component": "5015e841-c1e4-11ec-8022-97f470c8471b",
+            "port": "5"
+        },
+        "sinks": null,
+        "paths": [
+            [
+                [81000, 31000],
+                [81310, 40000]
+            ]
+        ],
+        "params": {
+            "start": [81000, 31000],
+            "end": [81310, 40000],
+            "wayPoints": [
+                [81000, 31000],
+                [81310, 40000]
+            ],
+            "segments": [
+                [
+                    [81000, 31000],
+                    [81000, 31000]
+                ],
+                [
+                    [81000, 31000],
+                    [81310, 40000]
+                ],
+                [
+                    [81310, 40000],
+                    [81310, 40000]
+                ]
+            ],
+            "connectionSpacing": 1600,
+            "channelWidth": 253,
+            "height": 250
+        },
+        "layer": "788ff830-c1e7-11ec-b3d1-f3f96212c02e"
+    }, {
+        "id": "010650c0-c1e7-11ec-b111-773dbff12206",
+        "name": "CHANNEL_21",
+        "entity": "CHANNEL",
+        "source": {
+            "component": "b701f380-c1e6-11ec-b111-773dbff12206",
+            "port": null
+        },
+        "sinks": [{
+            "component": "5015e841-c1e4-11ec-8022-97f470c8471b",
+            "port": "4"
+        }],
+        "paths": [
+            [
+                [85000, 30000],
+                [85000, 40000]
+            ]
+        ],
+        "params": {
+            "start": [85000, 30000],
+            "end": [85000, 40000],
+            "wayPoints": [
+                [85000, 30000],
+                [85000, 40000]
+            ],
+            "segments": [
+                [
+                    [85000, 30000],
+                    [85000, 30000]
+                ],
+                [
+                    [85000, 30000],
+                    [85000, 40000]
+                ],
+                [
+                    [85000, 40000],
+                    [85000, 40000]
+                ]
+            ],
+            "connectionSpacing": 1600,
+            "channelWidth": 253,
+            "height": 250
+        },
+        "layer": "788ff830-c1e7-11ec-b3d1-f3f96212c02e"
+    }, {
+        "id": "0239c7b0-c1e7-11ec-b111-773dbff12206",
+        "name": "CHANNEL_22",
+        "entity": "CHANNEL",
+        "source": {
+            "component": "b782bc40-c1e6-11ec-b111-773dbff12206",
+            "port": null
+        },
+        "sinks": [{
+            "component": "5015e841-c1e4-11ec-8022-97f470c8471b",
+            "port": "3"
+        }],
+        "paths": [
+            [
+                [89000, 30000],
+                [88690, 40000]
+            ]
+        ],
+        "params": {
+            "start": [89000, 30000],
+            "end": [88690, 40000],
+            "wayPoints": [
+                [89000, 30000],
+                [88690, 40000]
+            ],
+            "segments": [
+                [
+                    [89000, 30000],
+                    [89000, 30000]
+                ],
+                [
+                    [89000, 30000],
+                    [88690, 40000]
+                ],
+                [
+                    [88690, 40000],
+                    [88690, 40000]
+                ]
+            ],
+            "connectionSpacing": 1600,
+            "channelWidth": 253,
+            "height": 250
+        },
+        "layer": "788ff830-c1e7-11ec-b3d1-f3f96212c02e"
+    }, {
+        "id": "04042770-c1e7-11ec-b111-773dbff12206",
+        "name": "CHANNEL_23",
+        "entity": "CHANNEL",
+        "source": {
+            "component": "d0b73830-c1e6-11ec-b111-773dbff12206",
+            "port": null
+        },
+        "sinks": [{
+            "component": "62dc2970-c1e5-11ec-bd9a-215228d91faa",
+            "port": "1"
+        }],
+        "paths": [
+            [
+                [96000, 25000],
+                [100000, 36000]
+            ]
+        ],
+        "params": {
+            "start": [96000, 25000],
+            "end": [100000, 36000],
+            "wayPoints": [
+                [96000, 25000],
+                [100000, 36000]
+            ],
+            "segments": [
+                [
+                    [96000, 25000],
+                    [96000, 25000]
+                ],
+                [
+                    [96000, 25000],
+                    [100000, 36000]
+                ],
+                [
+                    [100000, 36000],
+                    [100000, 36000]
+                ]
+            ],
+            "connectionSpacing": 1600,
+            "channelWidth": 253,
+            "height": 250
+        },
+        "layer": "788ff830-c1e7-11ec-b3d1-f3f96212c02e"
+    }, {
+        "id": "0600bac0-c1e7-11ec-b111-773dbff12206",
+        "name": "CHANNEL_24",
+        "entity": "CHANNEL",
+        "source": {
+            "component": "d18c6280-c1e6-11ec-b111-773dbff12206",
+            "port": null
+        },
+        "sinks": [{
+            "component": "647df290-c1e5-11ec-bd9a-215228d91faa",
+            "port": "1"
+        }],
+        "paths": [
+            [
+                [96000, 55000],
+                [100000, 44000]
+            ]
+        ],
+        "params": {
+            "start": [96000, 55000],
+            "end": [100000, 44000],
+            "wayPoints": [
+                [96000, 55000],
+                [100000, 44000]
+            ],
+            "segments": [
+                [
+                    [96000, 55000],
+                    [96000, 55000]
+                ],
+                [
+                    [96000, 55000],
+                    [100000, 44000]
+                ],
+                [
+                    [100000, 44000],
+                    [100000, 44000]
+                ]
+            ],
+            "connectionSpacing": 1600,
+            "channelWidth": 253,
+            "height": 250
+        },
+        "layer": "788ff830-c1e7-11ec-b3d1-f3f96212c02e"
+    }, {
+        "id": "07e5f580-c1e7-11ec-b111-773dbff12206",
+        "name": "CHANNEL_25",
+        "entity": "CHANNEL",
+        "source": {
+            "component": "d2a5c1c0-c1e6-11ec-b111-773dbff12206",
+            "port": null
+        },
+        "sinks": [{
+            "component": "67e1b700-c1e5-11ec-bd9a-215228d91faa",
+            "port": "1"
+        }],
+        "paths": [
+            [
+                [108000, 59000],
+                [103000, 40000]
+            ]
+        ],
+        "params": {
+            "start": [108000, 59000],
+            "end": [103000, 40000],
+            "wayPoints": [
+                [108000, 59000],
+                [103000, 40000]
+            ],
+            "segments": [
+                [
+                    [108000, 59000],
+                    [108000, 59000]
+                ],
+                [
+                    [108000, 59000],
+                    [103000, 40000]
+                ],
+                [
+                    [103000, 40000],
+                    [103000, 40000]
+                ]
+            ],
+            "connectionSpacing": 1600,
+            "channelWidth": 253,
+            "height": 250
+        },
+        "layer": "788ff830-c1e7-11ec-b3d1-f3f96212c02e"
+    }, {
+        "id": "a7d19ec0-c1ef-11ec-b3d1-f3f96212c02e",
+        "name": "CHANNEL_1",
+        "entity": "CHANNEL",
+        "source": {
+            "component": "a23aa6a0-c1ef-11ec-b3d1-f3f96212c02e",
+            "port": null
+        },
+        "sinks": [{
+            "component": "861f1050-c1ef-11ec-b3d1-f3f96212c02e",
+            "port": "1"
+        }],
+        "paths": [
+            [
+                [33000, 14000],
+                [28000, 39000]
+            ]
+        ],
+        "params": {
+            "start": [33000, 14000],
+            "end": [28000, 39000],
+            "wayPoints": [
+                [33000, 14000],
+                [28000, 39000]
+            ],
+            "segments": [
+                [
+                    [33000, 14000],
+                    [33000, 14000]
+                ],
+                [
+                    [33000, 14000],
+                    [28000, 39000]
+                ],
+                [
+                    [28000, 39000],
+                    [28000, 39000]
+                ]
+            ],
+            "connectionSpacing": 1600,
+            "channelWidth": 800,
+            "height": 250
+        },
+        "layer": "788ff830-c1e7-11ec-b3d1-f3f96212c02e"
+    }, {
+        "id": "29c54a30-c1f0-11ec-b3d1-f3f96212c02e",
+        "name": "CHANNEL_3",
+        "entity": "CHANNEL",
+        "source": {
+            "component": "314e2840-c1e5-11ec-bd9a-215228d91faa",
+            "port": "1"
+        },
+        "sinks": [{
+            "component": "51e20ad0-c1e6-11ec-b111-773dbff12206",
+            "port": null
+        }],
+        "paths": [
+            [
+                [31000, 35000],
+                [38000, 19000]
+            ]
+        ],
+        "params": {
+            "start": [31000, 35000],
+            "end": [38000, 19000],
+            "wayPoints": [
+                [31000, 35000],
+                [38000, 19000]
+            ],
+            "segments": [
+                [
+                    [31000, 35000],
+                    [31000, 35000]
+                ],
+                [
+                    [31000, 35000],
+                    [38000, 19000]
+                ],
+                [
+                    [38000, 19000],
+                    [38000, 19000]
+                ]
+            ],
+            "connectionSpacing": 1600,
+            "channelWidth": 253,
+            "height": 250
+        },
+        "layer": "788ff830-c1e7-11ec-b3d1-f3f96212c02e"
+    }],
+    "layers": [{
+        "id": "788fd120-c1e7-11ec-b3d1-f3f96212c02e",
+        "name": "flow",
+        "type": "FLOW",
+        "group": "0",
+        "params": {
+            "z_offset": 0,
+            "flip": false
+        }
+    }, {
+        "id": "788ff830-c1e7-11ec-b3d1-f3f96212c02e",
+        "name": "control",
+        "type": "FLOW",
+        "group": "0",
+        "params": {
+            "z_offset": 1200,
+            "flip": true
+        }
+    }, {
+        "id": "78906d60-c1e7-11ec-b3d1-f3f96212c02e",
+        "name": "cells",
+        "type": "FLOW",
+        "group": "0",
+        "params": {
+            "z_offset": 2000,
+            "flip": false
+        }
+    }],
+    "features": [{
+        "name": "flow",
+        "color": "indigo",
+        "params": {
+            "z_offset": 0,
+            "flip": false
+        },
+        "features": {
+            "4aeb94a0-c1e4-11ec-8022-97f470c8471b": {
+                "id": "4aeb94a0-c1e4-11ec-8022-97f470c8471b",
+                "name": "New Feature",
+                "macro": "Pump",
+                "set": "Basic",
+                "referenceID": "4aeccd20-c1e4-11ec-8022-97f470c8471b",
+                "params": {
+                    "position": [45000, 40000],
+                    "componentSpacing": 1000,
+                    "rotation": 90,
+                    "length": 1030,
+                    "width": 5490,
+                    "height": 430,
+                    "spacing": 3310,
+                    "flowChannelWidth": 871
+                },
+                "dxfData": [],
+                "type": "XY"
+            },
+            "4cdd5280-c1e4-11ec-8022-97f470c8471b": {
+                "id": "4cdd5280-c1e4-11ec-8022-97f470c8471b",
+                "name": "New Feature",
+                "macro": "Pump",
+                "set": "Basic",
+                "referenceID": "4cde3ce1-c1e4-11ec-8022-97f470c8471b",
+                "params": {
+                    "position": [65000, 20000],
+                    "componentSpacing": 1000,
+                    "rotation": 90,
+                    "length": 1030,
+                    "width": 5490,
+                    "height": 430,
+                    "spacing": 3310,
+                    "flowChannelWidth": 871
+                },
+                "dxfData": [],
+                "type": "XY"
+            },
+            "501524f0-c1e4-11ec-8022-97f470c8471b": {
+                "id": "501524f0-c1e4-11ec-8022-97f470c8471b",
+                "name": "New Feature",
+                "macro": "Pump",
+                "set": "Basic",
+                "referenceID": "5015e841-c1e4-11ec-8022-97f470c8471b",
+                "params": {
+                    "position": [85000, 40000],
+                    "componentSpacing": 1000,
+                    "rotation": 90,
+                    "length": 1030,
+                    "width": 5490,
+                    "height": 430,
+                    "spacing": 3310,
+                    "flowChannelWidth": 871
+                },
+                "dxfData": [],
+                "type": "XY"
+            },
+            "6421e550-c1e4-11ec-8022-97f470c8471b": {
+                "id": "6421e550-c1e4-11ec-8022-97f470c8471b",
+                "name": "New Feature",
+                "macro": "BetterMixer",
+                "set": "Basic",
+                "referenceID": "64225a80-c1e4-11ec-8022-97f470c8471b",
+                "params": {
+                    "position": [70000, 50000],
+                    "componentSpacing": 1000,
+                    "bendSpacing": 1230,
+                    "numberOfBends": 2,
+                    "channelWidth": 800,
+                    "bendLength": 7580,
+                    "rotation": 90,
+                    "height": 440
+                },
+                "dxfData": [],
+                "type": "XY"
+            },
+            "6f2ee010-c1e4-11ec-8022-97f470c8471b": {
+                "id": "6f2ee010-c1e4-11ec-8022-97f470c8471b",
+                "name": "New Feature",
+                "macro": "Port",
+                "set": "Basic",
+                "referenceID": "6f2fca70-c1e4-11ec-8022-97f470c8471b",
+                "params": {
+                    "position": [20000, 20000],
+                    "componentSpacing": 1000,
+                    "portRadius": 700,
+                    "height": 1100
+                },
+                "dxfData": [],
+                "type": "XY"
+            },
+            "6fad85f0-c1e4-11ec-8022-97f470c8471b": {
+                "id": "6fad85f0-c1e4-11ec-8022-97f470c8471b",
+                "name": "New Feature",
+                "macro": "Port",
+                "set": "Basic",
+                "referenceID": "6fae2230-c1e4-11ec-8022-97f470c8471b",
+                "params": {
+                    "position": [20000, 29000],
+                    "componentSpacing": 1000,
+                    "portRadius": 700,
+                    "height": 1100
+                },
+                "dxfData": [],
+                "type": "XY"
+            },
+            "7166f5c0-c1e4-11ec-8022-97f470c8471b": {
+                "id": "7166f5c0-c1e4-11ec-8022-97f470c8471b",
+                "name": "New Feature",
+                "macro": "Port",
+                "set": "Basic",
+                "referenceID": "71679200-c1e4-11ec-8022-97f470c8471b",
+                "params": {
+                    "position": [20000, 39000],
+                    "componentSpacing": 1000,
+                    "portRadius": 700,
+                    "height": 1100
+                },
+                "dxfData": [],
+                "type": "XY"
+            },
+            "723f5460-c1e4-11ec-8022-97f470c8471b": {
+                "id": "723f5460-c1e4-11ec-8022-97f470c8471b",
+                "name": "New Feature",
+                "macro": "Port",
+                "set": "Basic",
+                "referenceID": "724017b0-c1e4-11ec-8022-97f470c8471b",
+                "params": {
+                    "position": [20000, 48000],
+                    "componentSpacing": 1000,
+                    "portRadius": 700,
+                    "height": 1100
+                },
+                "dxfData": [],
+                "type": "XY"
+            },
+            "73310760-c1e4-11ec-8022-97f470c8471b": {
+                "id": "73310760-c1e4-11ec-8022-97f470c8471b",
+                "name": "New Feature",
+                "macro": "Port",
+                "set": "Basic",
+                "referenceID": "7331cab0-c1e4-11ec-8022-97f470c8471b",
+                "params": {
+                    "position": [20000, 59000],
+                    "componentSpacing": 1000,
+                    "portRadius": 700,
+                    "height": 1100
+                },
+                "dxfData": [],
+                "type": "XY"
+            },
+            "858baaf0-c1e4-11ec-8022-97f470c8471b": {
+                "id": "858baaf0-c1e4-11ec-8022-97f470c8471b",
+                "name": "New Feature",
+                "macro": "Connection",
+                "set": "Basic",
+                "referenceID": "8b591c60-c1e4-11ec-8022-97f470c8471b",
+                "params": {
+                    "start": [20000, 20000],
+                    "end": [31000, 39000],
+                    "wayPoints": [
+                        [20000, 20000],
+                        [27000, 20000],
+                        [31000, 25000],
+                        [31000, 39000]
+                    ],
+                    "segments": [
+                        [
+                            [20000, 20000],
+                            [27000, 20000]
+                        ],
+                        [
+                            [27000, 20000],
+                            [31000, 25000]
+                        ],
+                        [
+                            [31000, 25000],
+                            [31000, 39000]
+                        ],
+                        [
+                            [20000, 59000],
+                            [27000, 59000]
+                        ],
+                        [
+                            [27000, 59000],
+                            [31000, 55000]
+                        ],
+                        [
+                            [31000, 55000],
+                            [31000, 39000]
+                        ]
+                    ],
+                    "connectionSpacing": 1600,
+                    "channelWidth": 800,
+                    "height": 250
+                },
+                "dxfData": [],
+                "type": "XY"
+            },
+            "8cbf1500-c1e4-11ec-8022-97f470c8471b": {
+                "id": "8cbf1500-c1e4-11ec-8022-97f470c8471b",
+                "name": "New Feature",
+                "macro": "Connection",
+                "set": "Basic",
+                "referenceID": "8b591c60-c1e4-11ec-8022-97f470c8471b",
+                "params": {
+                    "start": [20000, 59000],
+                    "end": [31000, 39000],
+                    "wayPoints": [
+                        [20000, 59000],
+                        [27000, 59000],
+                        [31000, 55000],
+                        [31000, 39000]
+                    ],
+                    "segments": [
+                        [
+                            [20000, 20000],
+                            [27000, 20000]
+                        ],
+                        [
+                            [27000, 20000],
+                            [31000, 25000]
+                        ],
+                        [
+                            [31000, 25000],
+                            [31000, 39000]
+                        ],
+                        [
+                            [20000, 59000],
+                            [27000, 59000]
+                        ],
+                        [
+                            [27000, 59000],
+                            [31000, 55000]
+                        ],
+                        [
+                            [31000, 55000],
+                            [31000, 39000]
+                        ]
+                    ],
+                    "connectionSpacing": 1600,
+                    "channelWidth": 800,
+                    "height": 250
+                },
+                "dxfData": [],
+                "type": "XY"
+            },
+            "948bb1d0-c1e4-11ec-8022-97f470c8471b": {
+                "id": "948bb1d0-c1e4-11ec-8022-97f470c8471b",
+                "name": "New Feature",
+                "macro": "Connection",
+                "set": "Basic",
+                "referenceID": "95765ff0-c1e4-11ec-8022-97f470c8471b",
+                "params": {
+                    "start": [20000, 39000],
+                    "end": [26000, 39000],
+                    "wayPoints": [
+                        [20000, 39000],
+                        [26000, 39000]
+                    ],
+                    "segments": [
+                        [
+                            [20000, 39000],
+                            [26000, 39000]
+                        ],
+                        [
+                            [20000, 29000],
+                            [23000, 29000]
+                        ],
+                        [
+                            [23000, 29000],
+                            [26000, 32000]
+                        ],
+                        [
+                            [26000, 32000],
+                            [26000, 39000]
+                        ],
+                        [
+                            [20000, 48000],
+                            [24000, 48000]
+                        ],
+                        [
+                            [24000, 48000],
+                            [26000, 46000]
+                        ],
+                        [
+                            [26000, 46000],
+                            [26000, 39000]
+                        ],
+                        [
+                            [26000, 39000],
+                            [31000, 39000]
+                        ],
+                        [
+                            [31000, 39000],
+                            [40720, 40000]
+                        ]
+                    ],
+                    "connectionSpacing": 1600,
+                    "channelWidth": 800,
+                    "height": 250
+                },
+                "dxfData": [],
+                "type": "XY"
+            },
+            "96eecf20-c1e4-11ec-8022-97f470c8471b": {
+                "id": "96eecf20-c1e4-11ec-8022-97f470c8471b",
+                "name": "New Feature",
+                "macro": "Connection",
+                "set": "Basic",
+                "referenceID": "95765ff0-c1e4-11ec-8022-97f470c8471b",
+                "params": {
+                    "start": [20000, 29000],
+                    "end": [26000, 39000],
+                    "wayPoints": [
+                        [20000, 29000],
+                        [23000, 29000],
+                        [26000, 32000],
+                        [26000, 39000]
+                    ],
+                    "segments": [
+                        [
+                            [20000, 39000],
+                            [26000, 39000]
+                        ],
+                        [
+                            [20000, 29000],
+                            [23000, 29000]
+                        ],
+                        [
+                            [23000, 29000],
+                            [26000, 32000]
+                        ],
+                        [
+                            [26000, 32000],
+                            [26000, 39000]
+                        ],
+                        [
+                            [20000, 48000],
+                            [24000, 48000]
+                        ],
+                        [
+                            [24000, 48000],
+                            [26000, 46000]
+                        ],
+                        [
+                            [26000, 46000],
+                            [26000, 39000]
+                        ],
+                        [
+                            [26000, 39000],
+                            [31000, 39000]
+                        ],
+                        [
+                            [31000, 39000],
+                            [40720, 40000]
+                        ]
+                    ],
+                    "connectionSpacing": 1600,
+                    "channelWidth": 800,
+                    "height": 250
+                },
+                "dxfData": [],
+                "type": "XY"
+            },
+            "be6d9680-c1e4-11ec-97cd-79631b863aad": {
+                "id": "be6d9680-c1e4-11ec-97cd-79631b863aad",
+                "name": "New Feature",
+                "macro": "Connection",
+                "set": "Basic",
+                "referenceID": "95765ff0-c1e4-11ec-8022-97f470c8471b",
+                "params": {
+                    "start": [20000, 48000],
+                    "end": [26000, 39000],
+                    "wayPoints": [
+                        [20000, 48000],
+                        [24000, 48000],
+                        [26000, 46000],
+                        [26000, 39000]
+                    ],
+                    "segments": [
+                        [
+                            [20000, 39000],
+                            [26000, 39000]
+                        ],
+                        [
+                            [20000, 29000],
+                            [23000, 29000]
+                        ],
+                        [
+                            [23000, 29000],
+                            [26000, 32000]
+                        ],
+                        [
+                            [26000, 32000],
+                            [26000, 39000]
+                        ],
+                        [
+                            [20000, 48000],
+                            [24000, 48000]
+                        ],
+                        [
+                            [24000, 48000],
+                            [26000, 46000]
+                        ],
+                        [
+                            [26000, 46000],
+                            [26000, 39000]
+                        ],
+                        [
+                            [26000, 39000],
+                            [31000, 39000]
+                        ],
+                        [
+                            [31000, 39000],
+                            [40720, 40000]
+                        ]
+                    ],
+                    "connectionSpacing": 1600,
+                    "channelWidth": 800,
+                    "height": 250
+                },
+                "dxfData": [],
+                "type": "XY"
+            },
+            "c39f8b40-c1e4-11ec-97cd-79631b863aad": {
+                "id": "c39f8b40-c1e4-11ec-97cd-79631b863aad",
+                "name": "New Feature",
+                "macro": "Connection",
+                "set": "Basic",
+                "referenceID": "95765ff0-c1e4-11ec-8022-97f470c8471b",
+                "params": {
+                    "start": [26000, 39000],
+                    "end": [40720, 40000],
+                    "wayPoints": [
+                        [26000, 39000],
+                        [31000, 39000],
+                        [40720, 40000]
+                    ],
+                    "segments": [
+                        [
+                            [20000, 39000],
+                            [26000, 39000]
+                        ],
+                        [
+                            [20000, 29000],
+                            [23000, 29000]
+                        ],
+                        [
+                            [23000, 29000],
+                            [26000, 32000]
+                        ],
+                        [
+                            [26000, 32000],
+                            [26000, 39000]
+                        ],
+                        [
+                            [20000, 48000],
+                            [24000, 48000]
+                        ],
+                        [
+                            [24000, 48000],
+                            [26000, 46000]
+                        ],
+                        [
+                            [26000, 46000],
+                            [26000, 39000]
+                        ],
+                        [
+                            [26000, 39000],
+                            [31000, 39000]
+                        ],
+                        [
+                            [31000, 39000],
+                            [40720, 40000]
+                        ]
+                    ],
+                    "connectionSpacing": 1600,
+                    "channelWidth": 800,
+                    "height": 250
+                },
+                "dxfData": [],
+                "type": "XY"
+            },
+            "cebd4ee0-c1e4-11ec-97cd-79631b863aad": {
+                "id": "cebd4ee0-c1e4-11ec-97cd-79631b863aad",
+                "name": "New Feature",
+                "macro": "Port",
+                "set": "Basic",
+                "referenceID": "cebdeb20-c1e4-11ec-97cd-79631b863aad",
+                "params": {
+                    "position": [120000, 20000],
+                    "componentSpacing": 1000,
+                    "portRadius": 700,
+                    "height": 1100
+                },
+                "dxfData": [],
+                "type": "XY"
+            },
+            "cf709950-c1e4-11ec-97cd-79631b863aad": {
+                "id": "cf709950-c1e4-11ec-97cd-79631b863aad",
+                "name": "New Feature",
+                "macro": "Port",
+                "set": "Basic",
+                "referenceID": "cf71aac0-c1e4-11ec-97cd-79631b863aad",
+                "params": {
+                    "position": [120000, 40000],
+                    "componentSpacing": 1000,
+                    "portRadius": 700,
+                    "height": 1100
+                },
+                "dxfData": [],
+                "type": "XY"
+            },
+            "d0454e70-c1e4-11ec-97cd-79631b863aad": {
+                "id": "d0454e70-c1e4-11ec-97cd-79631b863aad",
+                "name": "New Feature",
+                "macro": "Port",
+                "set": "Basic",
+                "referenceID": "d04686f0-c1e4-11ec-97cd-79631b863aad",
+                "params": {
+                    "position": [120000, 60000],
+                    "componentSpacing": 1000,
+                    "portRadius": 700,
+                    "height": 1100
+                },
+                "dxfData": [],
+                "type": "XY"
+            },
+            "d6b20d20-c1e4-11ec-97cd-79631b863aad": {
+                "id": "d6b20d20-c1e4-11ec-97cd-79631b863aad",
+                "name": "New Feature",
+                "macro": "Connection",
+                "set": "Basic",
+                "referenceID": "e03581b0-c1e4-11ec-97cd-79631b863aad",
+                "params": {
+                    "start": [49280, 40000],
+                    "end": [60720, 20000],
+                    "wayPoints": [
+                        [49280, 40000],
+                        [60000, 40000],
+                        [58000, 20000],
+                        [60720, 20000]
+                    ],
+                    "segments": [
+                        [
+                            [49280, 40000],
+                            [60000, 40000]
+                        ],
+                        [
+                            [60000, 40000],
+                            [58000, 20000]
+                        ],
+                        [
+                            [58000, 20000],
+                            [60720, 20000]
+                        ],
+                        [
+                            [60000, 40000],
+                            [60000, 55000]
+                        ],
+                        [
+                            [60000, 55000],
+                            [61080, 54590]
+                        ]
+                    ],
+                    "connectionSpacing": 1600,
+                    "channelWidth": 800,
+                    "height": 250
+                },
+                "dxfData": [],
+                "type": "XY"
+            },
+            "e1af2960-c1e4-11ec-97cd-79631b863aad": {
+                "id": "e1af2960-c1e4-11ec-97cd-79631b863aad",
+                "name": "New Feature",
+                "macro": "Connection",
+                "set": "Basic",
+                "referenceID": "e03581b0-c1e4-11ec-97cd-79631b863aad",
+                "params": {
+                    "start": [60000, 40000],
+                    "end": [61080, 54590],
+                    "wayPoints": [
+                        [60000, 40000],
+                        [60000, 55000],
+                        [61080, 54590]
+                    ],
+                    "segments": [
+                        [
+                            [49280, 40000],
+                            [60000, 40000]
+                        ],
+                        [
+                            [60000, 40000],
+                            [58000, 20000]
+                        ],
+                        [
+                            [58000, 20000],
+                            [60720, 20000]
+                        ],
+                        [
+                            [60000, 40000],
+                            [60000, 55000]
+                        ],
+                        [
+                            [60000, 55000],
+                            [61080, 54590]
+                        ]
+                    ],
+                    "connectionSpacing": 1600,
+                    "channelWidth": 800,
+                    "height": 250
+                },
+                "dxfData": [],
+                "type": "XY"
+            },
+            "e7139fd0-c1e4-11ec-97cd-79631b863aad": {
+                "id": "e7139fd0-c1e4-11ec-97cd-79631b863aad",
+                "name": "New Feature",
+                "macro": "Connection",
+                "set": "Basic",
+                "referenceID": "ed1cbab0-c1e4-11ec-97cd-79631b863aad",
+                "params": {
+                    "start": [70000, 54590],
+                    "end": [69280, 20000],
+                    "wayPoints": [
+                        [70000, 54590],
+                        [72000, 54000],
+                        [72000, 20000],
+                        [69280, 20000]
+                    ],
+                    "segments": [
+                        [
+                            [70000, 54590],
+                            [72000, 54000]
+                        ],
+                        [
+                            [72000, 54000],
+                            [72000, 20000]
+                        ],
+                        [
+                            [72000, 20000],
+                            [69280, 20000]
+                        ],
+                        [
+                            [72000, 40000],
+                            [80720, 40000]
+                        ]
+                    ],
+                    "connectionSpacing": 1600,
+                    "channelWidth": 800,
+                    "height": 250
+                },
+                "dxfData": [],
+                "type": "XY"
+            },
+            "25f7c870-c1e5-11ec-bd9a-215228d91faa": {
+                "id": "25f7c870-c1e5-11ec-bd9a-215228d91faa",
+                "name": "New Feature",
+                "macro": "Connection",
+                "set": "Basic",
+                "referenceID": "ed1cbab0-c1e4-11ec-97cd-79631b863aad",
+                "params": {
+                    "start": [72000, 40000],
+                    "end": [80720, 40000],
+                    "wayPoints": [
+                        [72000, 40000],
+                        [80720, 40000]
+                    ],
+                    "segments": [
+                        [
+                            [70000, 54590],
+                            [72000, 54000]
+                        ],
+                        [
+                            [72000, 54000],
+                            [72000, 20000]
+                        ],
+                        [
+                            [72000, 20000],
+                            [69280, 20000]
+                        ],
+                        [
+                            [72000, 40000],
+                            [80720, 40000]
+                        ]
+                    ],
+                    "connectionSpacing": 1600,
+                    "channelWidth": 800,
+                    "height": 250
+                },
+                "dxfData": [],
+                "type": "XY"
+            },
+            "518a4350-c1e5-11ec-bd9a-215228d91faa": {
+                "id": "518a4350-c1e5-11ec-bd9a-215228d91faa",
+                "name": "New Feature",
+                "macro": "Connection",
+                "set": "Basic",
+                "referenceID": "56330ae0-c1e5-11ec-bd9a-215228d91faa",
+                "params": {
+                    "start": [89280, 40000],
+                    "end": [120000, 20000],
+                    "wayPoints": [
+                        [89280, 40000],
+                        [100000, 40000],
+                        [100000, 30000],
+                        [120000, 20000]
+                    ],
+                    "segments": [
+                        [
+                            [89280, 40000],
+                            [100000, 40000]
+                        ],
+                        [
+                            [100000, 40000],
+                            [100000, 30000]
+                        ],
+                        [
+                            [100000, 30000],
+                            [120000, 20000]
+                        ],
+                        [
+                            [100000, 40000],
+                            [100000, 50000]
+                        ],
+                        [
+                            [100000, 50000],
+                            [120000, 60000]
+                        ],
+                        [
+                            [100000, 40000],
+                            [120000, 40000]
+                        ]
+                    ],
+                    "connectionSpacing": 1600,
+                    "channelWidth": 800,
+                    "height": 250
+                },
+                "dxfData": [],
+                "type": "XY"
+            },
+            "5783a6c0-c1e5-11ec-bd9a-215228d91faa": {
+                "id": "5783a6c0-c1e5-11ec-bd9a-215228d91faa",
+                "name": "New Feature",
+                "macro": "Connection",
+                "set": "Basic",
+                "referenceID": "56330ae0-c1e5-11ec-bd9a-215228d91faa",
+                "params": {
+                    "start": [100000, 40000],
+                    "end": [120000, 60000],
+                    "wayPoints": [
+                        [100000, 40000],
+                        [100000, 50000],
+                        [120000, 60000]
+                    ],
+                    "segments": [
+                        [
+                            [89280, 40000],
+                            [100000, 40000]
+                        ],
+                        [
+                            [100000, 40000],
+                            [100000, 30000]
+                        ],
+                        [
+                            [100000, 30000],
+                            [120000, 20000]
+                        ],
+                        [
+                            [100000, 40000],
+                            [100000, 50000]
+                        ],
+                        [
+                            [100000, 50000],
+                            [120000, 60000]
+                        ],
+                        [
+                            [100000, 40000],
+                            [120000, 40000]
+                        ]
+                    ],
+                    "connectionSpacing": 1600,
+                    "channelWidth": 800,
+                    "height": 250
+                },
+                "dxfData": [],
+                "type": "XY"
+            },
+            "5c0a6760-c1e5-11ec-bd9a-215228d91faa": {
+                "id": "5c0a6760-c1e5-11ec-bd9a-215228d91faa",
+                "name": "New Feature",
+                "macro": "Connection",
+                "set": "Basic",
+                "referenceID": "56330ae0-c1e5-11ec-bd9a-215228d91faa",
+                "params": {
+                    "start": [100000, 40000],
+                    "end": [120000, 40000],
+                    "wayPoints": [
+                        [100000, 40000],
+                        [120000, 40000]
+                    ],
+                    "segments": [
+                        [
+                            [89280, 40000],
+                            [100000, 40000]
+                        ],
+                        [
+                            [100000, 40000],
+                            [100000, 30000]
+                        ],
+                        [
+                            [100000, 30000],
+                            [120000, 20000]
+                        ],
+                        [
+                            [100000, 40000],
+                            [100000, 50000]
+                        ],
+                        [
+                            [100000, 50000],
+                            [120000, 60000]
+                        ],
+                        [
+                            [100000, 40000],
+                            [120000, 40000]
+                        ]
+                    ],
+                    "connectionSpacing": 1600,
+                    "channelWidth": 800,
+                    "height": 250
+                },
+                "dxfData": [],
+                "type": "XY"
+            },
+            "e63690d0-c1e5-11ec-97cc-1b286340a644": {
+                "id": "e63690d0-c1e5-11ec-97cc-1b286340a644",
+                "name": "New Feature",
+                "macro": "Channel",
+                "set": "Basic",
+                "params": {
+                    "start": [60000, 40000],
+                    "end": [60000, 40000],
+                    "channelWidth": 800,
+                    "height": 250
+                },
+                "dxfData": [],
+                "type": "XY"
+            },
+            "e80eac30-c1e5-11ec-97cc-1b286340a644": {
+                "id": "e80eac30-c1e5-11ec-97cc-1b286340a644",
+                "name": "New Feature",
+                "macro": "Channel",
+                "set": "Basic",
+                "params": {
+                    "start": [59000, 40000],
+                    "end": [74000, 40000],
+                    "channelWidth": 800,
+                    "height": 250
+                },
+                "dxfData": [],
+                "type": "XY"
+            },
+            "24541470-c1ee-11ec-b3d1-f3f96212c02e": {
+                "id": "24541470-c1ee-11ec-b3d1-f3f96212c02e",
+                "name": "New Feature",
+                "macro": "Channel",
+                "set": "Basic",
+                "params": {
+                    "start": [4000, 26000],
+                    "end": [4000, 26000],
+                    "channelWidth": 800,
+                    "height": 250
+                },
+                "dxfData": [],
+                "type": "XY"
+            },
+            "5aa48a40-c1ef-11ec-b3d1-f3f96212c02e": {
+                "id": "5aa48a40-c1ef-11ec-b3d1-f3f96212c02e",
+                "name": "New Feature",
+                "macro": "Channel",
+                "set": "Basic",
+                "params": {
+                    "start": [84000, 98000],
+                    "end": [84000, 98000],
+                    "channelWidth": 800,
+                    "height": 250
+                },
+                "dxfData": [],
+                "type": "XY"
+            },
+            "3715b960-c1fd-11ec-b3d1-f3f96212c02e": {
+                "id": "3715b960-c1fd-11ec-b3d1-f3f96212c02e",
+                "name": "3715b960-c1fd-11ec-b3d1-f3f96212c02e",
+                "macro": "EDGE",
+                "set": "Basic",
+                "dxfData": [{
+                    "type": "POLYLINE",
+                    "vertices": [{
+                        "x": 0,
+                        "y": 0,
+                        "z": 0
+                    }, {
+                        "x": 135,
+                        "y": 0,
+                        "z": 0
+                    }, {
+                        "x": 135,
+                        "y": 85,
+                        "z": 0
+                    }, {
+                        "x": 0,
+                        "y": 85,
+                        "z": 0
+                    }, {
+                        "x": 0,
+                        "y": 0,
+                        "z": 0
+                    }]
+                }],
+                "type": "EDGE"
+            }
+        }
+    }, {
+        "name": "control",
+        "color": "red",
+        "params": {
+            "z_offset": 1200,
+            "flip": true
+        },
+        "features": {
+            "4aeca610-c1e4-11ec-8022-97f470c8471b": {
+                "id": "4aeca610-c1e4-11ec-8022-97f470c8471b",
+                "name": "New Feature",
+                "macro": "Pump_control",
+                "set": "Basic",
+                "referenceID": "4aeccd20-c1e4-11ec-8022-97f470c8471b",
+                "params": {
+                    "position": [45000, 40000],
+                    "componentSpacing": 1000,
+                    "rotation": 90,
+                    "length": 1030,
+                    "width": 5490,
+                    "height": 430,
+                    "spacing": 3310,
+                    "flowChannelWidth": 871
+                },
+                "dxfData": [],
+                "type": "XY"
+            },
+            "4cde3ce0-c1e4-11ec-8022-97f470c8471b": {
+                "id": "4cde3ce0-c1e4-11ec-8022-97f470c8471b",
+                "name": "New Feature",
+                "macro": "Pump_control",
+                "set": "Basic",
+                "referenceID": "4cde3ce1-c1e4-11ec-8022-97f470c8471b",
+                "params": {
+                    "position": [65000, 20000],
+                    "componentSpacing": 1000,
+                    "rotation": 90,
+                    "length": 1030,
+                    "width": 5490,
+                    "height": 430,
+                    "spacing": 3310,
+                    "flowChannelWidth": 871
+                },
+                "dxfData": [],
+                "type": "XY"
+            },
+            "5015e840-c1e4-11ec-8022-97f470c8471b": {
+                "id": "5015e840-c1e4-11ec-8022-97f470c8471b",
+                "name": "New Feature",
+                "macro": "Pump_control",
+                "set": "Basic",
+                "referenceID": "5015e841-c1e4-11ec-8022-97f470c8471b",
+                "params": {
+                    "position": [85000, 40000],
+                    "componentSpacing": 1000,
+                    "rotation": 90,
+                    "length": 1030,
+                    "width": 5490,
+                    "height": 430,
+                    "spacing": 3310,
+                    "flowChannelWidth": 871
+                },
+                "dxfData": [],
+                "type": "XY"
+            },
+            "2d178370-c1e5-11ec-bd9a-215228d91faa": {
+                "id": "2d178370-c1e5-11ec-bd9a-215228d91faa",
+                "name": "New Feature",
+                "macro": "Valve",
+                "set": "Basic",
+                "referenceID": "2d1846c0-c1e5-11ec-bd9a-215228d91faa",
+                "params": {
+                    "position": [26000, 35000],
+                    "rotation": 90,
+                    "componentSpacing": 1000,
+                    "length": 2800,
+                    "width": 580,
+                    "height": 250
+                },
+                "dxfData": [],
+                "type": "XY"
+            },
+            "2e2486a0-c1e5-11ec-bd9a-215228d91faa": {
+                "id": "2e2486a0-c1e5-11ec-bd9a-215228d91faa",
+                "name": "New Feature",
+                "macro": "Valve",
+                "set": "Basic",
+                "referenceID": "2e2549f0-c1e5-11ec-bd9a-215228d91faa",
+                "params": {
+                    "position": [26000, 43000],
+                    "rotation": 90,
+                    "componentSpacing": 1000,
+                    "length": 2800,
+                    "width": 580,
+                    "height": 250
+                },
+                "dxfData": [],
+                "type": "XY"
+            },
+            "2f564fe0-c1e5-11ec-bd9a-215228d91faa": {
+                "id": "2f564fe0-c1e5-11ec-bd9a-215228d91faa",
+                "name": "New Feature",
+                "macro": "Valve",
+                "set": "Basic",
+                "referenceID": "2f573a40-c1e5-11ec-bd9a-215228d91faa",
+                "params": {
+                    "position": [23000, 39000],
+                    "componentSpacing": 1000,
+                    "rotation": 0,
+                    "length": 2800,
+                    "width": 580,
+                    "height": 250
+                },
+                "dxfData": [],
+                "type": "XY"
+            },
+            "314d8c00-c1e5-11ec-bd9a-215228d91faa": {
+                "id": "314d8c00-c1e5-11ec-bd9a-215228d91faa",
+                "name": "New Feature",
+                "macro": "Valve",
+                "set": "Basic",
+                "referenceID": "314e2840-c1e5-11ec-bd9a-215228d91faa",
+                "params": {
+                    "position": [31000, 35000],
+                    "rotation": 90,
+                    "componentSpacing": 1000,
+                    "length": 2800,
+                    "width": 580,
+                    "height": 250
+                },
+                "dxfData": [],
+                "type": "XY"
+            },
+            "324ef670-c1e5-11ec-bd9a-215228d91faa": {
+                "id": "324ef670-c1e5-11ec-bd9a-215228d91faa",
+                "name": "New Feature",
+                "macro": "Valve",
+                "set": "Basic",
+                "referenceID": "324fb9c0-c1e5-11ec-bd9a-215228d91faa",
+                "params": {
+                    "position": [31000, 42000],
+                    "rotation": 90,
+                    "componentSpacing": 1000,
+                    "length": 2800,
+                    "width": 580,
+                    "height": 250
+                },
+                "dxfData": [],
+                "type": "XY"
+            },
+            "3bac6c70-c1e5-11ec-bd9a-215228d91faa": {
+                "id": "3bac6c70-c1e5-11ec-bd9a-215228d91faa",
+                "name": "New Feature",
+                "macro": "Valve",
+                "set": "Basic",
+                "referenceID": "3bad2fc0-c1e5-11ec-bd9a-215228d91faa",
+                "params": {
+                    "position": [60000, 45000],
+                    "rotation": 90,
+                    "componentSpacing": 1000,
+                    "length": 2800,
+                    "width": 580,
+                    "height": 250
+                },
+                "dxfData": [],
+                "type": "XY"
+            },
+            "3dade1c0-c1e5-11ec-bd9a-215228d91faa": {
+                "id": "3dade1c0-c1e5-11ec-bd9a-215228d91faa",
+                "name": "New Feature",
+                "macro": "Valve",
+                "set": "Basic",
+                "referenceID": "3daef330-c1e5-11ec-bd9a-215228d91faa",
+                "params": {
+                    "position": [72000, 36000],
+                    "rotation": 90,
+                    "componentSpacing": 1000,
+                    "length": 2800,
+                    "width": 580,
+                    "height": 250
+                },
+                "dxfData": [],
+                "type": "XY"
+            },
+            "40ea2100-c1e5-11ec-bd9a-215228d91faa": {
+                "id": "40ea2100-c1e5-11ec-bd9a-215228d91faa",
+                "name": "New Feature",
+                "macro": "Valve",
+                "set": "Basic",
+                "referenceID": "40ea9630-c1e5-11ec-bd9a-215228d91faa",
+                "params": {
+                    "position": [72000, 44000],
+                    "rotation": 90,
+                    "componentSpacing": 1000,
+                    "length": 2800,
+                    "width": 580,
+                    "height": 250
+                },
+                "dxfData": [],
+                "type": "XY"
+            },
+            "436421b0-c1e5-11ec-bd9a-215228d91faa": {
+                "id": "436421b0-c1e5-11ec-bd9a-215228d91faa",
+                "name": "New Feature",
+                "macro": "Valve",
+                "set": "Basic",
+                "referenceID": "436421b1-c1e5-11ec-bd9a-215228d91faa",
+                "params": {
+                    "position": [59000, 32000],
+                    "rotation": 90,
+                    "componentSpacing": 1000,
+                    "length": 2800,
+                    "width": 580,
+                    "height": 250
+                },
+                "dxfData": [],
+                "type": "XY"
+            },
+            "62daf0f0-c1e5-11ec-bd9a-215228d91faa": {
+                "id": "62daf0f0-c1e5-11ec-bd9a-215228d91faa",
+                "name": "New Feature",
+                "macro": "Valve",
+                "set": "Basic",
+                "referenceID": "62dc2970-c1e5-11ec-bd9a-215228d91faa",
+                "params": {
+                    "position": [100000, 36000],
+                    "rotation": 90,
+                    "componentSpacing": 1000,
+                    "length": 2800,
+                    "width": 580,
+                    "height": 250
+                },
+                "dxfData": [],
+                "type": "XY"
+            },
+            "647d0830-c1e5-11ec-bd9a-215228d91faa": {
+                "id": "647d0830-c1e5-11ec-bd9a-215228d91faa",
+                "name": "New Feature",
+                "macro": "Valve",
+                "set": "Basic",
+                "referenceID": "647df290-c1e5-11ec-bd9a-215228d91faa",
+                "params": {
+                    "position": [100000, 44000],
+                    "rotation": 90,
+                    "componentSpacing": 1000,
+                    "length": 2800,
+                    "width": 580,
+                    "height": 250
+                },
+                "dxfData": [],
+                "type": "XY"
+            },
+            "67e0f3b0-c1e5-11ec-bd9a-215228d91faa": {
+                "id": "67e0f3b0-c1e5-11ec-bd9a-215228d91faa",
+                "name": "New Feature",
+                "macro": "Valve",
+                "set": "Basic",
+                "referenceID": "67e1b700-c1e5-11ec-bd9a-215228d91faa",
+                "params": {
+                    "position": [103000, 40000],
+                    "componentSpacing": 1000,
+                    "rotation": 0,
+                    "length": 2800,
+                    "width": 580,
+                    "height": 250
+                },
+                "dxfData": [],
+                "type": "XY"
+            },
+            "cd975000-c1e5-11ec-be42-151144a80e96": {
+                "id": "cd975000-c1e5-11ec-be42-151144a80e96",
+                "name": "New Feature",
+                "macro": "Valve",
+                "set": "Basic",
+                "referenceID": "cd981350-c1e5-11ec-be42-151144a80e96",
+                "params": {
+                    "position": [58000, 40000],
+                    "componentSpacing": 1000,
+                    "rotation": 0,
+                    "length": 2800,
+                    "width": 580,
+                    "height": 250
+                },
+                "dxfData": [],
+                "type": "XY"
+            },
+            "fe77ac10-c1e5-11ec-9406-330ade2e2d5d": {
+                "id": "fe77ac10-c1e5-11ec-9406-330ade2e2d5d",
+                "name": "New Feature",
+                "macro": "Valve",
+                "set": "Basic",
+                "referenceID": "fe78bd80-c1e5-11ec-9406-330ade2e2d5d",
+                "params": {
+                    "position": [74000, 40000],
+                    "componentSpacing": 1000,
+                    "rotation": 0,
+                    "length": 2800,
+                    "width": 580,
+                    "height": 250
+                },
+                "dxfData": [],
+                "type": "XY"
+            },
+            "4fbc6bb0-c1e6-11ec-b111-773dbff12206": {
+                "id": "4fbc6bb0-c1e6-11ec-b111-773dbff12206",
+                "name": "New Feature",
+                "macro": "Port",
+                "set": "Basic",
+                "referenceID": "4fbd07f0-c1e6-11ec-b111-773dbff12206",
+                "params": {
+                    "position": [7000, 45000],
+                    "componentSpacing": 1000,
+                    "portRadius": 700,
+                    "height": 1100
+                },
+                "dxfData": [],
+                "type": "XY"
+            },
+            "51e195a0-c1e6-11ec-b111-773dbff12206": {
+                "id": "51e195a0-c1e6-11ec-b111-773dbff12206",
+                "name": "New Feature",
+                "macro": "Port",
+                "set": "Basic",
+                "referenceID": "51e20ad0-c1e6-11ec-b111-773dbff12206",
+                "params": {
+                    "position": [38000, 19000],
+                    "componentSpacing": 1000,
+                    "portRadius": 700,
+                    "height": 1100
+                },
+                "dxfData": [],
+                "type": "XY"
+            },
+            "53bf0830-c1e6-11ec-b111-773dbff12206": {
+                "id": "53bf0830-c1e6-11ec-b111-773dbff12206",
+                "name": "New Feature",
+                "macro": "Port",
+                "set": "Basic",
+                "referenceID": "53bfcb80-c1e6-11ec-b111-773dbff12206",
+                "params": {
+                    "position": [25000, 14000],
+                    "componentSpacing": 1000,
+                    "portRadius": 700,
+                    "height": 1100
+                },
+                "dxfData": [],
+                "type": "XY"
+            },
+            "551a0450-c1e6-11ec-b111-773dbff12206": {
+                "id": "551a0450-c1e6-11ec-b111-773dbff12206",
+                "name": "New Feature",
+                "macro": "Port",
+                "set": "Basic",
+                "referenceID": "551b15c0-c1e6-11ec-b111-773dbff12206",
+                "params": {
+                    "position": [26000, 67000],
+                    "componentSpacing": 1000,
+                    "portRadius": 700,
+                    "height": 1100
+                },
+                "dxfData": [],
+                "type": "XY"
+            },
+            "56596220-c1e6-11ec-b111-773dbff12206": {
+                "id": "56596220-c1e6-11ec-b111-773dbff12206",
+                "name": "New Feature",
+                "macro": "Port",
+                "set": "Basic",
+                "referenceID": "565a4c80-c1e6-11ec-b111-773dbff12206",
+                "params": {
+                    "position": [38000, 63000],
+                    "componentSpacing": 1000,
+                    "portRadius": 700,
+                    "height": 1100
+                },
+                "dxfData": [],
+                "type": "XY"
+            },
+            "98f0f5d0-c1e6-11ec-b111-773dbff12206": {
+                "id": "98f0f5d0-c1e6-11ec-b111-773dbff12206",
+                "name": "New Feature",
+                "macro": "Connection",
+                "set": "Basic",
+                "referenceID": "9b539df0-c1e6-11ec-b111-773dbff12206",
+                "params": {
+                    "start": [38000, 63000],
+                    "end": [31000, 42000],
+                    "wayPoints": [
+                        [38000, 63000],
+                        [31000, 42000]
+                    ],
+                    "segments": [
+                        [
+                            [38000, 63000],
+                            [38000, 63000]
+                        ],
+                        [
+                            [38000, 63000],
+                            [31000, 42000]
+                        ],
+                        [
+                            [31000, 42000],
+                            [31000, 42000]
+                        ]
+                    ],
+                    "connectionSpacing": 1600,
+                    "channelWidth": 253,
+                    "height": 250
+                },
+                "dxfData": [],
+                "type": "XY"
+            },
+            "9c681b30-c1e6-11ec-b111-773dbff12206": {
+                "id": "9c681b30-c1e6-11ec-b111-773dbff12206",
+                "name": "New Feature",
+                "macro": "Connection",
+                "set": "Basic",
+                "referenceID": "9d553a50-c1e6-11ec-b111-773dbff12206",
+                "params": {
+                    "start": [26000, 67000],
+                    "end": [26000, 43000],
+                    "wayPoints": [
+                        [26000, 67000],
+                        [26000, 43000]
+                    ],
+                    "segments": [
+                        [
+                            [26000, 67000],
+                            [26000, 67000]
+                        ],
+                        [
+                            [26000, 67000],
+                            [26000, 43000]
+                        ],
+                        [
+                            [26000, 43000],
+                            [26000, 43000]
+                        ]
+                    ],
+                    "connectionSpacing": 1600,
+                    "channelWidth": 253,
+                    "height": 250
+                },
+                "dxfData": [],
+                "type": "XY"
+            },
+            "9e75c580-c1e6-11ec-b111-773dbff12206": {
+                "id": "9e75c580-c1e6-11ec-b111-773dbff12206",
+                "name": "New Feature",
+                "macro": "Connection",
+                "set": "Basic",
+                "referenceID": "9f9d0770-c1e6-11ec-b111-773dbff12206",
+                "params": {
+                    "start": [7000, 45000],
+                    "end": [23000, 39000],
+                    "wayPoints": [
+                        [7000, 45000],
+                        [23000, 39000]
+                    ],
+                    "segments": [
+                        [
+                            [7000, 45000],
+                            [7000, 45000]
+                        ],
+                        [
+                            [7000, 45000],
+                            [23000, 39000]
+                        ],
+                        [
+                            [23000, 39000],
+                            [23000, 39000]
+                        ]
+                    ],
+                    "connectionSpacing": 1600,
+                    "channelWidth": 253,
+                    "height": 250
+                },
+                "dxfData": [],
+                "type": "XY"
+            },
+            "a07da370-c1e6-11ec-b111-773dbff12206": {
+                "id": "a07da370-c1e6-11ec-b111-773dbff12206",
+                "name": "New Feature",
+                "macro": "Connection",
+                "set": "Basic",
+                "referenceID": "a24766f0-c1e6-11ec-b111-773dbff12206",
+                "params": {
+                    "start": [25000, 14000],
+                    "end": [26000, 35000],
+                    "wayPoints": [
+                        [25000, 14000],
+                        [26000, 35000]
+                    ],
+                    "segments": [
+                        [
+                            [25000, 14000],
+                            [25000, 14000]
+                        ],
+                        [
+                            [25000, 14000],
+                            [26000, 35000]
+                        ],
+                        [
+                            [26000, 35000],
+                            [26000, 35000]
+                        ]
+                    ],
+                    "connectionSpacing": 1600,
+                    "channelWidth": 253,
+                    "height": 250
+                },
+                "dxfData": [],
+                "type": "XY"
+            },
+            "a98a1340-c1e6-11ec-b111-773dbff12206": {
+                "id": "a98a1340-c1e6-11ec-b111-773dbff12206",
+                "name": "New Feature",
+                "macro": "Connection",
+                "set": "Basic",
+                "referenceID": "aee9a7b0-c1e6-11ec-b111-773dbff12206",
+                "params": {
+                    "start": [41310, 40000],
+                    "end": [41000, 55000],
+                    "wayPoints": [
+                        [41310, 40000],
+                        [41000, 55000]
+                    ],
+                    "segments": [
+                        [
+                            [41310, 40000],
+                            [41310, 40000]
+                        ],
+                        [
+                            [41310, 40000],
+                            [41000, 55000]
+                        ],
+                        [
+                            [41000, 55000],
+                            [41000, 55000]
+                        ]
+                    ],
+                    "connectionSpacing": 1600,
+                    "channelWidth": 253,
+                    "height": 250
+                },
+                "dxfData": [],
+                "type": "XY"
+            },
+            "b2fa4df0-c1e6-11ec-b111-773dbff12206": {
+                "id": "b2fa4df0-c1e6-11ec-b111-773dbff12206",
+                "name": "New Feature",
+                "macro": "Port",
+                "set": "Basic",
+                "referenceID": "b2fbfba0-c1e6-11ec-b111-773dbff12206",
+                "params": {
+                    "position": [41000, 55000],
+                    "componentSpacing": 1000,
+                    "portRadius": 700,
+                    "height": 1100
+                },
+                "dxfData": [],
+                "type": "XY"
+            },
+            "b3f6d660-c1e6-11ec-b111-773dbff12206": {
+                "id": "b3f6d660-c1e6-11ec-b111-773dbff12206",
+                "name": "New Feature",
+                "macro": "Port",
+                "set": "Basic",
+                "referenceID": "b3f88410-c1e6-11ec-b111-773dbff12206",
+                "params": {
+                    "position": [45000, 55000],
+                    "componentSpacing": 1000,
+                    "portRadius": 700,
+                    "height": 1100
+                },
+                "dxfData": [],
+                "type": "XY"
+            },
+            "b4997f00-c1e6-11ec-b111-773dbff12206": {
+                "id": "b4997f00-c1e6-11ec-b111-773dbff12206",
+                "name": "New Feature",
+                "macro": "Port",
+                "set": "Basic",
+                "referenceID": "b49a9070-c1e6-11ec-b111-773dbff12206",
+                "params": {
+                    "position": [49000, 55000],
+                    "componentSpacing": 1000,
+                    "portRadius": 700,
+                    "height": 1100
+                },
+                "dxfData": [],
+                "type": "XY"
+            },
+            "b6932c20-c1e6-11ec-b111-773dbff12206": {
+                "id": "b6932c20-c1e6-11ec-b111-773dbff12206",
+                "name": "New Feature",
+                "macro": "Port",
+                "set": "Basic",
+                "referenceID": "b6941680-c1e6-11ec-b111-773dbff12206",
+                "params": {
+                    "position": [81000, 30000],
+                    "componentSpacing": 1000,
+                    "portRadius": 700,
+                    "height": 1100
+                },
+                "dxfData": [],
+                "type": "XY"
+            },
+            "b70093f0-c1e6-11ec-b111-773dbff12206": {
+                "id": "b70093f0-c1e6-11ec-b111-773dbff12206",
+                "name": "New Feature",
+                "macro": "Port",
+                "set": "Basic",
+                "referenceID": "b701f380-c1e6-11ec-b111-773dbff12206",
+                "params": {
+                    "position": [85000, 30000],
+                    "componentSpacing": 1000,
+                    "portRadius": 700,
+                    "height": 1100
+                },
+                "dxfData": [],
+                "type": "XY"
+            },
+            "b78135a0-c1e6-11ec-b111-773dbff12206": {
+                "id": "b78135a0-c1e6-11ec-b111-773dbff12206",
+                "name": "New Feature",
+                "macro": "Port",
+                "set": "Basic",
+                "referenceID": "b782bc40-c1e6-11ec-b111-773dbff12206",
+                "params": {
+                    "position": [89000, 30000],
+                    "componentSpacing": 1000,
+                    "portRadius": 700,
+                    "height": 1100
+                },
+                "dxfData": [],
+                "type": "XY"
+            },
+            "b86e06a0-c1e6-11ec-b111-773dbff12206": {
+                "id": "b86e06a0-c1e6-11ec-b111-773dbff12206",
+                "name": "New Feature",
+                "macro": "Port",
+                "set": "Basic",
+                "referenceID": "b86fb450-c1e6-11ec-b111-773dbff12206",
+                "params": {
+                    "position": [61000, 9000],
+                    "componentSpacing": 1000,
+                    "portRadius": 700,
+                    "height": 1100
+                },
+                "dxfData": [],
+                "type": "XY"
+            },
+            "b8f0a420-c1e6-11ec-b111-773dbff12206": {
+                "id": "b8f0a420-c1e6-11ec-b111-773dbff12206",
+                "name": "New Feature",
+                "macro": "Port",
+                "set": "Basic",
+                "referenceID": "b8f251d0-c1e6-11ec-b111-773dbff12206",
+                "params": {
+                    "position": [65000, 9000],
+                    "componentSpacing": 1000,
+                    "portRadius": 700,
+                    "height": 1100
+                },
+                "dxfData": [],
+                "type": "XY"
+            },
+            "b9638a30-c1e6-11ec-b111-773dbff12206": {
+                "id": "b9638a30-c1e6-11ec-b111-773dbff12206",
+                "name": "New Feature",
+                "macro": "Port",
+                "set": "Basic",
+                "referenceID": "b96537e0-c1e6-11ec-b111-773dbff12206",
+                "params": {
+                    "position": [69000, 9000],
+                    "componentSpacing": 1000,
+                    "portRadius": 700,
+                    "height": 1100
+                },
+                "dxfData": [],
+                "type": "XY"
+            },
+            "bce732b0-c1e6-11ec-b111-773dbff12206": {
+                "id": "bce732b0-c1e6-11ec-b111-773dbff12206",
+                "name": "New Feature",
+                "macro": "Port",
+                "set": "Basic",
+                "referenceID": "bce84420-c1e6-11ec-b111-773dbff12206",
+                "params": {
+                    "position": [52000, 26000],
+                    "componentSpacing": 1000,
+                    "portRadius": 700,
+                    "height": 1100
+                },
+                "dxfData": [],
+                "type": "XY"
+            },
+            "bda04980-c1e6-11ec-b111-773dbff12206": {
+                "id": "bda04980-c1e6-11ec-b111-773dbff12206",
+                "name": "New Feature",
+                "macro": "Port",
+                "set": "Basic",
+                "referenceID": "bda1a910-c1e6-11ec-b111-773dbff12206",
+                "params": {
+                    "position": [44000, 29000],
+                    "componentSpacing": 1000,
+                    "portRadius": 700,
+                    "height": 1100
+                },
+                "dxfData": [],
+                "type": "XY"
+            },
+            "bf2785c0-c1e6-11ec-b111-773dbff12206": {
+                "id": "bf2785c0-c1e6-11ec-b111-773dbff12206",
+                "name": "New Feature",
+                "macro": "Port",
+                "set": "Basic",
+                "referenceID": "bf290c60-c1e6-11ec-b111-773dbff12206",
+                "params": {
+                    "position": [52000, 50000],
+                    "componentSpacing": 1000,
+                    "portRadius": 700,
+                    "height": 1100
+                },
+                "dxfData": [],
+                "type": "XY"
+            },
+            "ce3dacb0-c1e6-11ec-b111-773dbff12206": {
+                "id": "ce3dacb0-c1e6-11ec-b111-773dbff12206",
+                "name": "New Feature",
+                "macro": "Port",
+                "set": "Basic",
+                "referenceID": "ce3e7000-c1e6-11ec-b111-773dbff12206",
+                "params": {
+                    "position": [78000, 55000],
+                    "componentSpacing": 1000,
+                    "portRadius": 700,
+                    "height": 1100
+                },
+                "dxfData": [],
+                "type": "XY"
+            },
+            "cee648c0-c1e6-11ec-b111-773dbff12206": {
+                "id": "cee648c0-c1e6-11ec-b111-773dbff12206",
+                "name": "New Feature",
+                "macro": "Port",
+                "set": "Basic",
+                "referenceID": "cee7cf60-c1e6-11ec-b111-773dbff12206",
+                "params": {
+                    "position": [84000, 51000],
+                    "componentSpacing": 1000,
+                    "portRadius": 700,
+                    "height": 1100
+                },
+                "dxfData": [],
+                "type": "XY"
+            },
+            "cfc202c0-c1e6-11ec-b111-773dbff12206": {
+                "id": "cfc202c0-c1e6-11ec-b111-773dbff12206",
+                "name": "New Feature",
+                "macro": "Port",
+                "set": "Basic",
+                "referenceID": "cfc38960-c1e6-11ec-b111-773dbff12206",
+                "params": {
+                    "position": [76000, 25000],
+                    "componentSpacing": 1000,
+                    "portRadius": 700,
+                    "height": 1100
+                },
+                "dxfData": [],
+                "type": "XY"
+            },
+            "d0b5d8a0-c1e6-11ec-b111-773dbff12206": {
+                "id": "d0b5d8a0-c1e6-11ec-b111-773dbff12206",
+                "name": "New Feature",
+                "macro": "Port",
+                "set": "Basic",
+                "referenceID": "d0b73830-c1e6-11ec-b111-773dbff12206",
+                "params": {
+                    "position": [96000, 25000],
+                    "componentSpacing": 1000,
+                    "portRadius": 700,
+                    "height": 1100
+                },
+                "dxfData": [],
+                "type": "XY"
+            },
+            "d18ab4d0-c1e6-11ec-b111-773dbff12206": {
+                "id": "d18ab4d0-c1e6-11ec-b111-773dbff12206",
+                "name": "New Feature",
+                "macro": "Port",
+                "set": "Basic",
+                "referenceID": "d18c6280-c1e6-11ec-b111-773dbff12206",
+                "params": {
+                    "position": [96000, 55000],
+                    "componentSpacing": 1000,
+                    "portRadius": 700,
+                    "height": 1100
+                },
+                "dxfData": [],
+                "type": "XY"
+            },
+            "d2a41410-c1e6-11ec-b111-773dbff12206": {
+                "id": "d2a41410-c1e6-11ec-b111-773dbff12206",
+                "name": "New Feature",
+                "macro": "Port",
+                "set": "Basic",
+                "referenceID": "d2a5c1c0-c1e6-11ec-b111-773dbff12206",
+                "params": {
+                    "position": [108000, 59000],
+                    "componentSpacing": 1000,
+                    "portRadius": 700,
+                    "height": 1100
+                },
+                "dxfData": [],
+                "type": "XY"
+            },
+            "e0e3ff40-c1e6-11ec-b111-773dbff12206": {
+                "id": "e0e3ff40-c1e6-11ec-b111-773dbff12206",
+                "name": "New Feature",
+                "macro": "Connection",
+                "set": "Basic",
+                "referenceID": "e1af1770-c1e6-11ec-b111-773dbff12206",
+                "params": {
+                    "start": [45000, 55000],
+                    "end": [45000, 40000],
+                    "wayPoints": [
+                        [45000, 55000],
+                        [45000, 40000]
+                    ],
+                    "segments": [
+                        [
+                            [45000, 55000],
+                            [45000, 55000]
+                        ],
+                        [
+                            [45000, 55000],
+                            [45000, 40000]
+                        ],
+                        [
+                            [45000, 40000],
+                            [45000, 40000]
+                        ]
+                    ],
+                    "connectionSpacing": 1600,
+                    "channelWidth": 253,
+                    "height": 250
+                },
+                "dxfData": [],
+                "type": "XY"
+            },
+            "e2724060-c1e6-11ec-b111-773dbff12206": {
+                "id": "e2724060-c1e6-11ec-b111-773dbff12206",
+                "name": "New Feature",
+                "macro": "Connection",
+                "set": "Basic",
+                "referenceID": "e3253cb0-c1e6-11ec-b111-773dbff12206",
+                "params": {
+                    "start": [48690, 40000],
+                    "end": [49000, 55000],
+                    "wayPoints": [
+                        [48690, 40000],
+                        [49000, 55000]
+                    ],
+                    "segments": [
+                        [
+                            [48690, 40000],
+                            [48690, 40000]
+                        ],
+                        [
+                            [48690, 40000],
+                            [49000, 55000]
+                        ],
+                        [
+                            [49000, 55000],
+                            [49000, 55000]
+                        ]
+                    ],
+                    "connectionSpacing": 1600,
+                    "channelWidth": 253,
+                    "height": 250
+                },
+                "dxfData": [],
+                "type": "XY"
+            },
+            "e4b68b10-c1e6-11ec-b111-773dbff12206": {
+                "id": "e4b68b10-c1e6-11ec-b111-773dbff12206",
+                "name": "New Feature",
+                "macro": "Connection",
+                "set": "Basic",
+                "referenceID": "e589e0a0-c1e6-11ec-b111-773dbff12206",
+                "params": {
+                    "start": [52000, 50000],
+                    "end": [60000, 45000],
+                    "wayPoints": [
+                        [52000, 50000],
+                        [60000, 45000]
+                    ],
+                    "segments": [
+                        [
+                            [52000, 50000],
+                            [52000, 50000]
+                        ],
+                        [
+                            [52000, 50000],
+                            [60000, 45000]
+                        ],
+                        [
+                            [60000, 45000],
+                            [60000, 45000]
+                        ]
+                    ],
+                    "connectionSpacing": 1600,
+                    "channelWidth": 253,
+                    "height": 250
+                },
+                "dxfData": [],
+                "type": "XY"
+            },
+            "e6aba450-c1e6-11ec-b111-773dbff12206": {
+                "id": "e6aba450-c1e6-11ec-b111-773dbff12206",
+                "name": "New Feature",
+                "macro": "Connection",
+                "set": "Basic",
+                "referenceID": "e7c837e0-c1e6-11ec-b111-773dbff12206",
+                "params": {
+                    "start": [44000, 29000],
+                    "end": [58000, 40000],
+                    "wayPoints": [
+                        [44000, 29000],
+                        [58000, 40000]
+                    ],
+                    "segments": [
+                        [
+                            [44000, 29000],
+                            [44000, 29000]
+                        ],
+                        [
+                            [44000, 29000],
+                            [58000, 40000]
+                        ],
+                        [
+                            [58000, 40000],
+                            [58000, 40000]
+                        ]
+                    ],
+                    "connectionSpacing": 1600,
+                    "channelWidth": 253,
+                    "height": 250
+                },
+                "dxfData": [],
+                "type": "XY"
+            },
+            "e8d62570-c1e6-11ec-b111-773dbff12206": {
+                "id": "e8d62570-c1e6-11ec-b111-773dbff12206",
+                "name": "New Feature",
+                "macro": "Connection",
+                "set": "Basic",
+                "referenceID": "e9d14e50-c1e6-11ec-b111-773dbff12206",
+                "params": {
+                    "start": [52000, 26000],
+                    "end": [59000, 32000],
+                    "wayPoints": [
+                        [52000, 26000],
+                        [59000, 32000]
+                    ],
+                    "segments": [
+                        [
+                            [52000, 26000],
+                            [52000, 26000]
+                        ],
+                        [
+                            [52000, 26000],
+                            [59000, 32000]
+                        ],
+                        [
+                            [59000, 32000],
+                            [59000, 32000]
+                        ]
+                    ],
+                    "connectionSpacing": 1600,
+                    "channelWidth": 253,
+                    "height": 250
+                },
+                "dxfData": [],
+                "type": "XY"
+            },
+            "eb05afa0-c1e6-11ec-b111-773dbff12206": {
+                "id": "eb05afa0-c1e6-11ec-b111-773dbff12206",
+                "name": "New Feature",
+                "macro": "Connection",
+                "set": "Basic",
+                "referenceID": "ec776810-c1e6-11ec-b111-773dbff12206",
+                "params": {
+                    "start": [61000, 9000],
+                    "end": [61310, 20000],
+                    "wayPoints": [
+                        [61000, 9000],
+                        [61310, 20000]
+                    ],
+                    "segments": [
+                        [
+                            [61000, 9000],
+                            [61000, 9000]
+                        ],
+                        [
+                            [61000, 9000],
+                            [61310, 20000]
+                        ],
+                        [
+                            [61310, 20000],
+                            [61310, 20000]
+                        ]
+                    ],
+                    "connectionSpacing": 1600,
+                    "channelWidth": 253,
+                    "height": 250
+                },
+                "dxfData": [],
+                "type": "XY"
+            },
+            "ed846b40-c1e6-11ec-b111-773dbff12206": {
+                "id": "ed846b40-c1e6-11ec-b111-773dbff12206",
+                "name": "New Feature",
+                "macro": "Connection",
+                "set": "Basic",
+                "referenceID": "ee2677a0-c1e6-11ec-b111-773dbff12206",
+                "params": {
+                    "start": [65000, 9000],
+                    "end": [65000, 20000],
+                    "wayPoints": [
+                        [65000, 9000],
+                        [65000, 20000]
+                    ],
+                    "segments": [
+                        [
+                            [65000, 9000],
+                            [65000, 9000]
+                        ],
+                        [
+                            [65000, 9000],
+                            [65000, 20000]
+                        ],
+                        [
+                            [65000, 20000],
+                            [65000, 20000]
+                        ]
+                    ],
+                    "connectionSpacing": 1600,
+                    "channelWidth": 253,
+                    "height": 250
+                },
+                "dxfData": [],
+                "type": "XY"
+            },
+            "eef73520-c1e6-11ec-b111-773dbff12206": {
+                "id": "eef73520-c1e6-11ec-b111-773dbff12206",
+                "name": "New Feature",
+                "macro": "Connection",
+                "set": "Basic",
+                "referenceID": "ef9ac820-c1e6-11ec-b111-773dbff12206",
+                "params": {
+                    "start": [69000, 9000],
+                    "end": [68690, 20000],
+                    "wayPoints": [
+                        [69000, 9000],
+                        [68690, 20000]
+                    ],
+                    "segments": [
+                        [
+                            [69000, 9000],
+                            [69000, 9000]
+                        ],
+                        [
+                            [69000, 9000],
+                            [68690, 20000]
+                        ],
+                        [
+                            [68690, 20000],
+                            [68690, 20000]
+                        ]
+                    ],
+                    "connectionSpacing": 1600,
+                    "channelWidth": 253,
+                    "height": 250
+                },
+                "dxfData": [],
+                "type": "XY"
+            },
+            "f05c1c50-c1e6-11ec-b111-773dbff12206": {
+                "id": "f05c1c50-c1e6-11ec-b111-773dbff12206",
+                "name": "New Feature",
+                "macro": "Connection",
+                "set": "Basic",
+                "referenceID": "f15aeeb0-c1e6-11ec-b111-773dbff12206",
+                "params": {
+                    "start": [76000, 25000],
+                    "end": [72000, 36000],
+                    "wayPoints": [
+                        [76000, 25000],
+                        [72000, 36000]
+                    ],
+                    "segments": [
+                        [
+                            [76000, 25000],
+                            [76000, 25000]
+                        ],
+                        [
+                            [76000, 25000],
+                            [72000, 36000]
+                        ],
+                        [
+                            [72000, 36000],
+                            [72000, 36000]
+                        ]
+                    ],
+                    "connectionSpacing": 1600,
+                    "channelWidth": 253,
+                    "height": 250
+                },
+                "dxfData": [],
+                "type": "XY"
+            },
+            "fadb5600-c1e6-11ec-b111-773dbff12206": {
+                "id": "fadb5600-c1e6-11ec-b111-773dbff12206",
+                "name": "New Feature",
+                "macro": "Connection",
+                "set": "Basic",
+                "referenceID": "fb8c2f70-c1e6-11ec-b111-773dbff12206",
+                "params": {
+                    "start": [78000, 55000],
+                    "end": [72000, 44000],
+                    "wayPoints": [
+                        [78000, 55000],
+                        [72000, 44000]
+                    ],
+                    "segments": [
+                        [
+                            [78000, 55000],
+                            [78000, 55000]
+                        ],
+                        [
+                            [78000, 55000],
+                            [72000, 44000]
+                        ],
+                        [
+                            [72000, 44000],
+                            [72000, 44000]
+                        ]
+                    ],
+                    "connectionSpacing": 1600,
+                    "channelWidth": 253,
+                    "height": 250
+                },
+                "dxfData": [],
+                "type": "XY"
+            },
+            "fc3df340-c1e6-11ec-b111-773dbff12206": {
+                "id": "fc3df340-c1e6-11ec-b111-773dbff12206",
+                "name": "New Feature",
+                "macro": "Connection",
+                "set": "Basic",
+                "referenceID": "fd568f30-c1e6-11ec-b111-773dbff12206",
+                "params": {
+                    "start": [74000, 40000],
+                    "end": [84000, 51000],
+                    "wayPoints": [
+                        [74000, 40000],
+                        [84000, 51000]
+                    ],
+                    "segments": [
+                        [
+                            [74000, 40000],
+                            [74000, 40000]
+                        ],
+                        [
+                            [74000, 40000],
+                            [84000, 51000]
+                        ],
+                        [
+                            [84000, 51000],
+                            [84000, 51000]
+                        ]
+                    ],
+                    "connectionSpacing": 1600,
+                    "channelWidth": 253,
+                    "height": 250
+                },
+                "dxfData": [],
+                "type": "XY"
+            },
+            "fe91a740-c1e6-11ec-b111-773dbff12206": {
+                "id": "fe91a740-c1e6-11ec-b111-773dbff12206",
+                "name": "New Feature",
+                "macro": "Connection",
+                "set": "Basic",
+                "referenceID": "ffe131b0-c1e6-11ec-b111-773dbff12206",
+                "params": {
+                    "start": [81000, 31000],
+                    "end": [81310, 40000],
+                    "wayPoints": [
+                        [81000, 31000],
+                        [81310, 40000]
+                    ],
+                    "segments": [
+                        [
+                            [81000, 31000],
+                            [81000, 31000]
+                        ],
+                        [
+                            [81000, 31000],
+                            [81310, 40000]
+                        ],
+                        [
+                            [81310, 40000],
+                            [81310, 40000]
+                        ]
+                    ],
+                    "connectionSpacing": 1600,
+                    "channelWidth": 253,
+                    "height": 250
+                },
+                "dxfData": [],
+                "type": "XY"
+            },
+            "0086e790-c1e7-11ec-b111-773dbff12206": {
+                "id": "0086e790-c1e7-11ec-b111-773dbff12206",
+                "name": "New Feature",
+                "macro": "Connection",
+                "set": "Basic",
+                "referenceID": "010650c0-c1e7-11ec-b111-773dbff12206",
+                "params": {
+                    "start": [85000, 30000],
+                    "end": [85000, 40000],
+                    "wayPoints": [
+                        [85000, 30000],
+                        [85000, 40000]
+                    ],
+                    "segments": [
+                        [
+                            [85000, 30000],
+                            [85000, 30000]
+                        ],
+                        [
+                            [85000, 30000],
+                            [85000, 40000]
+                        ],
+                        [
+                            [85000, 40000],
+                            [85000, 40000]
+                        ]
+                    ],
+                    "connectionSpacing": 1600,
+                    "channelWidth": 253,
+                    "height": 250
+                },
+                "dxfData": [],
+                "type": "XY"
+            },
+            "01b359a0-c1e7-11ec-b111-773dbff12206": {
+                "id": "01b359a0-c1e7-11ec-b111-773dbff12206",
+                "name": "New Feature",
+                "macro": "Connection",
+                "set": "Basic",
+                "referenceID": "0239c7b0-c1e7-11ec-b111-773dbff12206",
+                "params": {
+                    "start": [89000, 30000],
+                    "end": [88690, 40000],
+                    "wayPoints": [
+                        [89000, 30000],
+                        [88690, 40000]
+                    ],
+                    "segments": [
+                        [
+                            [89000, 30000],
+                            [89000, 30000]
+                        ],
+                        [
+                            [89000, 30000],
+                            [88690, 40000]
+                        ],
+                        [
+                            [88690, 40000],
+                            [88690, 40000]
+                        ]
+                    ],
+                    "connectionSpacing": 1600,
+                    "channelWidth": 253,
+                    "height": 250
+                },
+                "dxfData": [],
+                "type": "XY"
+            },
+            "0338e830-c1e7-11ec-b111-773dbff12206": {
+                "id": "0338e830-c1e7-11ec-b111-773dbff12206",
+                "name": "New Feature",
+                "macro": "Connection",
+                "set": "Basic",
+                "referenceID": "04042770-c1e7-11ec-b111-773dbff12206",
+                "params": {
+                    "start": [96000, 25000],
+                    "end": [100000, 36000],
+                    "wayPoints": [
+                        [96000, 25000],
+                        [100000, 36000]
+                    ],
+                    "segments": [
+                        [
+                            [96000, 25000],
+                            [96000, 25000]
+                        ],
+                        [
+                            [96000, 25000],
+                            [100000, 36000]
+                        ],
+                        [
+                            [100000, 36000],
+                            [100000, 36000]
+                        ]
+                    ],
+                    "connectionSpacing": 1600,
+                    "channelWidth": 253,
+                    "height": 250
+                },
+                "dxfData": [],
+                "type": "XY"
+            },
+            "0547cb00-c1e7-11ec-b111-773dbff12206": {
+                "id": "0547cb00-c1e7-11ec-b111-773dbff12206",
+                "name": "New Feature",
+                "macro": "Connection",
+                "set": "Basic",
+                "referenceID": "0600bac0-c1e7-11ec-b111-773dbff12206",
+                "params": {
+                    "start": [96000, 55000],
+                    "end": [100000, 44000],
+                    "wayPoints": [
+                        [96000, 55000],
+                        [100000, 44000]
+                    ],
+                    "segments": [
+                        [
+                            [96000, 55000],
+                            [96000, 55000]
+                        ],
+                        [
+                            [96000, 55000],
+                            [100000, 44000]
+                        ],
+                        [
+                            [100000, 44000],
+                            [100000, 44000]
+                        ]
+                    ],
+                    "connectionSpacing": 1600,
+                    "channelWidth": 253,
+                    "height": 250
+                },
+                "dxfData": [],
+                "type": "XY"
+            },
+            "075f8770-c1e7-11ec-b111-773dbff12206": {
+                "id": "075f8770-c1e7-11ec-b111-773dbff12206",
+                "name": "New Feature",
+                "macro": "Connection",
+                "set": "Basic",
+                "referenceID": "07e5f580-c1e7-11ec-b111-773dbff12206",
+                "params": {
+                    "start": [108000, 59000],
+                    "end": [103000, 40000],
+                    "wayPoints": [
+                        [108000, 59000],
+                        [103000, 40000]
+                    ],
+                    "segments": [
+                        [
+                            [108000, 59000],
+                            [108000, 59000]
+                        ],
+                        [
+                            [108000, 59000],
+                            [103000, 40000]
+                        ],
+                        [
+                            [103000, 40000],
+                            [103000, 40000]
+                        ]
+                    ],
+                    "connectionSpacing": 1600,
+                    "channelWidth": 253,
+                    "height": 250
+                },
+                "dxfData": [],
+                "type": "XY"
+            },
+            "677fb550-c1ef-11ec-b3d1-f3f96212c02e": {
+                "id": "677fb550-c1ef-11ec-b3d1-f3f96212c02e",
+                "name": "New Feature",
+                "macro": "Channel",
+                "set": "Basic",
+                "params": {
+                    "start": [24000, 39000],
+                    "end": [24000, 39000],
+                    "channelWidth": 800,
+                    "height": 250
+                },
+                "dxfData": [],
+                "type": "XY"
+            },
+            "861d62a0-c1ef-11ec-b3d1-f3f96212c02e": {
+                "id": "861d62a0-c1ef-11ec-b3d1-f3f96212c02e",
+                "name": "New Feature",
+                "macro": "Valve",
+                "set": "Basic",
+                "referenceID": "861f1050-c1ef-11ec-b3d1-f3f96212c02e",
+                "params": {
+                    "position": [28000, 39000],
+                    "componentSpacing": 1000,
+                    "rotation": 0,
+                    "length": 2800,
+                    "width": 580,
+                    "height": 250
+                },
+                "dxfData": [],
+                "type": "XY"
+            },
+            "a238aad0-c1ef-11ec-b3d1-f3f96212c02e": {
+                "id": "a238aad0-c1ef-11ec-b3d1-f3f96212c02e",
+                "name": "New Feature",
+                "macro": "Port",
+                "set": "Basic",
+                "referenceID": "a23aa6a0-c1ef-11ec-b3d1-f3f96212c02e",
+                "params": {
+                    "position": [33000, 14000],
+                    "componentSpacing": 1000,
+                    "portRadius": 700,
+                    "height": 1100
+                },
+                "dxfData": [],
+                "type": "XY"
+            },
+            "a60e9200-c1ef-11ec-b3d1-f3f96212c02e": {
+                "id": "a60e9200-c1ef-11ec-b3d1-f3f96212c02e",
+                "name": "New Feature",
+                "macro": "Connection",
+                "set": "Basic",
+                "referenceID": "a7d19ec0-c1ef-11ec-b3d1-f3f96212c02e",
+                "params": {
+                    "start": [33000, 14000],
+                    "end": [28000, 39000],
+                    "wayPoints": [
+                        [33000, 14000],
+                        [28000, 39000]
+                    ],
+                    "segments": [
+                        [
+                            [33000, 14000],
+                            [33000, 14000]
+                        ],
+                        [
+                            [33000, 14000],
+                            [28000, 39000]
+                        ],
+                        [
+                            [28000, 39000],
+                            [28000, 39000]
+                        ]
+                    ],
+                    "connectionSpacing": 1600,
+                    "channelWidth": 253,
+                    "height": 250
+                },
+                "dxfData": [],
+                "type": "XY"
+            },
+            "28c00f30-c1f0-11ec-b3d1-f3f96212c02e": {
+                "id": "28c00f30-c1f0-11ec-b3d1-f3f96212c02e",
+                "name": "New Feature",
+                "macro": "Connection",
+                "set": "Basic",
+                "referenceID": "29c54a30-c1f0-11ec-b3d1-f3f96212c02e",
+                "params": {
+                    "start": [31000, 35000],
+                    "end": [38000, 19000],
+                    "wayPoints": [
+                        [31000, 35000],
+                        [38000, 19000]
+                    ],
+                    "segments": [
+                        [
+                            [31000, 35000],
+                            [31000, 35000]
+                        ],
+                        [
+                            [31000, 35000],
+                            [38000, 19000]
+                        ],
+                        [
+                            [38000, 19000],
+                            [38000, 19000]
+                        ]
+                    ],
+                    "connectionSpacing": 1600,
+                    "channelWidth": 253,
+                    "height": 250
+                },
+                "dxfData": [],
+                "type": "XY"
+            },
+            "3715b960-c1fd-11ec-b3d1-f3f96212c02e": {
+                "id": "3715b960-c1fd-11ec-b3d1-f3f96212c02e",
+                "name": "3715b960-c1fd-11ec-b3d1-f3f96212c02e",
+                "macro": "EDGE",
+                "set": "Basic",
+                "dxfData": [{
+                    "type": "POLYLINE",
+                    "vertices": [{
+                        "x": 0,
+                        "y": 0,
+                        "z": 0
+                    }, {
+                        "x": 135,
+                        "y": 0,
+                        "z": 0
+                    }, {
+                        "x": 135,
+                        "y": 85,
+                        "z": 0
+                    }, {
+                        "x": 0,
+                        "y": 85,
+                        "z": 0
+                    }, {
+                        "x": 0,
+                        "y": 0,
+                        "z": 0
+                    }]
+                }],
+                "type": "EDGE"
+            }
+        }
+    }, {
+        "name": "cells",
+        "color": "indigo",
+        "params": {
+            "z_offset": 2000,
+            "flip": false
+        },
+        "features": {
+            "3715b960-c1fd-11ec-b3d1-f3f96212c02e": {
+                "id": "3715b960-c1fd-11ec-b3d1-f3f96212c02e",
+                "name": "3715b960-c1fd-11ec-b3d1-f3f96212c02e",
+                "macro": "EDGE",
+                "set": "Basic",
+                "dxfData": [{
+                    "type": "POLYLINE",
+                    "vertices": [{
+                        "x": 0,
+                        "y": 0,
+                        "z": 0
+                    }, {
+                        "x": 135,
+                        "y": 0,
+                        "z": 0
+                    }, {
+                        "x": 135,
+                        "y": 85,
+                        "z": 0
+                    }, {
+                        "x": 0,
+                        "y": 85,
+                        "z": 0
+                    }, {
+                        "x": 0,
+                        "y": 0,
+                        "z": 0
+                    }]
+                }],
+                "type": "EDGE"
+            }
+        }
+    }],
+    "version": 1.1,
+    "groups": [],
+    "customComponents": {}
+}
