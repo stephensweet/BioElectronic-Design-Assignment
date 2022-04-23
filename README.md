@@ -8,3 +8,11 @@ towards lab automation, you will be required to design a microfluidic device pla
 that would enable the design and development of modern day gene therapeutics.
 
 [**HW2 Assignment**](https://github.com/stephensweet/BioElectronic-Design-Assignment/blob/main/HW2_Assignment_Spr22.pdf)
+
+The following tools were used in depth to complete the given assignments
+* [**3DuF**](http://3duf.org)
+* [**Neptune**](http://fluigicad.org)
+* [**MINT**](https://marketplace.visualstudio.com/items?itemName=rkrishnasanka.uf)
+* [**LFR**](https://marketplace.visualstudio.com/items?itemName=rkrishnasanka.lfr)
+
+
