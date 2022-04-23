@@ -1,0 +1,352 @@
+Input Path: /var/www/fluigicad.org/jobs/tmp__626352d6b92a3d0017915587/dnaSynthesizer.lfr
+File: /var/www/fluigicad.org/jobs/tmp__626352d6b92a3d0017915587/dnaSynthesizer.lfr
+['dnaSynthesizer.lfr']
+output dir: /var/www/fluigicad.org/jobs/tmp__626352d6b92a3d0017915587/output
+['/var/www/fluigicad.org/jobs/tmp__626352d6b92a3d0017915587/dnaSynthesizer.lfr']
+Creating the output directory:
+Initialized the lfrcompiler
+Entering the Distribution Block
+Entering the dis assign stat
+Performing operation: < VectorRange : path1 [0 : 0]> + < VectorRange : in [0 : 0]>
+Creating a vector of type [None]
+Exiting the dist assign stat
+LHS, RHS sizes are equal
+FLOW - in_0_MIX_(+)_path1_0 FLOW - path1
+Could not find source - in_0_MIX_(+)_path1_0 in state table connectivity graph, adding node
+Could not find target - path1 in state table connectivity graph, adding node
+Added the edge in_0_MIX_(+)_path1_0 -> path1
+Entering the dis assign stat
+Performing operation: < VectorRange : path1 [0 : 0]> + < VectorRange : in [1 : 1]>
+Creating a vector of type [None]
+Exiting the dist assign stat
+LHS, RHS sizes are equal
+FLOW - in_1_MIX_(+)_path1_1 FLOW - path1
+Could not find source - in_1_MIX_(+)_path1_1 in state table connectivity graph, adding node
+Could not find target - path1 in state table connectivity graph, adding node
+Added the edge in_1_MIX_(+)_path1_1 -> path1
+Entering the dis assign stat
+Performing operation: < VectorRange : path1 [0 : 0]> + < VectorRange : in [2 : 2]>
+Creating a vector of type [None]
+Exiting the dist assign stat
+LHS, RHS sizes are equal
+FLOW - in_2_MIX_(+)_path1_2 FLOW - path1
+Could not find source - in_2_MIX_(+)_path1_2 in state table connectivity graph, adding node
+Could not find target - path1 in state table connectivity graph, adding node
+Added the edge in_2_MIX_(+)_path1_2 -> path1
+Exit the Distribution Block
+Implement the fig generation from this
+Connectivity table for the distribution block
+╒═══════════════════════════════╤═══════════════════════════════╤═══════════════════════════════╕
+│   in_0_MIX_(+)_path1_0->path1 │   in_1_MIX_(+)_path1_1->path1 │   in_2_MIX_(+)_path1_2->path1 │
+╞═══════════════════════════════╪═══════════════════════════════╪═══════════════════════════════╡
+│                             1 │                             0 │                             0 │
+├───────────────────────────────┼───────────────────────────────┼───────────────────────────────┤
+│                             0 │                             1 │                             0 │
+├───────────────────────────────┼───────────────────────────────┼───────────────────────────────┤
+│                             0 │                             0 │                             1 │
+╘═══════════════════════════════╧═══════════════════════════════╧═══════════════════════════════╛
+DISTRIBUTE-AND CANDIDATES:
+[]
+╒═══════════════════════════════╤═══════════════════════════════╤═══════════════════════════════╕
+│   in_0_MIX_(+)_path1_0->path1 │   in_1_MIX_(+)_path1_1->path1 │   in_2_MIX_(+)_path1_2->path1 │
+╞═══════════════════════════════╪═══════════════════════════════╪═══════════════════════════════╡
+│                             1 │                             0 │                             0 │
+├───────────────────────────────┼───────────────────────────────┼───────────────────────────────┤
+│                             0 │                             1 │                             0 │
+├───────────────────────────────┼───────────────────────────────┼───────────────────────────────┤
+│                             0 │                             0 │                             1 │
+╘═══════════════════════════════╧═══════════════════════════════╧═══════════════════════════════╛
+[[1 0 0]
+ [0 1 0]
+ [0 0 1]]
+[[1 0 0]
+ [0 1 0]
+ [0 0 1]]
+DISTRIBUTE-OR CANDIDATES
+[[0, 1, 2]]
+Need to implement the generation of the OR annotation
+Entering the Distribution Block
+Entering the dis assign stat
+Performing operation: < VectorRange : path2 [0 : 0]> + < VectorRange : in [3 : 3]>
+Creating a vector of type [None]
+Exiting the dist assign stat
+LHS, RHS sizes are equal
+FLOW - in_3_MIX_(+)_path2_3 FLOW - path2
+Could not find source - in_3_MIX_(+)_path2_3 in state table connectivity graph, adding node
+Could not find target - path2 in state table connectivity graph, adding node
+Added the edge in_3_MIX_(+)_path2_3 -> path2
+Entering the dis assign stat
+Performing operation: < VectorRange : path2 [0 : 0]> + < VectorRange : path1 [0 : 0]>
+Creating a vector of type [None]
+Exiting the dist assign stat
+LHS, RHS sizes are equal
+FLOW - path1_MIX_(+)_path2_4 FLOW - path2
+Could not find source - path1_MIX_(+)_path2_4 in state table connectivity graph, adding node
+Could not find target - path2 in state table connectivity graph, adding node
+Added the edge path1_MIX_(+)_path2_4 -> path2
+Entering the dis assign stat
+Performing operation: < VectorRange : path2 [0 : 0]> + < VectorRange : in [4 : 4]>
+Creating a vector of type [None]
+Exiting the dist assign stat
+LHS, RHS sizes are equal
+FLOW - in_4_MIX_(+)_path2_5 FLOW - path2
+Could not find source - in_4_MIX_(+)_path2_5 in state table connectivity graph, adding node
+Could not find target - path2 in state table connectivity graph, adding node
+Added the edge in_4_MIX_(+)_path2_5 -> path2
+Exit the Distribution Block
+Implement the fig generation from this
+Connectivity table for the distribution block
+╒═══════════════════════════════╤════════════════════════════════╤═══════════════════════════════╕
+│   in_3_MIX_(+)_path2_3->path2 │   path1_MIX_(+)_path2_4->path2 │   in_4_MIX_(+)_path2_5->path2 │
+╞═══════════════════════════════╪════════════════════════════════╪═══════════════════════════════╡
+│                             1 │                              0 │                             0 │
+├───────────────────────────────┼────────────────────────────────┼───────────────────────────────┤
+│                             0 │                              1 │                             0 │
+├───────────────────────────────┼────────────────────────────────┼───────────────────────────────┤
+│                             0 │                              0 │                             1 │
+╘═══════════════════════════════╧════════════════════════════════╧═══════════════════════════════╛
+DISTRIBUTE-AND CANDIDATES:
+[]
+╒═══════════════════════════════╤════════════════════════════════╤═══════════════════════════════╕
+│   in_3_MIX_(+)_path2_3->path2 │   path1_MIX_(+)_path2_4->path2 │   in_4_MIX_(+)_path2_5->path2 │
+╞═══════════════════════════════╪════════════════════════════════╪═══════════════════════════════╡
+│                             1 │                              0 │                             0 │
+├───────────────────────────────┼────────────────────────────────┼───────────────────────────────┤
+│                             0 │                              1 │                             0 │
+├───────────────────────────────┼────────────────────────────────┼───────────────────────────────┤
+│                             0 │                              0 │                             1 │
+╘═══════════════════════════════╧════════════════════════════════╧═══════════════════════════════╛
+[[1 0 0]
+ [0 1 0]
+ [0 0 1]]
+[[1 0 0]
+ [0 1 0]
+ [0 0 1]]
+DISTRIBUTE-OR CANDIDATES
+[[0, 1, 2]]
+Need to implement the generation of the OR annotation
+Entering the Distribution Block
+Entering the dis assign stat
+Performing operation: < VectorRange : path3 [0 : 0]> + < VectorRange : in [5 : 5]>
+Creating a vector of type [None]
+Exiting the dist assign stat
+LHS, RHS sizes are equal
+FLOW - in_5_MIX_(+)_path3_6 FLOW - path3
+Could not find source - in_5_MIX_(+)_path3_6 in state table connectivity graph, adding node
+Could not find target - path3 in state table connectivity graph, adding node
+Added the edge in_5_MIX_(+)_path3_6 -> path3
+Entering the dis assign stat
+Performing operation: < VectorRange : path3 [0 : 0]> + < VectorRange : path2 [0 : 0]>
+Creating a vector of type [None]
+Exiting the dist assign stat
+LHS, RHS sizes are equal
+FLOW - path2_MIX_(+)_path3_7 FLOW - path3
+Could not find source - path2_MIX_(+)_path3_7 in state table connectivity graph, adding node
+Could not find target - path3 in state table connectivity graph, adding node
+Added the edge path2_MIX_(+)_path3_7 -> path3
+Entering the dis assign stat
+Performing operation: < VectorRange : path3 [0 : 0]> + < VectorRange : in [6 : 6]>
+Creating a vector of type [None]
+Exiting the dist assign stat
+LHS, RHS sizes are equal
+FLOW - in_6_MIX_(+)_path3_8 FLOW - path3
+Could not find source - in_6_MIX_(+)_path3_8 in state table connectivity graph, adding node
+Could not find target - path3 in state table connectivity graph, adding node
+Added the edge in_6_MIX_(+)_path3_8 -> path3
+Exit the Distribution Block
+Implement the fig generation from this
+Connectivity table for the distribution block
+╒═══════════════════════════════╤════════════════════════════════╤═══════════════════════════════╕
+│   in_5_MIX_(+)_path3_6->path3 │   path2_MIX_(+)_path3_7->path3 │   in_6_MIX_(+)_path3_8->path3 │
+╞═══════════════════════════════╪════════════════════════════════╪═══════════════════════════════╡
+│                             1 │                              0 │                             0 │
+├───────────────────────────────┼────────────────────────────────┼───────────────────────────────┤
+│                             0 │                              1 │                             0 │
+├───────────────────────────────┼────────────────────────────────┼───────────────────────────────┤
+│                             0 │                              0 │                             1 │
+╘═══════════════════════════════╧════════════════════════════════╧═══════════════════════════════╛
+DISTRIBUTE-AND CANDIDATES:
+[]
+╒═══════════════════════════════╤════════════════════════════════╤═══════════════════════════════╕
+│   in_5_MIX_(+)_path3_6->path3 │   path2_MIX_(+)_path3_7->path3 │   in_6_MIX_(+)_path3_8->path3 │
+╞═══════════════════════════════╪════════════════════════════════╪═══════════════════════════════╡
+│                             1 │                              0 │                             0 │
+├───────────────────────────────┼────────────────────────────────┼───────────────────────────────┤
+│                             0 │                              1 │                             0 │
+├───────────────────────────────┼────────────────────────────────┼───────────────────────────────┤
+│                             0 │                              0 │                             1 │
+╘═══════════════════════════════╧════════════════════════════════╧═══════════════════════════════╛
+[[1 0 0]
+ [0 1 0]
+ [0 0 1]]
+[[1 0 0]
+ [0 1 0]
+ [0 0 1]]
+DISTRIBUTE-OR CANDIDATES
+[[0, 1, 2]]
+Need to implement the generation of the OR annotation
+Entering the Distribution Block
+Entering the dis assign stat
+Performing operation: < VectorRange : path4 [0 : 0]> + < VectorRange : in [7 : 7]>
+Creating a vector of type [None]
+Exiting the dist assign stat
+LHS, RHS sizes are equal
+FLOW - in_7_MIX_(+)_path4_9 FLOW - path4
+Could not find source - in_7_MIX_(+)_path4_9 in state table connectivity graph, adding node
+Could not find target - path4 in state table connectivity graph, adding node
+Added the edge in_7_MIX_(+)_path4_9 -> path4
+Entering the dis assign stat
+Performing operation: < VectorRange : path4 [0 : 0]> + < VectorRange : path3 [0 : 0]>
+Creating a vector of type [None]
+Exiting the dist assign stat
+LHS, RHS sizes are equal
+FLOW - path3_MIX_(+)_path4_10 FLOW - path4
+Could not find source - path3_MIX_(+)_path4_10 in state table connectivity graph, adding node
+Could not find target - path4 in state table connectivity graph, adding node
+Added the edge path3_MIX_(+)_path4_10 -> path4
+Entering the dis assign stat
+Performing operation: < VectorRange : path4 [0 : 0]> + < VectorRange : in [8 : 8]>
+Creating a vector of type [None]
+Exiting the dist assign stat
+LHS, RHS sizes are equal
+FLOW - in_8_MIX_(+)_path4_11 FLOW - path4
+Could not find source - in_8_MIX_(+)_path4_11 in state table connectivity graph, adding node
+Could not find target - path4 in state table connectivity graph, adding node
+Added the edge in_8_MIX_(+)_path4_11 -> path4
+Exit the Distribution Block
+Implement the fig generation from this
+Connectivity table for the distribution block
+╒═══════════════════════════════╤═════════════════════════════════╤════════════════════════════════╕
+│   in_7_MIX_(+)_path4_9->path4 │   path3_MIX_(+)_path4_10->path4 │   in_8_MIX_(+)_path4_11->path4 │
+╞═══════════════════════════════╪═════════════════════════════════╪════════════════════════════════╡
+│                             1 │                               0 │                              0 │
+├───────────────────────────────┼─────────────────────────────────┼────────────────────────────────┤
+│                             0 │                               1 │                              0 │
+├───────────────────────────────┼─────────────────────────────────┼────────────────────────────────┤
+│                             0 │                               0 │                              1 │
+╘═══════════════════════════════╧═════════════════════════════════╧════════════════════════════════╛
+DISTRIBUTE-AND CANDIDATES:
+[]
+╒═══════════════════════════════╤═════════════════════════════════╤════════════════════════════════╕
+│   in_7_MIX_(+)_path4_9->path4 │   path3_MIX_(+)_path4_10->path4 │   in_8_MIX_(+)_path4_11->path4 │
+╞═══════════════════════════════╪═════════════════════════════════╪════════════════════════════════╡
+│                             1 │                               0 │                              0 │
+├───────────────────────────────┼─────────────────────────────────┼────────────────────────────────┤
+│                             0 │                               1 │                              0 │
+├───────────────────────────────┼─────────────────────────────────┼────────────────────────────────┤
+│                             0 │                               0 │                              1 │
+╘═══════════════════════════════╧═════════════════════════════════╧════════════════════════════════╛
+[[1 0 0]
+ [0 1 0]
+ [0 0 1]]
+[[1 0 0]
+ [0 1 0]
+ [0 0 1]]
+DISTRIBUTE-OR CANDIDATES
+[[0, 1, 2]]
+Need to implement the generation of the OR annotation
+Entering the Distribution Block
+Entering the dis assign stat
+Performing operation: < VectorRange : path4 [0 : 0]> + < VectorRange : in [9 : 9]>
+Creating a vector of type [None]
+Exiting the dist assign stat
+LHS, RHS sizes are equal
+FLOW - in_9_MIX_(+)_path4_12 FLOW - path4
+Could not find source - in_9_MIX_(+)_path4_12 in state table connectivity graph, adding node
+Could not find target - path4 in state table connectivity graph, adding node
+Added the edge in_9_MIX_(+)_path4_12 -> path4
+Entering the dis assign stat
+Performing operation: < VectorRange : path4 [0 : 0]> + < VectorRange : path3 [0 : 0]>
+Creating a vector of type [None]
+Exiting the dist assign stat
+LHS, RHS sizes are equal
+FLOW - path3_MIX_(+)_path4_13 FLOW - path4
+Could not find source - path3_MIX_(+)_path4_13 in state table connectivity graph, adding node
+Could not find target - path4 in state table connectivity graph, adding node
+Added the edge path3_MIX_(+)_path4_13 -> path4
+Entering the dis assign stat
+Performing operation: < VectorRange : path4 [0 : 0]> + < VectorRange : in [10 : 10]>
+Creating a vector of type [None]
+Exiting the dist assign stat
+LHS, RHS sizes are equal
+FLOW - in_10_MIX_(+)_path4_14 FLOW - path4
+Could not find source - in_10_MIX_(+)_path4_14 in state table connectivity graph, adding node
+Could not find target - path4 in state table connectivity graph, adding node
+Added the edge in_10_MIX_(+)_path4_14 -> path4
+Entering the dis assign stat
+Exiting the dist assign stat
+LHS, RHS sizes are equal
+FLOW - path4 FLOW - controller_out
+Could not find source - path4 in state table connectivity graph, adding node
+Could not find target - controller_out in state table connectivity graph, adding node
+Added the edge path4 -> controller_out
+Exit the Distribution Block
+Implement the fig generation from this
+Connectivity table for the distribution block
+╒════════════════════════════════╤═════════════════════════╤═════════════════════════════════╤═════════════════════════════════╕
+│   in_9_MIX_(+)_path4_12->path4 │   path4->controller_out │   path3_MIX_(+)_path4_13->path4 │   in_10_MIX_(+)_path4_14->path4 │
+╞════════════════════════════════╪═════════════════════════╪═════════════════════════════════╪═════════════════════════════════╡
+│                              1 │                       0 │                               0 │                               0 │
+├────────────────────────────────┼─────────────────────────┼─────────────────────────────────┼─────────────────────────────────┤
+│                              0 │                       0 │                               1 │                               0 │
+├────────────────────────────────┼─────────────────────────┼─────────────────────────────────┼─────────────────────────────────┤
+│                              0 │                       0 │                               0 │                               1 │
+├────────────────────────────────┼─────────────────────────┼─────────────────────────────────┼─────────────────────────────────┤
+│                              0 │                       1 │                               0 │                               0 │
+╘════════════════════════════════╧═════════════════════════╧═════════════════════════════════╧═════════════════════════════════╛
+DISTRIBUTE-AND CANDIDATES:
+[]
+╒════════════════════════════════╤═════════════════════════╤═════════════════════════════════╤═════════════════════════════════╕
+│   in_9_MIX_(+)_path4_12->path4 │   path4->controller_out │   path3_MIX_(+)_path4_13->path4 │   in_10_MIX_(+)_path4_14->path4 │
+╞════════════════════════════════╪═════════════════════════╪═════════════════════════════════╪═════════════════════════════════╡
+│                              1 │                       0 │                               0 │                               0 │
+├────────────────────────────────┼─────────────────────────┼─────────────────────────────────┼─────────────────────────────────┤
+│                              0 │                       0 │                               1 │                               0 │
+├────────────────────────────────┼─────────────────────────┼─────────────────────────────────┼─────────────────────────────────┤
+│                              0 │                       0 │                               0 │                               1 │
+├────────────────────────────────┼─────────────────────────┼─────────────────────────────────┼─────────────────────────────────┤
+│                              0 │                       1 │                               0 │                               0 │
+╘════════════════════════════════╧═════════════════════════╧═════════════════════════════════╧═════════════════════════════════╛
+[[1 0 0 0]
+ [0 0 1 0]
+ [0 0 0 1]
+ [0 1 0 0]]
+[[1 0 0 0]
+ [0 0 1 0]
+ [0 0 0 1]
+ [0 1 0 0]]
+DISTRIBUTE-OR CANDIDATES
+[[0, 1, 2, 3]]
+Need to implement the generation of the OR annotation
+Performing unary operation - Operator: ~ 
+ Operand: < VectorRange : controller_out [0 : 0]>
+Creating a vector of type [None]
+LHS not equal to RHS
+<class 'lfr.fig.interaction.FluidProcessInteraction'>
+~
+LHS, RHS sizes are equal
+FLOW - reactor_0 Name: out_0, Type : IOType.FLOW_OUTPUT
+FLOW - reactor_1 Name: out_1, Type : IOType.FLOW_OUTPUT
+FLOW - reactor_2 Name: out_2, Type : IOType.FLOW_OUTPUT
+FLOW - reactor_3 Name: out_3, Type : IOType.FLOW_OUTPUT
+FLOW - reactor_4 Name: out_4, Type : IOType.FLOW_OUTPUT
+FLOW - reactor_5 Name: out_5, Type : IOType.FLOW_OUTPUT
+FLOW - reactor_6 Name: out_6, Type : IOType.FLOW_OUTPUT
+FLOW - reactor_7 Name: out_7, Type : IOType.FLOW_OUTPUT
+FLOW - reactor_8 Name: out_8, Type : IOType.FLOW_OUTPUT
+FLOW - reactor_9 Name: out_9, Type : IOType.FLOW_OUTPUT
+FLOW - reactor_10 Name: out_10, Type : IOType.FLOW_OUTPUT
+FLOW - reactor_11 Name: out_11, Type : IOType.FLOW_OUTPUT
+FLOW - reactor_12 Name: out_12, Type : IOType.FLOW_OUTPUT
+FLOW - reactor_13 Name: out_13, Type : IOType.FLOW_OUTPUT
+FLOW - reactor_14 Name: out_14, Type : IOType.FLOW_OUTPUT
+FLOW - reactor_15 Name: out_15, Type : IOType.FLOW_OUTPUT
+Name : dnasynthesizer
+Name: in, Type : IOType.FLOW_INPUT
+Name: out, Type : IOType.FLOW_OUTPUT
+Name: c, Type : IOType.CONTROL
+
+---Top of Stack---
+---Bottom of Stack---
+output: /var/www/fluigicad.org/jobs/tmp__626352d6b92a3d0017915587/output
+output: /var/www/fluigicad.org/jobs/tmp__626352d6b92a3d0017915587/output/dnasynthesizer.dot

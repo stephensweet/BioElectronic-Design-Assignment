@@ -1,0 +1,1370 @@
+{
+   "components" : [
+      {
+         "entity" : "PORT",
+         "id" : "input_A",
+         "layers" : [ "0" ],
+         "name" : "input_A",
+         "params" : {
+            "componentSpacing" : 1000.0,
+            "height" : 1100.0,
+            "portRadius" : 700.0,
+            "position" : [ 9600, 8260 ]
+         },
+         "ports" : [
+            {
+               "label" : "1",
+               "layer" : "FLOW",
+               "x" : 700,
+               "y" : 700
+            }
+         ],
+         "x-span" : 1400,
+         "y-span" : 1400
+      },
+      {
+         "entity" : "PORT",
+         "id" : "input_B",
+         "layers" : [ "0" ],
+         "name" : "input_B",
+         "params" : {
+            "componentSpacing" : 1000.0,
+            "height" : 1100.0,
+            "portRadius" : 700.0,
+            "position" : [ 12000, 5860 ]
+         },
+         "ports" : [
+            {
+               "label" : "1",
+               "layer" : "FLOW",
+               "x" : 700,
+               "y" : 700
+            }
+         ],
+         "x-span" : 1400,
+         "y-span" : 1400
+      },
+      {
+         "entity" : "PORT",
+         "id" : "input_C",
+         "layers" : [ "0" ],
+         "name" : "input_C",
+         "params" : {
+            "componentSpacing" : 1000.0,
+            "height" : 1100.0,
+            "portRadius" : 700.0,
+            "position" : [ 4800, 8260 ]
+         },
+         "ports" : [
+            {
+               "label" : "1",
+               "layer" : "FLOW",
+               "x" : 700,
+               "y" : 700
+            }
+         ],
+         "x-span" : 1400,
+         "y-span" : 1400
+      },
+      {
+         "entity" : "PORT",
+         "id" : "input_D",
+         "layers" : [ "0" ],
+         "name" : "input_D",
+         "params" : {
+            "componentSpacing" : 1000.0,
+            "height" : 1100.0,
+            "portRadius" : 700.0,
+            "position" : [ 7200, 8260 ]
+         },
+         "ports" : [
+            {
+               "label" : "1",
+               "layer" : "FLOW",
+               "x" : 700,
+               "y" : 700
+            }
+         ],
+         "x-span" : 1400,
+         "y-span" : 1400
+      },
+      {
+         "entity" : "PORT",
+         "id" : "input_D",
+         "layers" : [ "0" ],
+         "name" : "input_D",
+         "params" : {
+            "componentSpacing" : 1000.0,
+            "height" : 1100.0,
+            "portRadius" : 700.0,
+            "position" : [ 7200, 8260 ]
+         },
+         "ports" : [
+            {
+               "label" : "1",
+               "layer" : "FLOW",
+               "x" : 700,
+               "y" : 700
+            }
+         ],
+         "x-span" : 1400,
+         "y-span" : 1400
+      },
+      {
+         "entity" : "PORT",
+         "id" : "input_E",
+         "layers" : [ "0" ],
+         "name" : "input_E",
+         "params" : {
+            "componentSpacing" : 1000.0,
+            "height" : 1100.0,
+            "portRadius" : 700.0,
+            "position" : [ 4800, 5860 ]
+         },
+         "ports" : [
+            {
+               "label" : "1",
+               "layer" : "FLOW",
+               "x" : 700,
+               "y" : 700
+            }
+         ],
+         "x-span" : 1400,
+         "y-span" : 1400
+      },
+      {
+         "entity" : "PORT",
+         "id" : "output_X",
+         "layers" : [ "0" ],
+         "name" : "output_X",
+         "params" : {
+            "componentSpacing" : 1000.0,
+            "height" : 1100.0,
+            "portRadius" : 700.0,
+            "position" : [ 2400, 5860 ]
+         },
+         "ports" : [
+            {
+               "label" : "1",
+               "layer" : "FLOW",
+               "x" : 700,
+               "y" : 700
+            }
+         ],
+         "x-span" : 1400,
+         "y-span" : 1400
+      },
+      {
+         "entity" : "PORT",
+         "id" : "output_Y",
+         "layers" : [ "0" ],
+         "name" : "output_Y",
+         "params" : {
+            "componentSpacing" : 1000.0,
+            "height" : 1100.0,
+            "portRadius" : 700.0,
+            "position" : [ 0, 8260 ]
+         },
+         "ports" : [
+            {
+               "label" : "1",
+               "layer" : "FLOW",
+               "x" : 700,
+               "y" : 700
+            }
+         ],
+         "x-span" : 1400,
+         "y-span" : 1400
+      },
+      {
+         "entity" : "PORT",
+         "id" : "output_Z",
+         "layers" : [ "0" ],
+         "name" : "output_Z",
+         "params" : {
+            "componentSpacing" : 1000.0,
+            "height" : 1100.0,
+            "portRadius" : 700.0,
+            "position" : [ 0, 5860 ]
+         },
+         "ports" : [
+            {
+               "label" : "1",
+               "layer" : "FLOW",
+               "x" : 700,
+               "y" : 700
+            }
+         ],
+         "x-span" : 1400,
+         "y-span" : 1400
+      },
+      {
+         "entity" : "PORT",
+         "id" : "node_ae",
+         "layers" : [ "0" ],
+         "name" : "node_ae",
+         "params" : {
+            "componentSpacing" : 1000.0,
+            "height" : 1100.0,
+            "portRadius" : 700.0,
+            "position" : [ 12000, 8260 ]
+         },
+         "ports" : [
+            {
+               "label" : "1",
+               "layer" : "FLOW",
+               "x" : 700,
+               "y" : 700
+            }
+         ],
+         "x-span" : 1400,
+         "y-span" : 1400
+      },
+      {
+         "entity" : "PORT",
+         "id" : "node_bcd",
+         "layers" : [ "0" ],
+         "name" : "node_bcd",
+         "params" : {
+            "componentSpacing" : 1000.0,
+            "height" : 1100.0,
+            "portRadius" : 700.0,
+            "position" : [ 0, 0 ]
+         },
+         "ports" : [
+            {
+               "label" : "1",
+               "layer" : "FLOW",
+               "x" : 700,
+               "y" : 700
+            }
+         ],
+         "x-span" : 1400,
+         "y-span" : 1400
+      },
+      {
+         "entity" : "PORT",
+         "id" : "mi_l",
+         "layers" : [ "0" ],
+         "name" : "mi_l",
+         "params" : {
+            "componentSpacing" : 1000.0,
+            "height" : 1100.0,
+            "portRadius" : 700.0,
+            "position" : [ 0, 2400 ]
+         },
+         "ports" : [
+            {
+               "label" : "1",
+               "layer" : "FLOW",
+               "x" : 700,
+               "y" : 700
+            }
+         ],
+         "x-span" : 1400,
+         "y-span" : 1400
+      },
+      {
+         "entity" : "PORT",
+         "id" : "mi_r",
+         "layers" : [ "0" ],
+         "name" : "mi_r",
+         "params" : {
+            "componentSpacing" : 1000.0,
+            "height" : 1100.0,
+            "portRadius" : 700.0,
+            "position" : [ 7200, 5860 ]
+         },
+         "ports" : [
+            {
+               "label" : "1",
+               "layer" : "FLOW",
+               "x" : 700,
+               "y" : 700
+            }
+         ],
+         "x-span" : 1400,
+         "y-span" : 1400
+      },
+      {
+         "entity" : "PORT",
+         "id" : "post_mixing",
+         "layers" : [ "0" ],
+         "name" : "post_mixing",
+         "params" : {
+            "componentSpacing" : 1000.0,
+            "height" : 1100.0,
+            "portRadius" : 700.0,
+            "position" : [ 2400, 8260 ]
+         },
+         "ports" : [
+            {
+               "label" : "1",
+               "layer" : "FLOW",
+               "x" : 700,
+               "y" : 700
+            }
+         ],
+         "x-span" : 1400,
+         "y-span" : 1400
+      },
+      {
+         "entity" : "MIXER",
+         "id" : "incubator",
+         "layers" : [ "0" ],
+         "name" : "incubator",
+         "params" : {
+            "bendLength" : 2460.0,
+            "bendSpacing" : 1230.0,
+            "channelWidth" : 800,
+            "componentSpacing" : 1000.0,
+            "height" : 250.0,
+            "numberOfBends" : 1.0,
+            "position" : [ 2400, 0 ],
+            "rotation" : 0.0
+         },
+         "ports" : [
+            {
+               "label" : "1",
+               "layer" : "FLOW",
+               "x" : 2030,
+               "y" : 0
+            },
+            {
+               "label" : "2",
+               "layer" : "FLOW",
+               "x" : 2030,
+               "y" : 4860
+            }
+         ],
+         "x-span" : 4060,
+         "y-span" : 4860
+      },
+      {
+         "entity" : "MIXER",
+         "id" : "mix",
+         "layers" : [ "0" ],
+         "name" : "mix",
+         "params" : {
+            "bendLength" : 2460.0,
+            "bendSpacing" : 1230.0,
+            "channelWidth" : 800,
+            "componentSpacing" : 1000.0,
+            "height" : 250.0,
+            "numberOfBends" : 1.0,
+            "position" : [ 7460, 0 ],
+            "rotation" : 0.0
+         },
+         "ports" : [
+            {
+               "label" : "1",
+               "layer" : "FLOW",
+               "x" : 2030,
+               "y" : 0
+            },
+            {
+               "label" : "2",
+               "layer" : "FLOW",
+               "x" : 2030,
+               "y" : 4860
+            }
+         ],
+         "x-span" : 4060,
+         "y-span" : 4860
+      },
+      {
+         "entity" : "VALVE",
+         "id" : "a_v",
+         "layers" : [ "1" ],
+         "name" : "a_v",
+         "params" : {
+            "componentSpacing" : 1000.0,
+            "height" : 250.0,
+            "length" : 4920.0,
+            "position" : [ 2230, 5920 ],
+            "rotation" : 0.0,
+            "width" : 1230.0
+         },
+         "ports" : [
+            {
+               "label" : "1",
+               "layer" : "CONTROL",
+               "x" : 615,
+               "y" : 2460
+            }
+         ],
+         "x-span" : 1230,
+         "y-span" : 4920
+      },
+      {
+         "entity" : "VALVE",
+         "id" : "b_v",
+         "layers" : [ "1" ],
+         "name" : "b_v",
+         "params" : {
+            "componentSpacing" : 1000.0,
+            "height" : 250.0,
+            "length" : 4920.0,
+            "position" : [ 2230, 0 ],
+            "rotation" : 0.0,
+            "width" : 1230.0
+         },
+         "ports" : [
+            {
+               "label" : "1",
+               "layer" : "CONTROL",
+               "x" : 615,
+               "y" : 2460
+            }
+         ],
+         "x-span" : 1230,
+         "y-span" : 4920
+      },
+      {
+         "entity" : "VALVE",
+         "id" : "c_v",
+         "layers" : [ "1" ],
+         "name" : "c_v",
+         "params" : {
+            "componentSpacing" : 1000.0,
+            "height" : 250.0,
+            "length" : 4920.0,
+            "position" : [ 0, 0 ],
+            "rotation" : 0.0,
+            "width" : 1230.0
+         },
+         "ports" : [
+            {
+               "label" : "1",
+               "layer" : "CONTROL",
+               "x" : 615,
+               "y" : 2460
+            }
+         ],
+         "x-span" : 1230,
+         "y-span" : 4920
+      },
+      {
+         "entity" : "VALVE",
+         "id" : "d_v",
+         "layers" : [ "1" ],
+         "name" : "d_v",
+         "params" : {
+            "componentSpacing" : 1000.0,
+            "height" : 250.0,
+            "length" : 4920.0,
+            "position" : [ 0, 5920 ],
+            "rotation" : 0.0,
+            "width" : 1230.0
+         },
+         "ports" : [
+            {
+               "label" : "1",
+               "layer" : "CONTROL",
+               "x" : 615,
+               "y" : 2460
+            }
+         ],
+         "x-span" : 1230,
+         "y-span" : 4920
+      },
+      {
+         "entity" : "VALVE",
+         "id" : "e_v",
+         "layers" : [ "1" ],
+         "name" : "e_v",
+         "params" : {
+            "componentSpacing" : 1000.0,
+            "height" : 250.0,
+            "length" : 4920.0,
+            "position" : [ 0, 11840 ],
+            "rotation" : 0.0,
+            "width" : 1230.0
+         },
+         "ports" : [
+            {
+               "label" : "1",
+               "layer" : "CONTROL",
+               "x" : 615,
+               "y" : 2460
+            }
+         ],
+         "x-span" : 1230,
+         "y-span" : 4920
+      },
+      {
+         "entity" : "VALVE",
+         "id" : "have_a_total_of_15_valves_like_this",
+         "layers" : [ "1" ],
+         "name" : "have_a_total_of_15_valves_like_this",
+         "params" : {
+            "componentSpacing" : 1000.0,
+            "height" : 250.0,
+            "length" : 4920.0,
+            "position" : [ 2230, 11840 ],
+            "rotation" : 0.0,
+            "width" : 1230.0
+         },
+         "ports" : [
+            {
+               "label" : "1",
+               "layer" : "CONTROL",
+               "x" : 615,
+               "y" : 2460
+            }
+         ],
+         "x-span" : 1230,
+         "y-span" : 4920
+      }
+   ],
+   "connections" : [
+      {
+         "id" : "a_output",
+         "layer" : "0",
+         "name" : "a_output",
+         "params" : {
+            "connectionSpacing" : 1000
+         },
+         "paths" : [
+            {
+               "sink" : {
+                  "component" : "node_ae",
+                  "port" : "1"
+               },
+               "source" : {
+                  "component" : "input_A",
+                  "port" : "1"
+               },
+               "wayPoints" : [
+                  [ 10300, 8960 ],
+                  [ 11000, 8960 ],
+                  [ 11997, 8960 ],
+                  [ 12000, 8960 ],
+                  [ 12700, 8960 ]
+               ]
+            }
+         ],
+         "sinks" : [
+            {
+               "component" : "node_ae",
+               "port" : "1"
+            }
+         ],
+         "source" : {
+            "component" : "input_A",
+            "port" : "1"
+         }
+      },
+      {
+         "id" : "e_ouput",
+         "layer" : "0",
+         "name" : "e_ouput",
+         "params" : {
+            "connectionSpacing" : 1000
+         },
+         "paths" : [
+            {
+               "sink" : {
+                  "component" : "node_ae",
+                  "port" : "1"
+               },
+               "source" : {
+                  "component" : "input_E",
+                  "port" : "1"
+               },
+               "wayPoints" : [
+                  [ 5500, 6560 ],
+                  [ 6200, 7260 ],
+                  [ 7197, 7262 ],
+                  [ 7200, 8257 ],
+                  [ 7202, 8258 ],
+                  [ 8600, 8257 ],
+                  [ 8602, 8257 ],
+                  [ 9600, 8257 ],
+                  [ 9602, 8258 ],
+                  [ 11000, 8257 ],
+                  [ 11002, 8257 ],
+                  [ 12000, 8260 ],
+                  [ 12700, 8960 ]
+               ]
+            }
+         ],
+         "sinks" : [
+            {
+               "component" : "node_ae",
+               "port" : "1"
+            }
+         ],
+         "source" : {
+            "component" : "input_E",
+            "port" : "1"
+         }
+      },
+      {
+         "id" : "b_ouput",
+         "layer" : "0",
+         "name" : "b_ouput",
+         "params" : {
+            "connectionSpacing" : 1000
+         },
+         "paths" : [
+            {
+               "sink" : {
+                  "component" : "node_bcd",
+                  "port" : "1"
+               },
+               "source" : {
+                  "component" : "input_B",
+                  "port" : "1"
+               },
+               "wayPoints" : [
+                  [ 12700, 6560 ],
+                  [ 12000, 5860 ],
+                  [ 11001, 5857 ],
+                  [ 9602, 5858 ],
+                  [ 9597, 5858 ],
+                  [ 8597, 5858 ],
+                  [ 7200, 5857 ],
+                  [ 7198, 5857 ],
+                  [ 6200, 5857 ],
+                  [ 4802, 5858 ],
+                  [ 2402, 4861 ],
+                  [ 2402, 4861 ],
+                  [ 2400, 4863 ],
+                  [ 2397, 4862 ],
+                  [ 2397, 4857 ],
+                  [ 1401, 2402 ],
+                  [ 1401, 2397 ],
+                  [ 1400, 1400 ],
+                  [ 700, 700 ]
+               ]
+            }
+         ],
+         "sinks" : [
+            {
+               "component" : "node_bcd",
+               "port" : "1"
+            }
+         ],
+         "source" : {
+            "component" : "input_B",
+            "port" : "1"
+         }
+      },
+      {
+         "id" : "c_ouput",
+         "layer" : "0",
+         "name" : "c_ouput",
+         "params" : {
+            "connectionSpacing" : 1000
+         },
+         "paths" : [
+            {
+               "sink" : {
+                  "component" : "node_bcd",
+                  "port" : "1"
+               },
+               "source" : {
+                  "component" : "input_C",
+                  "port" : "1"
+               },
+               "wayPoints" : [
+                  [ 5500, 8960 ],
+                  [ 4800, 8260 ],
+                  [ 4797, 7262 ],
+                  [ 4797, 7260 ],
+                  [ 4798, 5862 ],
+                  [ 4797, 5860 ],
+                  [ 4799, 5858 ],
+                  [ 2404, 4862 ],
+                  [ 2401, 4863 ],
+                  [ 2400, 4866 ],
+                  [ 2397, 4864 ],
+                  [ 2394, 4864 ],
+                  [ 2394, 4859 ],
+                  [ 2394, 4854 ],
+                  [ 1400, 2404 ],
+                  [ 1401, 2402 ],
+                  [ 1400, 2399 ],
+                  [ 1398, 2397 ],
+                  [ 1398, 2395 ],
+                  [ 1400, 1400 ],
+                  [ 700, 700 ]
+               ]
+            }
+         ],
+         "sinks" : [
+            {
+               "component" : "node_bcd",
+               "port" : "1"
+            }
+         ],
+         "source" : {
+            "component" : "input_C",
+            "port" : "1"
+         }
+      },
+      {
+         "id" : "d_ouput",
+         "layer" : "0",
+         "name" : "d_ouput",
+         "params" : {
+            "connectionSpacing" : 1000
+         },
+         "paths" : [
+            {
+               "sink" : {
+                  "component" : "node_bcd",
+                  "port" : "1"
+               },
+               "source" : {
+                  "component" : "input_D",
+                  "port" : "1"
+               },
+               "wayPoints" : [
+                  [ 7900, 8960 ],
+                  [ 7200, 8260 ],
+                  [ 6203, 9660 ],
+                  [ 6197, 9661 ],
+                  [ 4797, 9662 ],
+                  [ 3797, 9662 ],
+                  [ 2397, 9662 ],
+                  [ 1398, 9662 ],
+                  [ -1, 9662 ],
+                  [ -1, 8262 ],
+                  [ -1, 7262 ],
+                  [ -1, 5862 ],
+                  [ -1, 5857 ],
+                  [ -1, 3797 ],
+                  [ -1, 2397 ],
+                  [ 0, 2397 ],
+                  [ 1395, 2393 ],
+                  [ 1400, 1400 ],
+                  [ 700, 700 ]
+               ]
+            }
+         ],
+         "sinks" : [
+            {
+               "component" : "node_bcd",
+               "port" : "1"
+            }
+         ],
+         "source" : {
+            "component" : "input_D",
+            "port" : "1"
+         }
+      },
+      {
+         "id" : "node_connect",
+         "layer" : "0",
+         "name" : "node_connect",
+         "params" : {
+            "connectionSpacing" : 1000
+         },
+         "paths" : [
+            {
+               "sink" : {
+                  "component" : "node_ae",
+                  "port" : "1"
+               },
+               "source" : {
+                  "component" : "node_bcd",
+                  "port" : "1"
+               },
+               "wayPoints" : [
+                  [ 700, 700 ],
+                  [ 1400, 1400 ],
+                  [ 1402, 2394 ],
+                  [ 1402, 2399 ],
+                  [ 2398, 4857 ],
+                  [ 2399, 4859 ],
+                  [ 2399, 4860 ],
+                  [ 2400, 4860 ],
+                  [ 2402, 4861 ],
+                  [ 2404, 4860 ],
+                  [ 4804, 5856 ],
+                  [ 6200, 5854 ],
+                  [ 7196, 5854 ],
+                  [ 7198, 5854 ],
+                  [ 7200, 5854 ],
+                  [ 8594, 5856 ],
+                  [ 9594, 5856 ],
+                  [ 9599, 5856 ],
+                  [ 9604, 5856 ],
+                  [ 11002, 5854 ],
+                  [ 11998, 5857 ],
+                  [ 13397, 5858 ],
+                  [ 13399, 5857 ],
+                  [ 13401, 5857 ],
+                  [ 13401, 5862 ],
+                  [ 13401, 7262 ],
+                  [ 13400, 7263 ],
+                  [ 12000, 8260 ],
+                  [ 12700, 8960 ]
+               ]
+            }
+         ],
+         "sinks" : [
+            {
+               "component" : "node_ae",
+               "port" : "1"
+            }
+         ],
+         "source" : {
+            "component" : "node_bcd",
+            "port" : "1"
+         }
+      },
+      {
+         "id" : "pump1",
+         "layer" : "0",
+         "name" : "pump1",
+         "params" : {
+            "connectionSpacing" : 1000
+         },
+         "paths" : [
+            {
+               "sink" : {
+                  "component" : "mi_l",
+                  "port" : "1"
+               },
+               "source" : {
+                  "component" : "node_ae",
+                  "port" : "1"
+               },
+               "wayPoints" : [
+                  [ 12700, 8960 ]
+               ]
+            }
+         ],
+         "sinks" : [
+            {
+               "component" : "mi_l",
+               "port" : "1"
+            }
+         ],
+         "source" : {
+            "component" : "node_ae",
+            "port" : "1"
+         }
+      },
+      {
+         "id" : "mixer_route",
+         "layer" : "0",
+         "name" : "mixer_route",
+         "params" : {
+            "connectionSpacing" : 1000
+         },
+         "paths" : [
+            {
+               "sink" : {
+                  "component" : "mix",
+                  "port" : "1"
+               },
+               "source" : {
+                  "component" : "mi_l",
+                  "port" : "1"
+               },
+               "wayPoints" : [
+                  [ 700, 3100 ]
+               ]
+            }
+         ],
+         "sinks" : [
+            {
+               "component" : "mix",
+               "port" : "1"
+            }
+         ],
+         "source" : {
+            "component" : "mi_l",
+            "port" : "1"
+         }
+      },
+      {
+         "id" : "mixer_route2",
+         "layer" : "0",
+         "name" : "mixer_route2",
+         "params" : {
+            "connectionSpacing" : 1000
+         },
+         "paths" : [
+            {
+               "sink" : {
+                  "component" : "mi_r",
+                  "port" : "1"
+               },
+               "source" : {
+                  "component" : "mix",
+                  "port" : "1"
+               },
+               "wayPoints" : [
+                  [ 9490, 0 ],
+                  [ 11522, -2 ],
+                  [ 13402, 5854 ],
+                  [ 13402, 5859 ],
+                  [ 13402, 5864 ],
+                  [ 13402, 7264 ],
+                  [ 13401, 8262 ],
+                  [ 13401, 9662 ],
+                  [ 12002, 9662 ],
+                  [ 11002, 9662 ],
+                  [ 9602, 9662 ],
+                  [ 9597, 9660 ],
+                  [ 9598, 8262 ],
+                  [ 8603, 8260 ],
+                  [ 8600, 8259 ],
+                  [ 8600, 8260 ],
+                  [ 8597, 8259 ],
+                  [ 7202, 8257 ],
+                  [ 7200, 8257 ],
+                  [ 7197, 8257 ],
+                  [ 7194, 7264 ],
+                  [ 6200, 7263 ],
+                  [ 6197, 7261 ],
+                  [ 4800, 7263 ],
+                  [ 4799, 7260 ],
+                  [ 4800, 7260 ],
+                  [ 4799, 7257 ],
+                  [ 4797, 5862 ],
+                  [ 4800, 5860 ],
+                  [ 4800, 5860 ],
+                  [ 4802, 5857 ],
+                  [ 6197, 5859 ],
+                  [ 6200, 5860 ],
+                  [ 7195, 5857 ],
+                  [ 7198, 5857 ],
+                  [ 7200, 5857 ],
+                  [ 8594, 5858 ],
+                  [ 8600, 5860 ],
+                  [ 7900, 6560 ]
+               ]
+            }
+         ],
+         "sinks" : [
+            {
+               "component" : "mi_r",
+               "port" : "1"
+            }
+         ],
+         "source" : {
+            "component" : "mix",
+            "port" : "1"
+         }
+      },
+      {
+         "id" : "incubator_route2",
+         "layer" : "0",
+         "name" : "incubator_route2",
+         "params" : {
+            "connectionSpacing" : 1000
+         },
+         "paths" : [
+            {
+               "sink" : {
+                  "component" : "incubator",
+                  "port" : "1"
+               },
+               "source" : {
+                  "component" : "mi_r",
+                  "port" : "1"
+               },
+               "wayPoints" : [
+                  [ 7900, 6560 ],
+                  [ 7200, 5860 ],
+                  [ 7199, 7257 ],
+                  [ 7199, 7260 ],
+                  [ 7201, 7262 ],
+                  [ 7669, 8254 ],
+                  [ 8597, 8257 ],
+                  [ 8599, 8257 ],
+                  [ 8600, 8256 ],
+                  [ 8602, 8256 ],
+                  [ 8602, 8257 ],
+                  [ 8604, 8257 ],
+                  [ 9598, 8259 ],
+                  [ 9597, 8262 ],
+                  [ 9599, 9657 ],
+                  [ 9600, 9660 ],
+                  [ 9602, 9662 ],
+                  [ 9604, 9661 ],
+                  [ 10999, 9659 ],
+                  [ 11001, 9659 ],
+                  [ 11004, 9660 ],
+                  [ 11997, 9660 ],
+                  [ 11999, 9659 ],
+                  [ 13397, 9660 ],
+                  [ 13399, 9659 ],
+                  [ 13400, 8264 ],
+                  [ 13399, 8259 ],
+                  [ 13400, 8257 ],
+                  [ 13402, 7264 ],
+                  [ 13401, 7259 ],
+                  [ 13402, 5864 ],
+                  [ 13401, 5861 ],
+                  [ 13402, 5859 ],
+                  [ 13401, 5856 ],
+                  [ 13399, 5856 ],
+                  [ 13399, 5856 ],
+                  [ 12000, 5856 ],
+                  [ 11996, 5854 ],
+                  [ 11003, 5851 ],
+                  [ 9606, 5854 ],
+                  [ 9601, 5854 ],
+                  [ 9596, 5854 ],
+                  [ 7462, 4861 ],
+                  [ 7462, 4861 ],
+                  [ 7459, 4862 ],
+                  [ 7459, 4862 ],
+                  [ 7459, 4862 ],
+                  [ 7457, 4860 ],
+                  [ 7459, 2 ],
+                  [ 6463, 0 ],
+                  [ 6457, -1 ],
+                  [ 4430, 0 ]
+               ]
+            }
+         ],
+         "sinks" : [
+            {
+               "component" : "incubator",
+               "port" : "1"
+            }
+         ],
+         "source" : {
+            "component" : "mi_r",
+            "port" : "1"
+         }
+      },
+      {
+         "id" : "incubator_route",
+         "layer" : "0",
+         "name" : "incubator_route",
+         "params" : {
+            "connectionSpacing" : 1000
+         },
+         "paths" : [
+            {
+               "sink" : {
+                  "component" : "mi_l",
+                  "port" : "1"
+               },
+               "source" : {
+                  "component" : "incubator",
+                  "port" : "1"
+               },
+               "wayPoints" : [
+                  [ 4430, 0 ],
+                  [ 4433, 0 ],
+                  [ 6457, 0 ],
+                  [ 6460, 0 ],
+                  [ 6460, 4857 ],
+                  [ 6460, 4857 ],
+                  [ 7454, 4860 ],
+                  [ 7456, 4862 ],
+                  [ 7458, 4864 ],
+                  [ 7458, 4864 ],
+                  [ 7458, 4864 ],
+                  [ 7461, 4863 ],
+                  [ 7464, 4862 ],
+                  [ 9593, 5854 ],
+                  [ 9596, 5853 ],
+                  [ 9596, 5854 ],
+                  [ 9601, 5853 ],
+                  [ 9601, 5854 ],
+                  [ 9606, 5853 ],
+                  [ 10999, 5854 ],
+                  [ 11002, 5853 ],
+                  [ 11993, 5854 ],
+                  [ 11996, 5854 ],
+                  [ 12000, 5855 ],
+                  [ 12002, 5856 ],
+                  [ 13396, 5858 ],
+                  [ 13397, 5858 ],
+                  [ 13394, 5858 ],
+                  [ 11998, 5857 ],
+                  [ 11995, 5857 ],
+                  [ 11001, 5856 ],
+                  [ 10998, 5856 ],
+                  [ 9604, 5855 ],
+                  [ 9599, 5856 ],
+                  [ 9599, 5855 ],
+                  [ 9594, 5856 ],
+                  [ 9591, 5856 ],
+                  [ 8594, 5856 ],
+                  [ 8591, 5856 ],
+                  [ 7200, 5854 ],
+                  [ 7199, 5854 ],
+                  [ 7198, 5854 ],
+                  [ 7196, 5854 ],
+                  [ 7195, 5854 ],
+                  [ 6202, 5854 ],
+                  [ 6200, 5854 ],
+                  [ 6197, 5854 ],
+                  [ 5264, 5856 ],
+                  [ 4804, 5857 ],
+                  [ 4802, 5857 ],
+                  [ 4800, 5859 ],
+                  [ 4800, 5860 ],
+                  [ 4799, 5860 ],
+                  [ 4797, 5862 ],
+                  [ 4797, 5864 ],
+                  [ 4794, 5861 ],
+                  [ 4794, 5860 ],
+                  [ 4796, 5858 ],
+                  [ 2406, 4863 ],
+                  [ 2403, 4864 ],
+                  [ 2400, 4869 ],
+                  [ 2394, 4866 ],
+                  [ 2391, 4866 ],
+                  [ 2391, 4861 ],
+                  [ 2391, 4856 ],
+                  [ 1400, 3803 ],
+                  [ 1398, 3802 ],
+                  [ 0, 3802 ],
+                  [ 0, 3799 ],
+                  [ 0, 2402 ],
+                  [ 0, 2400 ],
+                  [ 2, 2399 ],
+                  [ 1400, 2400 ],
+                  [ 700, 3100 ]
+               ]
+            }
+         ],
+         "sinks" : [
+            {
+               "component" : "mi_l",
+               "port" : "1"
+            }
+         ],
+         "source" : {
+            "component" : "incubator",
+            "port" : "1"
+         }
+      },
+      {
+         "id" : "direct_route",
+         "layer" : "0",
+         "name" : "direct_route",
+         "params" : {
+            "connectionSpacing" : 1000
+         },
+         "paths" : [
+            {
+               "sink" : {
+                  "component" : "mi_r",
+                  "port" : "1"
+               },
+               "source" : {
+                  "component" : "mi_l",
+                  "port" : "1"
+               },
+               "wayPoints" : [
+                  [ 700, 3100 ]
+               ]
+            }
+         ],
+         "sinks" : [
+            {
+               "component" : "mi_r",
+               "port" : "1"
+            }
+         ],
+         "source" : {
+            "component" : "mi_l",
+            "port" : "1"
+         }
+      },
+      {
+         "id" : "p_mix",
+         "layer" : "0",
+         "name" : "p_mix",
+         "params" : {
+            "connectionSpacing" : 1000
+         },
+         "paths" : [
+            {
+               "sink" : {
+                  "component" : "post_mixing",
+                  "port" : "1"
+               },
+               "source" : {
+                  "component" : "mi_r",
+                  "port" : "1"
+               },
+               "wayPoints" : [
+                  [ 7900, 6560 ],
+                  [ 7200, 7260 ],
+                  [ 7201, 7262 ],
+                  [ 7200, 7262 ],
+                  [ 7200, 7264 ],
+                  [ 7199, 8256 ],
+                  [ 7200, 8257 ],
+                  [ 7197, 8257 ],
+                  [ 7194, 8257 ],
+                  [ 7191, 7266 ],
+                  [ 6200, 7266 ],
+                  [ 6197, 7263 ],
+                  [ 6194, 7262 ],
+                  [ 4800, 7266 ],
+                  [ 4797, 7262 ],
+                  [ 4796, 7262 ],
+                  [ 4796, 7260 ],
+                  [ 4797, 7259 ],
+                  [ 4797, 7257 ],
+                  [ 4794, 7260 ],
+                  [ 4794, 7261 ],
+                  [ 3800, 8260 ],
+                  [ 3100, 8960 ]
+               ]
+            }
+         ],
+         "sinks" : [
+            {
+               "component" : "post_mixing",
+               "port" : "1"
+            }
+         ],
+         "source" : {
+            "component" : "mi_r",
+            "port" : "1"
+         }
+      },
+      {
+         "id" : "x_input",
+         "layer" : "0",
+         "name" : "x_input",
+         "params" : {
+            "connectionSpacing" : 1000
+         },
+         "paths" : [
+            {
+               "sink" : {
+                  "component" : "output_X",
+                  "port" : "1"
+               },
+               "source" : {
+                  "component" : "post_mixing",
+                  "port" : "1"
+               },
+               "wayPoints" : [
+                  [ 3100, 8960 ],
+                  [ 3100, 8260 ],
+                  [ 3100, 8257 ],
+                  [ 3100, 7260 ],
+                  [ 3100, 6560 ]
+               ]
+            }
+         ],
+         "sinks" : [
+            {
+               "component" : "output_X",
+               "port" : "1"
+            }
+         ],
+         "source" : {
+            "component" : "post_mixing",
+            "port" : "1"
+         }
+      },
+      {
+         "id" : "y_input",
+         "layer" : "0",
+         "name" : "y_input",
+         "params" : {
+            "connectionSpacing" : 1000
+         },
+         "paths" : [
+            {
+               "sink" : {
+                  "component" : "output_Y",
+                  "port" : "1"
+               },
+               "source" : {
+                  "component" : "post_mixing",
+                  "port" : "1"
+               },
+               "wayPoints" : [
+                  [ 3100, 8960 ],
+                  [ 2400, 8960 ],
+                  [ 1403, 8960 ],
+                  [ 1400, 8960 ],
+                  [ 700, 8960 ]
+               ]
+            }
+         ],
+         "sinks" : [
+            {
+               "component" : "output_Y",
+               "port" : "1"
+            }
+         ],
+         "source" : {
+            "component" : "post_mixing",
+            "port" : "1"
+         }
+      },
+      {
+         "id" : "z_input",
+         "layer" : "0",
+         "name" : "z_input",
+         "params" : {
+            "connectionSpacing" : 1000
+         },
+         "paths" : [
+            {
+               "sink" : {
+                  "component" : "output_Z",
+                  "port" : "1"
+               },
+               "source" : {
+                  "component" : "post_mixing",
+                  "port" : "1"
+               },
+               "wayPoints" : [
+                  [ 3100, 8960 ],
+                  [ 2400, 8260 ],
+                  [ 2397, 7262 ],
+                  [ 1400, 7260 ],
+                  [ 700, 6560 ]
+               ]
+            }
+         ],
+         "sinks" : [
+            {
+               "component" : "output_Z",
+               "port" : "1"
+            }
+         ],
+         "source" : {
+            "component" : "post_mixing",
+            "port" : "1"
+         }
+      }
+   ],
+   "layers" : [
+      {
+         "group" : "0",
+         "id" : "0",
+         "name" : "FLOW_0",
+         "params" : {},
+         "type" : "FLOW"
+      },
+      {
+         "group" : "0",
+         "id" : "1",
+         "name" : "FLOW_0",
+         "params" : {},
+         "type" : "CONTROL"
+      }
+   ],
+   "name" : "variable_volume_mixer",
+   "params" : {
+      "xspan" : 76200,
+      "yspan" : 76200
+   },
+   "valveMap" : {},
+   "valveTypeMap" : {},
+   "version" : 1.2
+}

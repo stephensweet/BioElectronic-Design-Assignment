@@ -1,0 +1,62 @@
+Input Path: /var/www/fluigicad.org/jobs/tmp__626344feb92a3d0017915584/crispr.lfr
+File: /var/www/fluigicad.org/jobs/tmp__626344feb92a3d0017915584/crispr.lfr
+['crispr.lfr']
+output dir: /var/www/fluigicad.org/jobs/tmp__626344feb92a3d0017915584/output
+['/var/www/fluigicad.org/jobs/tmp__626344feb92a3d0017915584/crispr.lfr']
+Creating the output directory:
+Initialized the lfrcompiler
+Performing operation: < VectorRange : A [0 : 0]> + < VectorRange : B [0 : 0]>
+Creating a vector of type [None]
+Performing operation: < VectorRange : A_B [0 : 0]> + < VectorRange : C [0 : 0]>
+Creating a vector of type [None]
+Performing operation: < VectorRange : A_B_C [0 : 0]> + < VectorRange : D [0 : 0]>
+Creating a vector of type [None]
+Performing operation: < VectorRange : A_B_C_D [0 : 0]> + < VectorRange : E [0 : 0]>
+Creating a vector of type [None]
+LHS, RHS sizes are equal
+FLOW - A_MIX_(+)_B_0_MIX_(+)_C_1_MIX_(+)_D_2_MIX_(+)_E_3 FLOW - flow_inputs
+<class 'lfr.fig.interaction.FluidFluidInteraction'>
++
+<class 'lfr.fig.interaction.FluidFluidInteraction'>
++
+<class 'lfr.fig.interaction.FluidFluidInteraction'>
++
+<class 'lfr.fig.interaction.FluidFluidInteraction'>
++
+LHS, RHS sizes are equal
+FLOW - flow_inputs FLOW - Pump_0
+LHS, RHS sizes are equal
+FLOW - Pump_0 FLOW - mix_incubator
+Performing operation: < VectorRange : degas_mix [0 : 0]> + < VectorRange : mix_incubator [0 : 0]>
+Creating a vector of type [None]
+LHS, RHS sizes are equal
+FLOW - degas_mix_MIX_(+)_mix_incubator_4 FLOW - degas_mix
+<class 'lfr.fig.interaction.FluidFluidInteraction'>
++
+Performing unary operation - Operator: ~ 
+ Operand: < VectorRange : degas_mix [0 : 0]>
+Creating a vector of type [None]
+LHS, RHS sizes are equal
+FLOW - degas_mix_PROCESS_(~)_5 FLOW - Pump_1
+<class 'lfr.fig.interaction.FluidProcessInteraction'>
+~
+LHS, RHS sizes are equal
+FLOW - Pump_1 Name: X, Type : IOType.FLOW_OUTPUT
+LHS, RHS sizes are equal
+FLOW - Pump_1 Name: Y, Type : IOType.FLOW_OUTPUT
+LHS, RHS sizes are equal
+FLOW - Pump_1 Name: Z, Type : IOType.FLOW_OUTPUT
+Name : SPLoC
+Name: A, Type : IOType.FLOW_INPUT
+Name: B, Type : IOType.FLOW_INPUT
+Name: C, Type : IOType.FLOW_INPUT
+Name: D, Type : IOType.FLOW_INPUT
+Name: E, Type : IOType.FLOW_INPUT
+Name: X, Type : IOType.FLOW_OUTPUT
+Name: Y, Type : IOType.FLOW_OUTPUT
+Name: Z, Type : IOType.FLOW_OUTPUT
+
+---Top of Stack---
+---Bottom of Stack---
+output: /var/www/fluigicad.org/jobs/tmp__626344feb92a3d0017915584/output
+output: /var/www/fluigicad.org/jobs/tmp__626344feb92a3d0017915584/output/SPLoC.dot

@@ -1,0 +1,33 @@
+module SPLoC(
+    // Define input and output ports on ARIZE
+    finput A,B,C,D,E, 
+    foutput X,Y,Z
+    );
+
+    // Fluid flows representing the resulting liquid after mixing the 5 inputs, one at a time 
+    flow flow_inputs;
+    flow mix_incubator;
+    // Fluid mix behavior after entering the mixing chamber, degas to rid air bubbles 
+    flow degas_mix;
+    //pumps for the device
+    pump [0:1] Pump;
+
+    // Gather inputs of step 1 
+    assign flow_inputs = A+B+C+D+E;
+    assign Pump[0] = flow_inputs;
+
+    // Pump flow inputs into mixer/incubator
+    assign mix_incubator = Pump[0];
+    
+    // de-gas the Mixer/Incubator 
+    assign degas_mix = degas_mix + mix_incubator;
+    
+    //pump the mixed contents inside of degassed mixer/incubator to outputs
+    assign Pump[1] = ~degas_mix;
+    // Direct products to final output ports
+    assign X = Pump[1];
+    assign Y = Pump[1];
+    assign Z = Pump[1];
+    
+
+endmodule

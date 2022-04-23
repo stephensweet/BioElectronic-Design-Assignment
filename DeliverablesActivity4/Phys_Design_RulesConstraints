@@ -1,0 +1,8 @@
+Physical Design Rules/Constraints of spLOC variable-volume-mixer 
+
+In order for this design to function you need:
+    -gas permeable membrane vents for gas purging following mixing
+    -open sensor window for mix measurments 
+    -light sensor 
+    -programable controller (can be closed loop or open loop system) for full automation and execution of protocols on this device 
+        > see https://link.springer.com/content/pdf/10.1007/s10404-013-1180-2.pdf page 650 for details

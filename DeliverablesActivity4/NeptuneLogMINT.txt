@@ -1,0 +1,620 @@
+_____ _       _       _ 
+|  ___| |_   _(_) __ _(_)
+| |_  | | | | | |/ _` | |
+|  _| | | |_| | | (_| | |
+|_|   |_|\__,_|_|\__, |_|
+                 |___/   
+
+output dir: /var/www/fluigicad.org/jobs/tmp__6263447bb92a3d001791557a/output
+Running File: /var/www/fluigicad.org/jobs/tmp__6263447bb92a3d001791557a/variable_volume_mixer.mint
+Creating the output directory:
+Component input_D already present in device, hence skipping the component
+Computing Constraints
+Pulling Default Values of Components
+Deleted unsupported param "r" from component input_A : PORT
+Deleted unsupported param "r" from component input_B : PORT
+Deleted unsupported param "r" from component input_C : PORT
+Deleted unsupported param "r" from component input_D : PORT
+Deleted unsupported param "r" from component input_D : PORT
+Deleted unsupported param "r" from component input_E : PORT
+Deleted unsupported param "r" from component output_X : PORT
+Deleted unsupported param "r" from component output_Y : PORT
+Deleted unsupported param "r" from component output_Z : PORT
+Deleted unsupported param "r" from component node_ae : PORT
+Deleted unsupported param "r" from component node_bcd : PORT
+Deleted unsupported param "r" from component mi_l : PORT
+Deleted unsupported param "r" from component mi_r : PORT
+Deleted unsupported param "r" from component post_mixing : PORT
+Deleted unsupported param "numbends" from component incubator : MIXER
+Deleted unsupported param "bendlength" from component incubator : MIXER
+Deleted unsupported param "bendspacing" from component incubator : MIXER
+Deleted unsupported param "numbends" from component mix : MIXER
+Deleted unsupported param "bendlength" from component mix : MIXER
+Deleted unsupported param "bendspacing" from component mix : MIXER
+Pulling Dimensions of Components
+Pulling Terminals of Components
+Setting Default MAX Dimensions to the device: (76200, 76200)
+Starting terminal/port assignment ...
+No port assigned to connection ref - a_output:input_A:None
+Auto Port Assign Scheme - Target contains only 1 port option
+Assigned port - 1
+No port assigned to connection ref - a_output:node_ae:None
+Auto Port Assign Scheme - Target contains only 1 port option
+Assigned port - 1
+No port assigned to connection ref - e_ouput:input_E:None
+Auto Port Assign Scheme - Target contains only 1 port option
+Assigned port - 1
+No port assigned to connection ref - e_ouput:node_ae:None
+Auto Port Assign Scheme - Target contains only 1 port option
+Assigned port - 1
+No port assigned to connection ref - b_ouput:input_B:None
+Auto Port Assign Scheme - Target contains only 1 port option
+Assigned port - 1
+No port assigned to connection ref - b_ouput:node_bcd:None
+Auto Port Assign Scheme - Target contains only 1 port option
+Assigned port - 1
+No port assigned to connection ref - c_ouput:input_C:None
+Auto Port Assign Scheme - Target contains only 1 port option
+Assigned port - 1
+No port assigned to connection ref - c_ouput:node_bcd:None
+Auto Port Assign Scheme - Target contains only 1 port option
+Assigned port - 1
+No port assigned to connection ref - d_ouput:input_D:None
+Auto Port Assign Scheme - Target contains only 1 port option
+Assigned port - 1
+No port assigned to connection ref - d_ouput:node_bcd:None
+Auto Port Assign Scheme - Target contains only 1 port option
+Assigned port - 1
+No port assigned to connection ref - node_connect:node_bcd:None
+Auto Port Assign Scheme - Target contains only 1 port option
+Assigned port - 1
+No port assigned to connection ref - node_connect:node_ae:None
+Auto Port Assign Scheme - Target contains only 1 port option
+Assigned port - 1
+No port assigned to connection ref - pump1:node_ae:None
+Auto Port Assign Scheme - Target contains only 1 port option
+Assigned port - 1
+No port assigned to connection ref - pump1:mi_l:None
+Auto Port Assign Scheme - Target contains only 1 port option
+Assigned port - 1
+No port assigned to connection ref - mixer_route:mi_l:None
+Auto Port Assign Scheme - Target contains only 1 port option
+Assigned port - 1
+No port assigned to connection ref - mixer_route:mix:None
+Auto Port Assign Scheme - Target contains only 2 or 4 port options
+Assigned port - 1
+No port assigned to connection ref - mixer_route2:mix:None
+Auto Port Assign Scheme - Target contains only 2 or 4 port options
+Assigned port - 1
+No port assigned to connection ref - mixer_route2:mi_r:None
+Auto Port Assign Scheme - Target contains only 1 port option
+Assigned port - 1
+No port assigned to connection ref - incubator_route2:mi_r:None
+Auto Port Assign Scheme - Target contains only 1 port option
+Assigned port - 1
+No port assigned to connection ref - incubator_route2:incubator:None
+Auto Port Assign Scheme - Target contains only 2 or 4 port options
+Assigned port - 1
+No port assigned to connection ref - incubator_route:incubator:None
+Auto Port Assign Scheme - Target contains only 2 or 4 port options
+Assigned port - 1
+No port assigned to connection ref - incubator_route:mi_l:None
+Auto Port Assign Scheme - Target contains only 1 port option
+Assigned port - 1
+No port assigned to connection ref - direct_route:mi_l:None
+Auto Port Assign Scheme - Target contains only 1 port option
+Assigned port - 1
+No port assigned to connection ref - direct_route:mi_r:None
+Auto Port Assign Scheme - Target contains only 1 port option
+Assigned port - 1
+No port assigned to connection ref - p_mix:mi_r:None
+Auto Port Assign Scheme - Target contains only 1 port option
+Assigned port - 1
+No port assigned to connection ref - p_mix:post_mixing:None
+Auto Port Assign Scheme - Target contains only 1 port option
+Assigned port - 1
+No port assigned to connection ref - x_input:post_mixing:None
+Auto Port Assign Scheme - Target contains only 1 port option
+Assigned port - 1
+No port assigned to connection ref - x_input:output_X:None
+Auto Port Assign Scheme - Target contains only 1 port option
+Assigned port - 1
+No port assigned to connection ref - y_input:post_mixing:None
+Auto Port Assign Scheme - Target contains only 1 port option
+Assigned port - 1
+No port assigned to connection ref - y_input:output_Y:None
+Auto Port Assign Scheme - Target contains only 1 port option
+Assigned port - 1
+No port assigned to connection ref - z_input:post_mixing:None
+Auto Port Assign Scheme - Target contains only 1 port option
+Assigned port - 1
+No port assigned to connection ref - z_input:output_Z:None
+Auto Port Assign Scheme - Target contains only 1 port option
+Assigned port - 1
+output: /var/www/fluigicad.org/jobs/tmp__6263447bb92a3d001791557a/output/variable_volume_mixer.dot
+Parsing Layers...
+Layer 0:
+Name - "FLOW_0"
+ID - "0"
+Type - "FLOW"
+Group - "0"
+Layer 1:
+Name - "FLOW_0"
+ID - "1"
+Type - "CONTROL"
+Group - "0"
+Component - input_A
+  xpos - 0
+  ypos - 0
+  x-span - 1400
+  y-span - 1400
+  spacing - 1000
+  Port - 1
+    Port.x - 700
+    Port.y - 700
+Adding to FLOW ...
+Component - input_B
+  xpos - 0
+  ypos - 0
+  x-span - 1400
+  y-span - 1400
+  spacing - 1000
+  Port - 1
+    Port.x - 700
+    Port.y - 700
+Adding to FLOW ...
+Component - input_C
+  xpos - 0
+  ypos - 0
+  x-span - 1400
+  y-span - 1400
+  spacing - 1000
+  Port - 1
+    Port.x - 700
+    Port.y - 700
+Adding to FLOW ...
+Component - input_D
+  xpos - 0
+  ypos - 0
+  x-span - 1400
+  y-span - 1400
+  spacing - 1000
+  Port - 1
+    Port.x - 700
+    Port.y - 700
+Adding to FLOW ...
+Component - input_D
+  xpos - 0
+  ypos - 0
+  x-span - 1400
+  y-span - 1400
+  spacing - 1000
+  Port - 1
+    Port.x - 700
+    Port.y - 700
+Adding to FLOW ...
+Component - input_E
+  xpos - 0
+  ypos - 0
+  x-span - 1400
+  y-span - 1400
+  spacing - 1000
+  Port - 1
+    Port.x - 700
+    Port.y - 700
+Adding to FLOW ...
+Component - output_X
+  xpos - 0
+  ypos - 0
+  x-span - 1400
+  y-span - 1400
+  spacing - 1000
+  Port - 1
+    Port.x - 700
+    Port.y - 700
+Adding to FLOW ...
+Component - output_Y
+  xpos - 0
+  ypos - 0
+  x-span - 1400
+  y-span - 1400
+  spacing - 1000
+  Port - 1
+    Port.x - 700
+    Port.y - 700
+Adding to FLOW ...
+Component - output_Z
+  xpos - 0
+  ypos - 0
+  x-span - 1400
+  y-span - 1400
+  spacing - 1000
+  Port - 1
+    Port.x - 700
+    Port.y - 700
+Adding to FLOW ...
+Component - node_ae
+  xpos - 0
+  ypos - 0
+  x-span - 1400
+  y-span - 1400
+  spacing - 1000
+  Port - 1
+    Port.x - 700
+    Port.y - 700
+Adding to FLOW ...
+Component - node_bcd
+  xpos - 0
+  ypos - 0
+  x-span - 1400
+  y-span - 1400
+  spacing - 1000
+  Port - 1
+    Port.x - 700
+    Port.y - 700
+Adding to FLOW ...
+Component - mi_l
+  xpos - 0
+  ypos - 0
+  x-span - 1400
+  y-span - 1400
+  spacing - 1000
+  Port - 1
+    Port.x - 700
+    Port.y - 700
+Adding to FLOW ...
+Component - mi_r
+  xpos - 0
+  ypos - 0
+  x-span - 1400
+  y-span - 1400
+  spacing - 1000
+  Port - 1
+    Port.x - 700
+    Port.y - 700
+Adding to FLOW ...
+Component - post_mixing
+  xpos - 0
+  ypos - 0
+  x-span - 1400
+  y-span - 1400
+  spacing - 1000
+  Port - 1
+    Port.x - 700
+    Port.y - 700
+Adding to FLOW ...
+Component - incubator
+  xpos - 0
+  ypos - 0
+  x-span - 4060
+  y-span - 4860
+  spacing - 1000
+  Port - 1
+    Port.x - 2030
+    Port.y - 0
+  Port - 2
+    Port.x - 2030
+    Port.y - 4860
+Adding to FLOW ...
+Component - mix
+  xpos - 0
+  ypos - 0
+  x-span - 4060
+  y-span - 4860
+  spacing - 1000
+  Port - 1
+    Port.x - 2030
+    Port.y - 0
+  Port - 2
+    Port.x - 2030
+    Port.y - 4860
+Adding to FLOW ...
+Component - a_v
+  xpos - 0
+  ypos - 0
+  x-span - 1230
+  y-span - 4920
+  spacing - 1000
+  Port - 1
+    Port.x - 615
+    Port.y - 2460
+Adding to CONTROL ...
+Component - b_v
+  xpos - 0
+  ypos - 0
+  x-span - 1230
+  y-span - 4920
+  spacing - 1000
+  Port - 1
+    Port.x - 615
+    Port.y - 2460
+Adding to CONTROL ...
+Component - c_v
+  xpos - 0
+  ypos - 0
+  x-span - 1230
+  y-span - 4920
+  spacing - 1000
+  Port - 1
+    Port.x - 615
+    Port.y - 2460
+Adding to CONTROL ...
+Component - d_v
+  xpos - 0
+  ypos - 0
+  x-span - 1230
+  y-span - 4920
+  spacing - 1000
+  Port - 1
+    Port.x - 615
+    Port.y - 2460
+Adding to CONTROL ...
+Component - e_v
+  xpos - 0
+  ypos - 0
+  x-span - 1230
+  y-span - 4920
+  spacing - 1000
+  Port - 1
+    Port.x - 615
+    Port.y - 2460
+Adding to CONTROL ...
+Component - have_a_total_of_15_valves_like_this
+  xpos - 0
+  ypos - 0
+  x-span - 1230
+  y-span - 4920
+  spacing - 1000
+  Port - 1
+    Port.x - 615
+    Port.y - 2460
+Adding to CONTROL ...
+Connection - a_output
+  Source - input_A
+    Source Terminal - 1
+  Sink - node_ae
+    Sink Terminal - 1
+  channelWidth - 0
+  channelSpacing - 0
+Adding to FLOW layer ... 
+Connection - e_ouput
+  Source - input_E
+    Source Terminal - 1
+  Sink - node_ae
+    Sink Terminal - 1
+  channelWidth - 0
+  channelSpacing - 0
+Adding to FLOW layer ... 
+Connection - b_ouput
+  Source - input_B
+    Source Terminal - 1
+  Sink - node_bcd
+    Sink Terminal - 1
+  channelWidth - 0
+  channelSpacing - 0
+Adding to FLOW layer ... 
+Connection - c_ouput
+  Source - input_C
+    Source Terminal - 1
+  Sink - node_bcd
+    Sink Terminal - 1
+  channelWidth - 0
+  channelSpacing - 0
+Adding to FLOW layer ... 
+Connection - d_ouput
+  Source - input_D
+    Source Terminal - 1
+  Sink - node_bcd
+    Sink Terminal - 1
+  channelWidth - 0
+  channelSpacing - 0
+Adding to FLOW layer ... 
+Connection - node_connect
+  Source - node_bcd
+    Source Terminal - 1
+  Sink - node_ae
+    Sink Terminal - 1
+  channelWidth - 0
+  channelSpacing - 0
+Adding to FLOW layer ... 
+Connection - pump1
+  Source - node_ae
+    Source Terminal - 1
+  Sink - mi_l
+    Sink Terminal - 1
+  channelWidth - 0
+  channelSpacing - 0
+Adding to FLOW layer ... 
+Connection - mixer_route
+  Source - mi_l
+    Source Terminal - 1
+  Sink - mix
+    Sink Terminal - 1
+  channelWidth - 0
+  channelSpacing - 0
+Adding to FLOW layer ... 
+Connection - mixer_route2
+  Source - mix
+    Source Terminal - 1
+  Sink - mi_r
+    Sink Terminal - 1
+  channelWidth - 0
+  channelSpacing - 0
+Adding to FLOW layer ... 
+Connection - incubator_route2
+  Source - mi_r
+    Source Terminal - 1
+  Sink - incubator
+    Sink Terminal - 1
+  channelWidth - 0
+  channelSpacing - 0
+Adding to FLOW layer ... 
+Connection - incubator_route
+  Source - incubator
+    Source Terminal - 1
+  Sink - mi_l
+    Sink Terminal - 1
+  channelWidth - 0
+  channelSpacing - 0
+Adding to FLOW layer ... 
+Connection - direct_route
+  Source - mi_l
+    Source Terminal - 1
+  Sink - mi_r
+    Sink Terminal - 1
+  channelWidth - 0
+  channelSpacing - 0
+Adding to FLOW layer ... 
+Connection - p_mix
+  Source - mi_r
+    Source Terminal - 1
+  Sink - post_mixing
+    Sink Terminal - 1
+  channelWidth - 0
+  channelSpacing - 0
+Adding to FLOW layer ... 
+Connection - x_input
+  Source - post_mixing
+    Source Terminal - 1
+  Sink - output_X
+    Sink Terminal - 1
+  channelWidth - 0
+  channelSpacing - 0
+Adding to FLOW layer ... 
+Connection - y_input
+  Source - post_mixing
+    Source Terminal - 1
+  Sink - output_Y
+    Sink Terminal - 1
+  channelWidth - 0
+  channelSpacing - 0
+Adding to FLOW layer ... 
+Connection - z_input
+  Source - post_mixing
+    Source Terminal - 1
+  Sink - output_Z
+    Sink Terminal - 1
+  channelWidth - 0
+  channelSpacing - 0
+Adding to FLOW layer ... 
+Firing Constructor for Placer
+---------------Initial Placement Work-----------------
+after placement width: 18460 height: 15520
+PlacementCell - input_A| Rel Position (9600, 8260)
+PlacementCell - input_B| Rel Position (12000, 5860)
+PlacementCell - input_C| Rel Position (4800, 8260)
+PlacementCell - input_D| Rel Position (9600, 5860)
+PlacementCell - input_D| Rel Position (7200, 8260)
+PlacementCell - input_E| Rel Position (4800, 5860)
+PlacementCell - output_X| Rel Position (2400, 5860)
+PlacementCell - output_Y| Rel Position (0, 8260)
+PlacementCell - output_Z| Rel Position (0, 5860)
+PlacementCell - node_ae| Rel Position (12000, 8260)
+PlacementCell - node_bcd| Rel Position (0, 0)
+PlacementCell - mi_l| Rel Position (0, 2400)
+PlacementCell - mi_r| Rel Position (7200, 5860)
+PlacementCell - post_mixing| Rel Position (2400, 8260)
+PlacementCell - incubator| Rel Position (2400, 0)
+PlacementCell - mix| Rel Position (7460, 0)
+---------------Placement end.-----------------
+
+Obstacles: 
+  Cell{0} - (9600, 8260, 1400, 1400)
+  Cell{1} - (12000, 5860, 1400, 1400)
+  Cell{2} - (4800, 8260, 1400, 1400)
+  Cell{3} - (9600, 5860, 1400, 1400)
+  Cell{4} - (7200, 8260, 1400, 1400)
+  Cell{5} - (4800, 5860, 1400, 1400)
+  Cell{6} - (2400, 5860, 1400, 1400)
+  Cell{7} - (0, 8260, 1400, 1400)
+  Cell{8} - (0, 5860, 1400, 1400)
+  Cell{9} - (12000, 8260, 1400, 1400)
+  Cell{10} - (0, 0, 1400, 1400)
+  Cell{11} - (0, 2400, 1400, 1400)
+  Cell{12} - (7200, 5860, 1400, 1400)
+  Cell{13} - (2400, 8260, 1400, 1400)
+  Cell{14} - (2400, 0, 4060, 4860)
+  Cell{15} - (7460, 0, 4060, 4860)
+---------------Initial Routing Work-----------------
+Routing Boundary - (-12180,-14580,26580,25240)
+Route - a_output
+  Source - (11000,8960)
+  Target - (12000,8960)
+Route - e_ouput
+  Source - (6200,7260)
+  Target - (12000,8260)
+Route - b_ouput
+  Source - (12000,5860)
+  Target - (1400,1400)
+Route - c_ouput
+  Source - (4800,8260)
+  Target - (1400,1400)
+Route - d_ouput
+  Source - (7200,8260)
+  Target - (1400,1400)
+Route - node_connect
+  Source - (1400,1400)
+  Target - (12000,8260)
+Route - pump1
+  Source - (12000,8260)
+  Target - (1400,3800)
+Route - mixer_route
+  Source - (1400,2400)
+  Target - (9490,0)
+Route - mixer_route2
+  Source - (9490,0)
+  Target - (8600,5860)
+Route - incubator_route2
+  Source - (7200,5860)
+  Target - (4430,0)
+Route - incubator_route
+  Source - (4430,0)
+  Target - (1400,2400)
+Route - direct_route
+  Source - (1400,3800)
+  Target - (7200,5860)
+Route - p_mix
+  Source - (7200,7260)
+  Target - (3800,8260)
+Route - x_input
+  Source - (3100,8260)
+  Target - (3100,7260)
+Route - y_input
+  Source - (2400,8960)
+  Target - (1400,8960)
+Route - z_input
+  Source - (2400,8260)
+  Target - (1400,7260)
+Ans :
+  Route - a_output success  (10300,8960)-(11000,8960)-(11997,8960)-(12000,8960)-(12700,8960)
+  Route - e_ouput success  (5500,6560)-(6200,7260)-(7197,7262)-(7200,8257)-(7202,8258)-(8600,8257)-(8602,8257)-(9600,8257)-(9602,8258)-(11000,8257)-(11002,8257)-(12000,8260)-(12700,8960)
+  Route - b_ouput success  (12700,6560)-(12000,5860)-(11001,5857)-(9602,5858)-(9597,5858)-(8597,5858)-(7200,5857)-(7198,5857)-(6200,5857)-(4802,5858)-(2402,4861)-(2402,4861)-(2400,4863)-(2397,4862)-(2397,4857)-(1401,2402)-(1401,2397)-(1400,1400)-(700,700)
+  Route - c_ouput success  (5500,8960)-(4800,8260)-(4797,7262)-(4797,7260)-(4798,5862)-(4797,5860)-(4799,5858)-(2404,4862)-(2401,4863)-(2400,4866)-(2397,4864)-(2394,4864)-(2394,4859)-(2394,4854)-(1400,2404)-(1401,2402)-(1400,2399)-(1398,2397)-(1398,2395)-(1400,1400)-(700,700)
+  Route - d_ouput success  (7900,8960)-(7200,8260)-(6203,9660)-(6197,9661)-(4797,9662)-(3797,9662)-(2397,9662)-(1398,9662)-(-1,9662)-(-1,8262)-(-1,7262)-(-1,5862)-(-1,5857)-(-1,3797)-(-1,2397)-(0,2397)-(1395,2393)-(1400,1400)-(700,700)
+  Route - node_connect success  (700,700)-(1400,1400)-(1402,2394)-(1402,2399)-(2398,4857)-(2399,4859)-(2399,4860)-(2400,4860)-(2402,4861)-(2404,4860)-(4804,5856)-(6200,5854)-(7196,5854)-(7198,5854)-(7200,5854)-(8594,5856)-(9594,5856)-(9599,5856)-(9604,5856)-(11002,5854)-(11998,5857)-(13397,5858)-(13399,5857)-(13401,5857)-(13401,5862)-(13401,7262)-(13400,7263)-(12000,8260)-(12700,8960)
+  Route - pump1 success  (12700,8960)
+  Route - mixer_route success  (700,3100)
+  Route - mixer_route2 success  (9490,0)-(11522,-2)-(13402,5854)-(13402,5859)-(13402,5864)-(13402,7264)-(13401,8262)-(13401,9662)-(12002,9662)-(11002,9662)-(9602,9662)-(9597,9660)-(9598,8262)-(8603,8260)-(8600,8259)-(8600,8260)-(8597,8259)-(7202,8257)-(7200,8257)-(7197,8257)-(7194,7264)-(6200,7263)-(6197,7261)-(4800,7263)-(4799,7260)-(4800,7260)-(4799,7257)-(4797,5862)-(4800,5860)-(4800,5860)-(4802,5857)-(6197,5859)-(6200,5860)-(7195,5857)-(7198,5857)-(7200,5857)-(8594,5858)-(8600,5860)-(7900,6560)
+  Route - incubator_route2 success  (7900,6560)-(7200,5860)-(7199,7257)-(7199,7260)-(7201,7262)-(7669,8254)-(8597,8257)-(8599,8257)-(8600,8256)-(8602,8256)-(8602,8257)-(8604,8257)-(9598,8259)-(9597,8262)-(9599,9657)-(9600,9660)-(9602,9662)-(9604,9661)-(10999,9659)-(11001,9659)-(11004,9660)-(11997,9660)-(11999,9659)-(13397,9660)-(13399,9659)-(13400,8264)-(13399,8259)-(13400,8257)-(13402,7264)-(13401,7259)-(13402,5864)-(13401,5861)-(13402,5859)-(13401,5856)-(13399,5856)-(13399,5856)-(12000,5856)-(11996,5854)-(11003,5851)-(9606,5854)-(9601,5854)-(9596,5854)-(7462,4861)-(7462,4861)-(7459,4862)-(7459,4862)-(7459,4862)-(7457,4860)-(7459,2)-(6463,0)-(6457,-1)-(4430,0)
+  Route - incubator_route success  (4430,0)-(4433,0)-(6457,0)-(6460,0)-(6460,4857)-(6460,4857)-(7454,4860)-(7456,4862)-(7458,4864)-(7458,4864)-(7458,4864)-(7461,4863)-(7464,4862)-(9593,5854)-(9596,5853)-(9596,5854)-(9601,5853)-(9601,5854)-(9606,5853)-(10999,5854)-(11002,5853)-(11993,5854)-(11996,5854)-(12000,5855)-(12002,5856)-(13396,5858)-(13397,5858)-(13394,5858)-(11998,5857)-(11995,5857)-(11001,5856)-(10998,5856)-(9604,5855)-(9599,5856)-(9599,5855)-(9594,5856)-(9591,5856)-(8594,5856)-(8591,5856)-(7200,5854)-(7199,5854)-(7198,5854)-(7196,5854)-(7195,5854)-(6202,5854)-(6200,5854)-(6197,5854)-(5264,5856)-(4804,5857)-(4802,5857)-(4800,5859)-(4800,5860)-(4799,5860)-(4797,5862)-(4797,5864)-(4794,5861)-(4794,5860)-(4796,5858)-(2406,4863)-(2403,4864)-(2400,4869)-(2394,4866)-(2391,4866)-(2391,4861)-(2391,4856)-(1400,3803)-(1398,3802)-(0,3802)-(0,3799)-(0,2402)-(0,2400)-(2,2399)-(1400,2400)-(700,3100)
+  Route - direct_route success  (700,3100)
+  Route - p_mix success  (7900,6560)-(7200,7260)-(7201,7262)-(7200,7262)-(7200,7264)-(7199,8256)-(7200,8257)-(7197,8257)-(7194,8257)-(7191,7266)-(6200,7266)-(6197,7263)-(6194,7262)-(4800,7266)-(4797,7262)-(4796,7262)-(4796,7260)-(4797,7259)-(4797,7257)-(4794,7260)-(4794,7261)-(3800,8260)-(3100,8960)
+  Route - x_input success  (3100,8960)-(3100,8260)-(3100,8257)-(3100,7260)-(3100,6560)
+  Route - y_input success  (3100,8960)-(2400,8960)-(1403,8960)-(1400,8960)-(700,8960)
+  Route - z_input success  (3100,8960)-(2400,8260)-(2397,7262)-(1400,7260)-(700,6560)
+---------------Routing end.-----------------
+Firing Constructor for Placer
+---------------Initial Placement Work-----------------
+after placement width: 5690 height: 22680
+PlacementCell - a_v| Rel Position (2230, 5920)
+PlacementCell - b_v| Rel Position (2230, 0)
+PlacementCell - c_v| Rel Position (0, 0)
+PlacementCell - d_v| Rel Position (0, 5920)
+PlacementCell - e_v| Rel Position (0, 11840)
+PlacementCell - have_a_total_of_15_valves_like_this| Rel Position (2230, 11840)
+---------------Placement end.-----------------
+PAR Return code:0
+Component input_D already present in device, hence skipping the component
+Reducing the Size of the device and adding device padding: 20000 um
+Updated the device dimensions: (53400, 63680) microns
+Rendering 22 components and 16 connections
